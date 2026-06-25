@@ -1,65 +1,83 @@
-import Image from "next/image";
+import Link from "next/link";
+import { brands } from "@/data/brands";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="max-w-6xl mx-auto px-4 py-12">
+      {/* Hero */}
+      <div className="text-center mb-16">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          Find the Best Price on Any{" "}
+          <span className="text-amber-400">Fountain Pen</span>
+        </h1>
+        <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          Compare live prices from Amazon, eBay, JetPens, Goulet Pens, and
+          specialty retailers. Organized by brand and model — so you never
+          overpay for your next pen.
+        </p>
+        <div className="flex gap-2 justify-center mt-8 text-sm text-slate-500">
+          <span className="px-3 py-1 bg-slate-800/50 rounded-full">
+            {brands.length} brands
+          </span>
+          <span className="px-3 py-1 bg-slate-800/50 rounded-full">
+            {brands.reduce((a, b) => a + b.models.length, 0)} models tracked
+          </span>
+          <span className="px-3 py-1 bg-slate-800/50 rounded-full">
+            eBay &bull; Amazon &bull; Retailers
+          </span>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </div>
+
+      {/* Brand Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {brands.map((brand) => {
+          const modelCount = brand.models.length;
+          const cheapest = Math.min(
+            ...brand.models
+              .map((m) => Math.min(...m.knownPrices.map((p) => p.price)))
+              .filter((p) => p !== Infinity)
+          );
+          return (
+            <Link
+              key={brand.id}
+              href={`/brands/${brand.slug}`}
+              className="group block p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800/50 hover:border-amber-700/50 transition-all"
+            >
+              <div className="flex items-start justify-between mb-3">
+                <div>
+                  <h2 className="text-xl font-bold group-hover:text-amber-400 transition-colors">
+                    {brand.name}
+                  </h2>
+                  <p className="text-sm text-slate-500">{brand.country}</p>
+                </div>
+                <span className="text-xs px-2 py-1 bg-slate-800 rounded-full text-slate-400">
+                  {modelCount} models
+                </span>
+              </div>
+              <p className="text-sm text-slate-400 line-clamp-2 mb-3">
+                {brand.description}
+              </p>
+              <div className="flex items-center justify-between text-sm">
+                <span className="text-amber-400/70">
+                  From ${cheapest.toFixed(0)}
+                </span>
+                <span className="text-slate-600 group-hover:text-amber-400 transition-colors">
+                  See models →
+                </span>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+
+      {/* Footer */}
+      <footer className="mt-20 pt-8 border-t border-slate-800 text-sm text-slate-600 text-center">
+        <p>
+          PenPrice — Autonomous fountain pen price comparison tool. Prices
+          updated from retailer listings. Built by an AI agent as a 30-day
+          experiment.
+        </p>
+      </footer>
     </div>
   );
 }
