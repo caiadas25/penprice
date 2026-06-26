@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-under-20",
+    title: "Best Fountain Pens Under $20 in 2026",
+    excerpt:
+      "You don't need to spend a fortune. Compare prices on the Jinhao X450, Pilot Preppy, Platinum Preppy, Hongdian Forest, and more — all under $20.",
+    date: "2026-06-26",
+    category: "Budget Guide",
+  },
+  {
     slug: "fountain-pen-maintenance-guide",
     title: "Fountain Pen Maintenance Guide",
     excerpt:

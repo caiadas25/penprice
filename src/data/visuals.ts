@@ -22,6 +22,18 @@ export const brandVisual: Record<string, BrandVisual> = {
   visconti:      { color: "from-rose-700 to-pink-800",     emoji: "🏛️", gradient: "hover:border-rose-700/50",     flag: "🇮🇹" },
   taccia:        { color: "from-purple-600 to-fuchsia-700",emoji: "🏯", gradient: "hover:border-purple-600/50",    flag: "🇯🇵" },
   nakaya:        { color: "from-amber-700 to-yellow-800",  emoji: "🎋", gradient: "hover:border-amber-700/50",     flag: "🇯🇵" },
+  delta:         { color: "from-red-500 to-orange-500",    emoji: "🎭", gradient: "hover:border-red-500/50",      flag: "🇮🇹" },
+  omas:          { color: "from-yellow-600 to-amber-600",  emoji: "🏛️", gradient: "hover:border-yellow-600/50",    flag: "🇮🇹" },
+  leonardo:      { color: "from-teal-500 to-cyan-600",     emoji: "🇮🇹", gradient: "hover:border-teal-500/50",    flag: "🇮🇹" },
+  waterman:      { color: "from-blue-700 to-indigo-700",   emoji: "💧", gradient: "hover:border-blue-700/50",     flag: "🇫🇷" },
+  parker:        { color: "from-emerald-700 to-green-800", emoji: "✒️", gradient: "hover:border-emerald-700/50",   flag: "🇬🇧" },
+  sheaffer:      { color: "from-sky-600 to-blue-600",      emoji: "🛡️", gradient: "hover:border-sky-600/50",      flag: "🇺🇸" },
+  diplomat:      { color: "from-rose-500 to-pink-600",     emoji: "🇩🇪", gradient: "hover:border-rose-500/50",     flag: "🇩🇪" },
+  cross:         { color: "from-slate-600 to-zinc-700",    emoji: "✅", gradient: "hover:border-slate-600/50",     flag: "🇺🇸" },
+  "franklin-christoph": { color: "from-fuchsia-500 to-purple-600", emoji: "💎", gradient: "hover:border-fuchsia-500/50", flag: "🇺🇸" },
+  jinhao:        { color: "from-red-700 to-rose-800",      emoji: "🐉", gradient: "hover:border-red-700/50",      flag: "🇨🇳" },
+  hongdian:      { color: "from-green-700 to-emerald-800", emoji: "🌲", gradient: "hover:border-green-700/50",    flag: "🇨🇳" },
+  montegrappa:   { color: "from-amber-500 to-yellow-600",  emoji: "🏔️", gradient: "hover:border-amber-500/50",    flag: "🇮🇹" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

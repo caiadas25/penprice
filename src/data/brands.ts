@@ -1404,6 +1404,163 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "jinhao",
+    name: "Jinhao",
+    slug: "jinhao",
+    country: "China",
+    description:
+      "Jinhao is China's most popular fountain pen brand, known for offering surprisingly good writing instruments at rock-bottom prices. Their X450, X750, and 82 are staples of the budget fountain pen world.",
+    website: "https://www.jinhaopen.com",
+    models: [
+      {
+        id: "jinhao-x450",
+        name: "X450",
+        slug: "x450",
+        description:
+          "A heavy brass-bodied fountain pen with a smooth #6 nib. Available in dozens of finishes. One of the best value fountain pens in existence.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 6.99, currency: "USD", url: "https://www.amazon.com/s?k=Jinhao+X450+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 12.00, currency: "USD", url: "https://www.jetpens.com/search?q=jinhao+x450", inStock: true, condition: "new" },
+        ],
+        msrp: 8,
+        yearIntroduced: 2012,
+      },
+      {
+        id: "jinhao-x750",
+        name: "X750",
+        slug: "x750",
+        description:
+          "Similar to the X450 but with a slimmer profile and lighter weight. Features a smooth steel #6 nib and comes in a variety of lacquered finishes.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 7.49, currency: "USD", url: "https://www.amazon.com/s?k=Jinhao+X750+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 8,
+        yearIntroduced: 2014,
+      },
+      {
+        id: "jinhao-82",
+        name: "82",
+        slug: "82",
+        description:
+          "A pocket-sized fountain pen inspired by the Kaweco Sport. Compact, lightweight, and available in many colors. Perfect for everyday carry.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 3.99, currency: "USD", url: "https://www.amazon.com/s?k=Jinhao+82+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 4,
+        yearIntroduced: 2022,
+      },
+    ],
+  },
+  {
+    id: "hongdian",
+    name: "Hongdian",
+    slug: "hongdian",
+    country: "China",
+    description:
+      "Hongdian has earned a reputation for producing fountain pens that punch well above their price point. Their Forest Series and A1 retractable pen are favorites among budget fountain pen enthusiasts.",
+    website: "https://www.hongdian.com",
+    models: [
+      {
+        id: "hongdian-forest-series",
+        name: "Forest Series",
+        slug: "forest-series",
+        description:
+          "A brass-bodied pen with wood-grain finish options. Features a smooth steel nib and magnetic cap. Considered one of the best sub-$15 fountain pens available.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass with wood-grain finish",
+        knownPrices: [
+          { retailer: "Amazon", price: 12.99, currency: "USD", url: "https://www.amazon.com/s?k=Hongdian+Forest+Series+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 14.00, currency: "USD", url: "https://www.jetpens.com/search?q=hongdian+forest", inStock: true, condition: "new" },
+        ],
+        msrp: 15,
+        yearIntroduced: 2020,
+      },
+      {
+        id: "hongdian-a1",
+        name: "A1",
+        slug: "a1",
+        description:
+          "A retractable-nib fountain pen inspired by the Pilot Vanishing Point at a fraction of the cost. Click mechanism deploys the nib instantly.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Metal",
+        knownPrices: [
+          { retailer: "Amazon", price: 18.99, currency: "USD", url: "https://www.amazon.com/s?k=Hongdian+A1+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 20,
+        yearIntroduced: 2023,
+      },
+      {
+        id: "hongdian-black-forest",
+        name: "Black Forest",
+        slug: "black-forest",
+        description:
+          "The all-black matte version of the Forest Series. Stealthy, heavy, and writes smoothly. A cult favorite in the budget pen community.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Matte black brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 13.99, currency: "USD", url: "https://www.amazon.com/s?k=Hongdian+Black+Forest+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 15,
+        yearIntroduced: 2021,
+      },
+    ],
+  },
+  {
+    id: "montegrappa",
+    name: "Montegrappa",
+    slug: "montegrappa",
+    country: "Italy",
+    description:
+      "Founded in 1912 in Bassano del Grappa, Montegrappa is Italy's oldest pen maker. Known for their bold designs, resin bodies, and the distinctive Parola and Elmo collections.",
+    website: "https://www.montegrappa.com",
+    models: [
+      {
+        id: "montegrappa-elmo",
+        name: "Elmo 01",
+        slug: "elmo-01",
+        description:
+          "A modern classic inspired by the founder's childhood in the Dolomites. Clean lines, balanced weight, and a smooth steel nib make this an excellent entry to Italian luxury pens.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 135.00, currency: "USD", url: "https://www.amazon.com/s?k=Montegrappa+Elmo+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 145.00, currency: "USD", url: "https://www.goldspot.com/montegrappa/elmo/", inStock: true, condition: "new" },
+        ],
+        msrp: 145,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "montegrappa-parola",
+        name: "Parola",
+        slug: "parola",
+        description:
+          "A mid-range Italian fountain pen with a distinctive clip and clean design. Available in resin and metal finishes. 14k gold nib option available.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 195.00, currency: "USD", url: "https://www.amazon.com/s?k=Montegrappa+Parola+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 210.00, currency: "USD", url: "https://www.goldspot.com/montegrappa/parola/", inStock: true, condition: "new" },
+        ],
+        msrp: 210,
+        yearIntroduced: 2015,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
