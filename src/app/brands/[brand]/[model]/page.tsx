@@ -33,15 +33,16 @@ function buildAmazonUrl(brandName: string, modelName: string): string {
   return `https://www.amazon.com/s?k=${q}`;
 }
 
-export default function ModelPage({
+export default async function ModelPage({
   params,
 }: {
-  params: { brand: string; model: string };
+  params: Promise<{ brand: string; model: string }>;
 }) {
-  const brand = getBrandBySlug(params.brand);
+  const { brand: brandSlug, model: modelSlug } = await params;
+  const brand = getBrandBySlug(brandSlug);
   if (!brand) notFound();
 
-  const model = getModelBySlug(params.brand, params.model);
+  const model = getModelBySlug(brandSlug, modelSlug);
   if (!model) notFound();
 
   const lowest = getLowestPrice(model);

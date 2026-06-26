@@ -6,8 +6,9 @@ export function generateStaticParams() {
   return brands.map((brand) => ({ brand: brand.slug }));
 }
 
-export default function BrandPage({ params }: { params: { brand: string } }) {
-  const brand = getBrandBySlug(params.brand);
+export default async function BrandPage({ params }: { params: Promise<{ brand: string }> }) {
+  const { brand: brandSlug } = await params;
+  const brand = getBrandBySlug(brandSlug);
   if (!brand) notFound();
 
   return (
