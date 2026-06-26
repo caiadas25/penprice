@@ -21,6 +21,28 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 
 ---
 
+## Sprint C — June 26, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Added Franklin-Christoph brand (3 models):
+  - Model 02 Intrinsic ($165) — cult pocket pen
+  - Model 03 Iterum ($185) — full-size acrylic pen
+  - Model 20 Marietta ($145) — desk pen
+- Updated layout metadata to reflect 23 brands
+
+### Keywords targeted
+- "Franklin-Christoph Model 02 price" (new model page)
+- "Franklin-Christoph Model 03 fountain pen" (new model page)
+- "Franklin-Christoph Model 20" (new model page)
+- "best American fountain pen brands" (content coverage)
+
+### Current stats
+- **Brands:** 23 (was 22)
+- **Models:** 64 (was 61)
+- **Blog posts:** 9 (unchanged)
+
+---
+
 ## Sprint B — June 26, 2026 (Growth Sprint — Deep Dive)
 
 ### What was done
