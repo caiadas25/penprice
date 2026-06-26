@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "lamy-safari-vs-pilot-metropolitan",
+    title: "Lamy Safari vs Pilot Metropolitan",
+    excerpt:
+      "The two most recommended beginner fountain pens, head-to-head. Price, nib quality, ink system, build quality, and value compared.",
+    date: "2026-06-26",
+    category: "Comparison",
+  },
+  {
     slug: "best-fountain-pen-inks",
     title: "Best Fountain Pen Inks in 2026",
     excerpt:
