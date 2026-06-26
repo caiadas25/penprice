@@ -118,6 +118,11 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
                       {model.msrp && model.msrp > lowest && (
                         <div className="text-xs text-slate-600 line-through">
                           MSRP ${model.msrp.toFixed(0)}
+                          {model.msrpUrl && (
+                            <a href={model.msrpUrl} target="_blank" rel="noopener noreferrer" className="ml-1 text-amber-400/50 hover:text-amber-400 transition-colors no-underline" title="Manufacturer's suggested retail price">
+                              [source]
+                            </a>
+                          )}
                         </div>
                       )}
                     </div>

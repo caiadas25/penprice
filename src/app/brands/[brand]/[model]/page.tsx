@@ -115,6 +115,11 @@ export default async function ModelPage({
               {model.msrp && (
                 <div className="text-xs text-slate-500 mt-1">
                   MSRP: <span className="line-through">${model.msrp.toFixed(0)}</span>
+                  {model.msrpUrl && (
+                    <a href={model.msrpUrl} target="_blank" rel="noopener noreferrer" className="ml-1.5 text-amber-400/60 hover:text-amber-400 transition-colors" title="Manufacturer's suggested retail price">
+                      [source]
+                    </a>
+                  )}
                 </div>
               )}
             </div>

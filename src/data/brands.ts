@@ -19,6 +19,7 @@ export interface Model {
   imageUrl?: string;
   yearIntroduced?: number;
   msrp?: number;
+  msrpUrl?: string;
 }
 
 export interface Brand {
@@ -58,6 +59,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 29.95, currency: "USD", url: "https://www.goldspot.com/lamy/safari/", inStock: true, condition: "new" },
         ],
         msrp: 30,
+        msrpUrl: "https://www.lamy.com/en/lamy-safari/",
         yearIntroduced: 1980,
       },
       {
@@ -75,6 +77,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 42.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-al-star", inStock: true, condition: "new" },
         ],
         msrp: 42,
+        msrpUrl: "https://www.lamy.com/en/lamy-al-star/",
         yearIntroduced: 2000,
       },
       {
@@ -93,6 +96,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 189.95, currency: "USD", url: "https://www.goldspot.com/lamy/2000/", inStock: true, condition: "new" },
         ],
         msrp: 240,
+        msrpUrl: "https://www.lamy.com/en/lamy-2000/",
         yearIntroduced: 1966,
       },
       {
@@ -110,6 +114,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 89.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-studio", inStock: true, condition: "new" },
         ],
         msrp: 95,
+        msrpUrl: "https://www.lamy.com/en/lamy-studio/",
         yearIntroduced: 2003,
       },
       {
@@ -127,6 +132,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 298.00, currency: "USD", url: "https://www.goldspot.com/lamy/dialog/", inStock: true, condition: "new" },
         ],
         msrp: 348,
+        msrpUrl: "https://www.lamy.com/en/lamy-dialog/",
         yearIntroduced: 2010,
       },
     ],
@@ -155,6 +161,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 28.80, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-metropolitan", inStock: true, condition: "new" },
         ],
         msrp: 28.80,
+        msrpUrl: "https://www.pilotpen.com/metropolitan/",
         yearIntroduced: 2008,
       },
       {
@@ -173,6 +180,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 168.00, currency: "USD", url: "https://www.goldspot.com/pilot/vanishing-point/", inStock: true, condition: "new" },
         ],
         msrp: 184,
+        msrpUrl: "https://www.pilotpen.com/vanishing-point/",
         yearIntroduced: 1963,
       },
       {
@@ -190,6 +198,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 336.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-custom-823", inStock: true, condition: "new" },
         ],
         msrp: 360,
+        msrpUrl: "https://www.pilotpen.com/custom-823/",
         yearIntroduced: 2002,
       },
       {
@@ -207,6 +216,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 160.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-custom-74", inStock: true, condition: "new" },
         ],
         msrp: 184,
+        msrpUrl: "https://www.pilotpen.com/custom-74/",
         yearIntroduced: 1995,
       },
       {
@@ -224,6 +234,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 152.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-falcon", inStock: true, condition: "new" },
         ],
         msrp: 192,
+        msrpUrl: "https://www.pilotpen.com/falcon/",
         yearIntroduced: 1980,
       },
     ],
@@ -252,6 +263,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 145.00, currency: "USD", url: "https://www.gouletpens.com/collections/pelikan-m200", inStock: true, condition: "new" },
         ],
         msrp: 170,
+        msrpUrl: "https://www.pelikan.com/m200/",
         yearIntroduced: 1985,
       },
       {
@@ -269,6 +281,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 375.00, currency: "USD", url: "https://www.gouletpens.com/collections/pelikan-m400", inStock: true, condition: "new" },
         ],
         msrp: 460,
+        msrpUrl: "https://www.pelikan.com/m400/",
         yearIntroduced: 1985,
       },
       {
@@ -287,6 +300,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 659.00, currency: "USD", url: "https://www.goldspot.com/pelikan/m800/", inStock: true, condition: "new" },
         ],
         msrp: 795,
+        msrpUrl: "https://www.pelikan.com/m800/",
         yearIntroduced: 1987,
       },
       {
@@ -304,6 +318,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 849.00, currency: "USD", url: "https://www.goldspot.com/pelikan/m1000/", inStock: true, condition: "new" },
         ],
         msrp: 975,
+        msrpUrl: "https://www.pelikan.com/m1000/",
         yearIntroduced: 1997,
       },
     ],
@@ -332,6 +347,7 @@ export const brands: Brand[] = [
           { retailer: "Appelboom Pennen", price: 745.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
         ],
         msrp: 875,
+        msrpUrl: "https://www.montblanc.com/meisterstuck-146/",
         yearIntroduced: 1952,
       },
       {
@@ -349,6 +365,7 @@ export const brands: Brand[] = [
           { retailer: "Appelboom Pennen", price: 855.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
         ],
         msrp: 995,
+        msrpUrl: "https://www.montblanc.com/meisterstuck-149/",
         yearIntroduced: 1952,
       },
       {
@@ -365,6 +382,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 580.00, currency: "USD", url: "https://www.goldspot.com/montblanc/starwalker/", inStock: true, condition: "new" },
         ],
         msrp: 645,
+        msrpUrl: "https://www.montblanc.com/starwalker/",
         yearIntroduced: 2000,
       },
     ],
@@ -393,6 +411,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 184.00, currency: "USD", url: "https://www.gouletpens.com/collections/sailor-1911s", inStock: true, condition: "new" },
         ],
         msrp: 220,
+        msrpUrl: "https://www.sailorpen.com/1911/",
         yearIntroduced: 1990,
       },
       {
@@ -410,6 +429,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 310.00, currency: "USD", url: "https://www.gouletpens.com/collections/sailor-pro-gear", inStock: true, condition: "new" },
         ],
         msrp: 360,
+        msrpUrl: "https://www.sailorpen.com/pro-gear/",
         yearIntroduced: 1995,
       },
       {
@@ -427,6 +447,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 850.00, currency: "USD", url: "https://www.goldspot.com/sailor/king-of-pens/", inStock: true, condition: "new" },
         ],
         msrp: 950,
+        msrpUrl: "https://www.sailorpen.com/king-of-pens/",
         yearIntroduced: 2000,
       },
     ],
@@ -455,6 +476,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 35.00, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-eco", inStock: true, condition: "new" },
         ],
         msrp: 35,
+        msrpUrl: "https://www.twsbi.com/eco/",
         yearIntroduced: 2015,
       },
       {
@@ -472,6 +494,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 62.50, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-diamond-580", inStock: true, condition: "new" },
         ],
         msrp: 65,
+        msrpUrl: "https://www.twsbi.com/diamond-580/",
         yearIntroduced: 2012,
       },
       {
@@ -489,6 +512,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 75.00, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-vac-700r", inStock: true, condition: "new" },
         ],
         msrp: 80,
+        msrpUrl: "https://www.twsbi.com/vac-700r/",
         yearIntroduced: 2015,
       },
     ],
@@ -517,6 +541,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 7.00, currency: "USD", url: "https://www.gouletpens.com/collections/platinum-preppy", inStock: true, condition: "new" },
         ],
         msrp: 7.50,
+        msrpUrl: "https://www.platinum-pen.com/preppy/",
         yearIntroduced: 2005,
       },
       {
@@ -534,6 +559,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 182.00, currency: "USD", url: "https://www.gouletpens.com/collections/platinum-3776", inStock: true, condition: "new" },
         ],
         msrp: 216,
+        msrpUrl: "https://www.platinum-pen.com/3776-century/",
         yearIntroduced: 2012,
       },
     ],
@@ -562,6 +588,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 25.00, currency: "USD", url: "https://www.gouletpens.com/collections/kaweco-sport", inStock: true, condition: "new" },
         ],
         msrp: 28,
+        msrpUrl: "https://www.kaweco-pen.com/sport/",
         yearIntroduced: 1911,
       },
       {
@@ -579,6 +606,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 65.00, currency: "USD", url: "https://www.gouletpens.com/collections/kaweco-liliput", inStock: true, condition: "new" },
         ],
         msrp: 68,
+        msrpUrl: "https://www.kaweco-pen.com/liliput/",
         yearIntroduced: 2010,
       },
       {
@@ -595,6 +623,7 @@ export const brands: Brand[] = [
           { retailer: "JetPens", price: 130.00, currency: "USD", url: "https://www.jetpens.com/Kaweco-Dia-2-Fountain-Pen/ct/18071", inStock: true, condition: "new" },
         ],
         msrp: 140,
+        msrpUrl: "https://www.kaweco-pen.com/dia-2/",
         yearIntroduced: 2015,
       },
     ],
@@ -622,6 +651,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 54.00, currency: "USD", url: "https://www.gouletpens.com/collections/faber-castell-loom", inStock: true, condition: "new" },
         ],
         msrp: 58,
+        msrpUrl: "https://www.faber-castell.com/loom/",
         yearIntroduced: 2012,
       },
       {
@@ -638,6 +668,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 92.00, currency: "USD", url: "https://www.gouletpens.com/collections/faber-castell-ambition", inStock: true, condition: "new" },
         ],
         msrp: 98,
+        msrpUrl: "https://www.faber-castell.com/ambition/",
         yearIntroduced: 2010,
       },
     ],
@@ -666,6 +697,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 21.00, currency: "USD", url: "https://www.goldspot.com/noodlers/ahab/", inStock: true, condition: "new" },
         ],
         msrp: 24,
+        msrpUrl: "https://www.noodlersink.com/ahab/",
         yearIntroduced: 2010,
       },
       {
@@ -682,6 +714,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 28.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-konrad", inStock: true, condition: "new" },
         ],
         msrp: 28,
+        msrpUrl: "https://www.noodlersink.com/konrad/",
         yearIntroduced: 2012,
       },
       {
@@ -698,6 +731,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 17.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-creaper", inStock: true, condition: "new" },
         ],
         msrp: 17,
+        msrpUrl: "https://www.noodlersink.com/creaper/",
         yearIntroduced: 2011,
       },
       {
@@ -714,6 +748,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 38.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-triple-tail", inStock: true, condition: "new" },
         ],
         msrp: 38,
+        msrpUrl: "https://www.noodlersink.com/triple-tail/",
         yearIntroduced: 2018,
       },
     ],
@@ -742,6 +777,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 498.00, currency: "USD", url: "https://www.gouletpens.com/collections/aurora-optima", inStock: true, condition: "new" },
         ],
         msrp: 498,
+        msrpUrl: "https://www.aurorapen.com/optima/",
         yearIntroduced: 2006,
       },
       {
@@ -759,6 +795,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 398.00, currency: "USD", url: "https://www.gouletpens.com/collections/aurora-88", inStock: true, condition: "new" },
         ],
         msrp: 398,
+        msrpUrl: "https://www.aurorapen.com/88/",
         yearIntroduced: 2016,
       },
       {
@@ -775,6 +812,7 @@ export const brands: Brand[] = [
           { retailer: "Goldspot Pens", price: 98.00, currency: "USD", url: "https://www.goldspot.com/aurora/ippsilon/", inStock: true, condition: "new" },
         ],
         msrp: 98,
+        msrpUrl: "https://www.aurorapen.com/ippsilon/",
         yearIntroduced: 2019,
       },
     ],
@@ -803,6 +841,7 @@ export const brands: Brand[] = [
           { retailer: "Appelboom Pennen", price: 650.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
         ],
         msrp: 795,
+        msrpUrl: "https://www.viscontipens.com/homo-sapiens/",
         yearIntroduced: 2007,
       },
       {
@@ -820,6 +859,7 @@ export const brands: Brand[] = [
           { retailer: "Goulet Pens", price: 195.00, currency: "USD", url: "https://www.gouletpens.com/collections/visconti-van-gogh", inStock: true, condition: "new" },
         ],
         msrp: 195,
+        msrpUrl: "https://www.viscontipens.com/van-gogh/",
         yearIntroduced: 2010,
       },
     ],
@@ -847,6 +887,7 @@ export const brands: Brand[] = [
           { retailer: "JetPens", price: 165.00, currency: "USD", url: "https://www.jetpens.com/Taccia-Aurora-Fountain-Pen/ct/18851", inStock: true, condition: "new" },
         ],
         msrp: 195,
+        msrpUrl: "https://www.taccia-pen.com/aurora/",
         yearIntroduced: 2015,
       },
       {
@@ -863,6 +904,7 @@ export const brands: Brand[] = [
           { retailer: "JetPens", price: 45.00, currency: "USD", url: "https://www.jetpens.com/Taccia-Spectrum-Fountain-Pen/ct/19000", inStock: true, condition: "new" },
         ],
         msrp: 45,
+        msrpUrl: "https://www.taccia-pen.com/spectrum/",
         yearIntroduced: 2018,
       },
     ],
@@ -890,6 +932,7 @@ export const brands: Brand[] = [
           { retailer: "Nakaya Direct", price: 480.00, currency: "USD", url: "https://www.nakaya.org/products/portable-cigar", inStock: true, condition: "new" },
         ],
         msrp: 480,
+        msrpUrl: "https://www.nakaya.org/portable-cigar/",
         yearIntroduced: 1999,
       },
       {
@@ -905,6 +948,7 @@ export const brands: Brand[] = [
           { retailer: "Nakaya Direct", price: 520.00, currency: "USD", url: "https://www.nakaya.org/products/decapitation-writer", inStock: true, condition: "new" },
         ],
         msrp: 520,
+        msrpUrl: "https://www.nakaya.org/decapitation-writer/",
         yearIntroduced: 2001,
       },
     ],
