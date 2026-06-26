@@ -33,7 +33,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/blog/best-fountain-pens-for-beginners`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
   ];
+
+  const faqEntry = {
+    url: `${baseUrl}/faq`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  };
 
   return [
     {
@@ -45,5 +58,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...brandEntries,
     ...modelEntries,
     ...blogEntries,
+    faqEntry,
   ];
 }

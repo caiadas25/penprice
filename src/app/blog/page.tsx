@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-beginners",
+    title: "Best Fountain Pens for Beginners in 2026",
+    excerpt:
+      "New to fountain pens? Our complete starter guide covers the top 10 beginner pens, nib sizes, filling systems, and everything you need to know.",
+    date: "2026-06-26",
+    category: "Beginner Guide",
+  },
+  {
     slug: "best-fountain-pens-under-50",
     title: "Best Fountain Pens Under $50 in 2026",
     excerpt:

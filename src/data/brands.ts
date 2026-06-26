@@ -779,6 +779,67 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "visconti",
+    name: "Visconti",
+    slug: "visconti",
+    country: "Italy",
+    description:
+      "Founded in 1988 in Florence, Visconti is known for innovative filling systems, stunning materials, and bold Italian design. Their Homo Sapiens line (made from volcanic lava) and Van Gogh series are legendary. They pioneered the use of acrylic resin and power-filling systems in modern fountain pens.",
+    website: "https://www.viscontipens.com",
+    models: [
+      {
+        id: "visconti-homo-sapiens",
+        name: "Homo Sapiens",
+        slug: "homo-sapiens",
+        description:
+          "Visconti's iconic flagship. The body is made from real volcanic lava from Mount Etna, giving it a unique matte texture and incredible durability. Features an 18k gold nib, power filler vacuum system, and magnetic cap. A truly unique writing instrument.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Double Broad"],
+        fillingSystem: "Power Filler (vacuum)",
+        material: "Volcanic lava resin / Bronze trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 599.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 695.00, currency: "USD", url: "https://www.goldspot.com/visconti/homo-sapiens/", inStock: true, condition: "new" },
+          { retailer: "Appelboom Pennen", price: 650.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
+        ],
+        msrp: 795,
+        yearIntroduced: 2007,
+      },
+      {
+        id: "visconti-van-gogh",
+        name: "Van Gogh",
+        slug: "van-gogh",
+        description:
+          "A tribute to the Dutch master. Each colorway is inspired by a Van Gogh painting. Made from swirl acrylic resin with a stainless steel nib. A beautiful art pen at an accessible price point.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Swirl acrylic resin / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 159.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 195.00, currency: "USD", url: "https://www.goldspot.com/visconti/van-gogh/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 195.00, currency: "USD", url: "https://www.gouletpens.com/collections/visconti-van-gogh", inStock: true, condition: "new" },
+        ],
+        msrp: 195,
+        yearIntroduced: 2010,
+      },
+      {
+        id: "visconti-divina",
+        name: "Divina",
+        slug: "divina",
+        description:
+          "Inspired by the Divine Proportion (Golden Ratio). The barrel features a distinctive tapered shape based on Fibonacci spirals. Available in celluloid and acrylic resins with an 18k gold nib and power filler system.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Power Filler (vacuum)",
+        material: "Celluloid / Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 489.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 549.00, currency: "USD", url: "https://www.goldspot.com/visconti/divina/", inStock: true, condition: "new" },
+        ],
+        msrp: 595,
+        yearIntroduced: 2012,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
