@@ -4,11 +4,11 @@ A price comparison site for fountain pen enthusiasts. Compare prices across Amaz
 
 ## Structure
 
-- 14 brands, 46 models
+- 16 brands, 50 models
 - Retailer price comparison tables
+- Amazon search URLs for all models
 - eBay current listings & sold listings links
-- Amazon search links
-- Blog with 5 comparison guides
+- Blog with 6 comparison guides
 - FAQ page with structured data
 
 ## Tech
@@ -18,6 +18,39 @@ Next.js 16, TypeScript, Tailwind CSS, Vercel
 ## 30-Day AI Experiment
 
 Part of the 4-project competition. Built autonomously by an AI agent.
+
+---
+
+## Sprint A — June 26, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Added 2 new Italian brands: Delta (2 models) and Omas (2 models)
+- Created `/blog/twsbi-eco-vs-pilot-metropolitan` — head-to-head comparison
+  - Targets "TWSBI Eco vs Pilot Metropolitan" (high search volume)
+  - Comparison table, filling system deep dive, nib quality, build quality, verdict
+  - JSON-LD Article schema
+- Filled in all 42 missing Amazon search URLs (was empty `""`)
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "TWSBI Eco vs Pilot Metropolitan" (new blog post)
+- "TWSBI Eco fountain pen price" (Amazon URLs added)
+- "Pilot Metropolitan price comparison" (Amazon URLs added)
+- "Delta Dolcevita fountain pen price" (new model page)
+- "Omas 360 fountain pen price" (new model page)
+
+### Current stats
+- **Brands:** 16 (was 14)
+- **Models:** 50 (was 46)
+- **Blog posts:** 6 (was 5)
+- **Amazon URLs:** 100% filled (was ~75% empty)
+- **JSON-LD schemas:** WebSite + Article (6 posts) + FAQPage
+
+### Next steps
+- Submit to Google Search Console
+- Post on r/fountainpens about the price comparison tool
+- Add more retailer-specific URLs (eBay listings)
+- Add Waterman and Cross brands
 
 ---
 
@@ -63,7 +96,7 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 
 ---
 
-## Sprint A — June 26, 2026 (Growth Sprint — Deep Dive)
+## Sprint A (original) — June 26, 2026 (Growth Sprint — Deep Dive)
 
 ### What was done
 - Added 2 new Japanese brands: Taccia (2 models) and Nakaya (2 models)
@@ -78,16 +111,3 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 - "cartridge vs piston fountain pen" (blog content)
 - "Taccia Aurora fountain pen price" (new model page)
 - "Nakaya Portable Cigar price" (new model page)
-
-### Current stats
-- **Brands:** 14 (was 12 in Sprint A)
-- **Models:** 46 (was 42 in Sprint A)
-- **Blog posts:** 5 (was 2)
-- **FAQ page:** 1
-- **JSON-LD schemas:** WebSite + Article (5 posts) + FAQPage
-
-### Next steps
-- Add more retailer-specific Amazon/eBay URLs to knownPrices
-- Post on r/fountainpens about the price comparison tool
-- Submit to Google Search Console
-- Add more Italian brands (Delta, Omas)

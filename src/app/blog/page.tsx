@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "twsbi-eco-vs-pilot-metropolitan",
+    title: "TWSBI Eco vs Pilot Metropolitan",
+    excerpt:
+      "Two of the best budget fountain pens compared. Piston filler vs cartridge, ink capacity, nib quality, and price across Amazon, JetPens, and Goulet Pens.",
+    date: "2026-06-26",
+    category: "Comparison",
+  },
+  {
     slug: "lamy-safari-vs-pilot-metropolitan",
     title: "Lamy Safari vs Pilot Metropolitan",
     excerpt:

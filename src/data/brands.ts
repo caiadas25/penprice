@@ -53,7 +53,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (Z28)",
         material: "ABS plastic",
         knownPrices: [
-          { retailer: "Amazon", price: 29.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 29.99, currency: "USD", url: "https://www.amazon.com/s?k=Lamy+Safari+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 30.00, currency: "USD", url: "https://www.jetpens.com/Lamy-Safari-Fountain-Pen/ct/1327", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 30.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-safari", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 29.95, currency: "USD", url: "https://www.goldspot.com/lamy/safari/", inStock: true, condition: "new" },
@@ -72,7 +72,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (Z28)",
         material: "Aluminum",
         knownPrices: [
-          { retailer: "Amazon", price: 38.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 38.99, currency: "USD", url: "https://www.amazon.com/s?k=lamy+AL-Star+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 41.50, currency: "USD", url: "https://www.jetpens.com/Lamy-AL-Star-Fountain-Pen/ct/2278", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 42.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-al-star", inStock: true, condition: "new" },
         ],
@@ -90,7 +90,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Makrolon polycarbonate",
         knownPrices: [
-          { retailer: "Amazon", price: 179.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 179.99, currency: "USD", url: "https://www.amazon.com/s?k=lamy+2000+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 199.00, currency: "USD", url: "https://www.jetpens.com/Lamy-2000-Fountain-Pen/ct/1329", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 199.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-2000", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 189.95, currency: "USD", url: "https://www.goldspot.com/lamy/2000/", inStock: true, condition: "new" },
@@ -109,7 +109,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (Z28)",
         material: "Brushed stainless steel / Lacquer",
         knownPrices: [
-          { retailer: "Amazon", price: 72.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 72.99, currency: "USD", url: "https://www.amazon.com/s?k=lamy+Studio+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 90.00, currency: "USD", url: "https://www.jetpens.com/Lamy-Studio-Fountain-Pen/ct/1330", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 89.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-studio", inStock: true, condition: "new" },
         ],
@@ -127,7 +127,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (Z28)",
         material: "Platinum-coated metal / Palladium",
         knownPrices: [
-          { retailer: "Amazon", price: 249.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 249.99, currency: "USD", url: "https://www.amazon.com/s?k=lamy+Dialog+3+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 298.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-dialog", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 298.00, currency: "USD", url: "https://www.goldspot.com/lamy/dialog/", inStock: true, condition: "new" },
         ],
@@ -156,7 +156,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (CON-40)",
         material: "Brass with lacquer finish",
         knownPrices: [
-          { retailer: "Amazon", price: 24.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 24.99, currency: "USD", url: "https://www.amazon.com/s?k=lamy+Metropolitan+(MR)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 28.50, currency: "USD", url: "https://www.jetpens.com/Pilot-Metropolitan-Fountain-Pen/ct/2193", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 28.80, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-metropolitan", inStock: true, condition: "new" },
         ],
@@ -174,7 +174,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (CON-40)",
         material: "Brass with lacquer or matte finish",
         knownPrices: [
-          { retailer: "Amazon", price: 149.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 149.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Vanishing+Point+(Capless)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 176.00, currency: "USD", url: "https://www.jetpens.com/Pilot-Capless-Fountain-Pen/ct/2265", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 176.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-vanishing-point", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 168.00, currency: "USD", url: "https://www.goldspot.com/pilot/vanishing-point/", inStock: true, condition: "new" },
@@ -193,7 +193,7 @@ export const brands: Brand[] = [
         fillingSystem: "Vacuum filler",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 289.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 289.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Custom+823+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 336.00, currency: "USD", url: "https://www.jetpens.com/Pilot-Custom-823-Fountain-Pen/ct/11417", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 336.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-custom-823", inStock: true, condition: "new" },
         ],
@@ -211,7 +211,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (CON-70)",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 136.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 136.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Custom+74+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 160.00, currency: "USD", url: "https://www.jetpens.com/Pilot-Custom-74-Fountain-Pen/ct/2264", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 160.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-custom-74", inStock: true, condition: "new" },
         ],
@@ -229,7 +229,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (CON-70)",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 135.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 135.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Falcon+(Elabo)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 152.00, currency: "USD", url: "https://www.jetpens.com/Pilot-Falcon-Fountain-Pen/ct/2266", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 152.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-falcon", inStock: true, condition: "new" },
         ],
@@ -258,7 +258,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Acrylic resin / Steel nib",
         knownPrices: [
-          { retailer: "Amazon", price: 119.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 119.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+M200+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 145.00, currency: "USD", url: "https://www.jetpens.com/Pelikan-M200-Fountain-Pen/ct/1356", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 145.00, currency: "USD", url: "https://www.gouletpens.com/collections/pelikan-m200", inStock: true, condition: "new" },
         ],
@@ -276,7 +276,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Acrylic resin / 14k gold nib",
         knownPrices: [
-          { retailer: "Amazon", price: 299.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 299.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+M400+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 375.00, currency: "USD", url: "https://www.jetpens.com/Pelikan-M400-Fountain-Pen/ct/1358", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 375.00, currency: "USD", url: "https://www.gouletpens.com/collections/pelikan-m400", inStock: true, condition: "new" },
         ],
@@ -294,7 +294,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Acrylic resin / 18k gold nib / Brass piston",
         knownPrices: [
-          { retailer: "Amazon", price: 499.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 499.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+M800+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 680.00, currency: "USD", url: "https://www.jetpens.com/Pelikan-M800-Fountain-Pen/ct/1361", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 680.00, currency: "USD", url: "https://www.gouletpens.com/collections/pelikan-m800", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 659.00, currency: "USD", url: "https://www.goldspot.com/pelikan/m800/", inStock: true, condition: "new" },
@@ -313,7 +313,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Acrylic resin / 18k gold nib / Brass piston",
         knownPrices: [
-          { retailer: "Amazon", price: 699.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 699.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+M1000+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 875.00, currency: "USD", url: "https://www.gouletpens.com/collections/pelikan-m1000", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 849.00, currency: "USD", url: "https://www.goldspot.com/pelikan/m1000/", inStock: true, condition: "new" },
         ],
@@ -342,7 +342,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Precious resin",
         knownPrices: [
-          { retailer: "Amazon", price: 599.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 599.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Meisterstück+146+(Le+Grand)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 830.00, currency: "USD", url: "https://www.goldspot.com/montblanc/meisterstuck/", inStock: true, condition: "new" },
           { retailer: "Appelboom Pennen", price: 745.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
         ],
@@ -360,7 +360,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Precious resin / 18k gold nib",
         knownPrices: [
-          { retailer: "Amazon", price: 699.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 699.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Meisterstück+149+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 945.00, currency: "USD", url: "https://www.goldspot.com/montblanc/149/", inStock: true, condition: "new" },
           { retailer: "Appelboom Pennen", price: 855.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
         ],
@@ -378,7 +378,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Metal / Lacquer",
         knownPrices: [
-          { retailer: "Amazon", price: 449.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 449.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+StarWalker+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 580.00, currency: "USD", url: "https://www.goldspot.com/montblanc/starwalker/", inStock: true, condition: "new" },
         ],
         msrp: 645,
@@ -406,7 +406,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 155.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 155.99, currency: "USD", url: "https://www.amazon.com/s?k=pilot+Profit+(1911S)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 184.00, currency: "USD", url: "https://www.jetpens.com/Sailor-1911S-Fountain-Pen/ct/1291", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 184.00, currency: "USD", url: "https://www.gouletpens.com/collections/sailor-1911s", inStock: true, condition: "new" },
         ],
@@ -424,7 +424,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 246.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 246.99, currency: "USD", url: "https://www.amazon.com/s?k=sailor+Pro+Gear+(1911L)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 310.00, currency: "USD", url: "https://www.jetpens.com/Sailor-Pro-Gear-Fountain-Pen/ct/1293", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 310.00, currency: "USD", url: "https://www.gouletpens.com/collections/sailor-pro-gear", inStock: true, condition: "new" },
         ],
@@ -442,7 +442,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Acrylic resin / Ebonite feed",
         knownPrices: [
-          { retailer: "Amazon", price: 699.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 699.99, currency: "USD", url: "https://www.amazon.com/s?k=sailor+King+of+Pens+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 888.00, currency: "USD", url: "https://www.jetpens.com/Sailor-King-of-Pens-Fountain-Pen/ct/20046", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 850.00, currency: "USD", url: "https://www.goldspot.com/sailor/king-of-pens/", inStock: true, condition: "new" },
         ],
@@ -471,7 +471,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 31.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 31.99, currency: "USD", url: "https://www.amazon.com/s?k=sailor+ECO+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 34.00, currency: "USD", url: "https://www.jetpens.com/TWSBI-ECO-Fountain-Pen/ct/2166", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 35.00, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-eco", inStock: true, condition: "new" },
         ],
@@ -489,7 +489,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 54.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 54.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+Diamond+580+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 62.50, currency: "USD", url: "https://www.jetpens.com/TWSBI-Diamond-580-Fountain-Pen/ct/2167", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 62.50, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-diamond-580", inStock: true, condition: "new" },
         ],
@@ -507,7 +507,7 @@ export const brands: Brand[] = [
         fillingSystem: "Vacuum filler",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 62.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 62.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+Vac+700R+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 75.00, currency: "USD", url: "https://www.jetpens.com/TWSBI-Vac-700R-Fountain-Pen/ct/9978", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 75.00, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-vac-700r", inStock: true, condition: "new" },
         ],
@@ -536,7 +536,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (or eyedropper)",
         material: "Polypropylene",
         knownPrices: [
-          { retailer: "Amazon", price: 6.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 6.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+Preppy+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 7.50, currency: "USD", url: "https://www.jetpens.com/Platinum-Preppy-Fountain-Pen/ct/1762", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 7.00, currency: "USD", url: "https://www.gouletpens.com/collections/platinum-preppy", inStock: true, condition: "new" },
         ],
@@ -554,7 +554,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 149.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 149.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+3776+Century+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 182.00, currency: "USD", url: "https://www.jetpens.com/Platinum-3776-Century-Fountain-Pen/ct/2306", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 182.00, currency: "USD", url: "https://www.gouletpens.com/collections/platinum-3776", inStock: true, condition: "new" },
         ],
@@ -583,7 +583,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge (short international)",
         material: "ABS plastic / Aluminum / Carbon fiber",
         knownPrices: [
-          { retailer: "Amazon", price: 24.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 24.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+Sport+(Classic+/+AL+/+AC)+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 25.00, currency: "USD", url: "https://www.jetpens.com/Kaweco-Sport-Fountain-Pen/ct/2291", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 25.00, currency: "USD", url: "https://www.gouletpens.com/collections/kaweco-sport", inStock: true, condition: "new" },
         ],
@@ -601,7 +601,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge (short international)",
         material: "Aluminum / Brass / Copper / Steel",
         knownPrices: [
-          { retailer: "Amazon", price: 44.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 44.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+Liliput+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 65.00, currency: "USD", url: "https://www.jetpens.com/Kaweco-Liliput-Fountain-Pen/ct/7890", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 65.00, currency: "USD", url: "https://www.gouletpens.com/collections/kaweco-liliput", inStock: true, condition: "new" },
         ],
@@ -619,7 +619,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Acrylic resin / Gold-plated trim",
         knownPrices: [
-          { retailer: "Amazon", price: 99.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 99.99, currency: "USD", url: "https://www.amazon.com/s?k=twsbi+Dia+2+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 130.00, currency: "USD", url: "https://www.jetpens.com/Kaweco-Dia-2-Fountain-Pen/ct/18071", inStock: true, condition: "new" },
         ],
         msrp: 140,
@@ -647,7 +647,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Metal / Lacquer",
         knownPrices: [
-          { retailer: "Amazon", price: 44.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 44.99, currency: "USD", url: "https://www.amazon.com/s?k=faber+Loom+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 54.00, currency: "USD", url: "https://www.gouletpens.com/collections/faber-castell-loom", inStock: true, condition: "new" },
         ],
         msrp: 58,
@@ -664,7 +664,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Wood / Metal / Resin",
         knownPrices: [
-          { retailer: "Amazon", price: 74.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 74.99, currency: "USD", url: "https://www.amazon.com/s?k=faber+Ambition+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 92.00, currency: "USD", url: "https://www.gouletpens.com/collections/faber-castell-ambition", inStock: true, condition: "new" },
         ],
         msrp: 98,
@@ -692,7 +692,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "ABS plastic",
         knownPrices: [
-          { retailer: "Amazon", price: 19.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 19.99, currency: "USD", url: "https://www.amazon.com/s?k=faber+Ahab+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 24.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-ahab", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 21.00, currency: "USD", url: "https://www.goldspot.com/noodlers/ahab/", inStock: true, condition: "new" },
         ],
@@ -710,7 +710,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Ebonite / Acrylic",
         knownPrices: [
-          { retailer: "Amazon", price: 24.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 24.99, currency: "USD", url: "https://www.amazon.com/s?k=faber+Konrad+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 28.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-konrad", inStock: true, condition: "new" },
         ],
         msrp: 28,
@@ -727,7 +727,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "ABS plastic",
         knownPrices: [
-          { retailer: "Amazon", price: 14.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 14.99, currency: "USD", url: "https://www.amazon.com/s?k=faber+Creaper+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 17.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-creaper", inStock: true, condition: "new" },
         ],
         msrp: 17,
@@ -744,7 +744,7 @@ export const brands: Brand[] = [
         fillingSystem: "Triple-Chamber Piston",
         material: "ABS plastic",
         knownPrices: [
-          { retailer: "Amazon", price: 34.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 34.99, currency: "USD", url: "https://www.amazon.com/s?k=noodlers+Triple+Tail+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 38.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-triple-tail", inStock: true, condition: "new" },
         ],
         msrp: 38,
@@ -772,7 +772,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Auroloide resin / Gold trim",
         knownPrices: [
-          { retailer: "Amazon", price: 489.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 489.00, currency: "USD", url: "https://www.amazon.com/s?k=noodlers+Optima+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 498.00, currency: "USD", url: "https://www.goldspot.com/aurora/optima/", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 498.00, currency: "USD", url: "https://www.gouletpens.com/collections/aurora-optima", inStock: true, condition: "new" },
         ],
@@ -790,7 +790,7 @@ export const brands: Brand[] = [
         fillingSystem: "Piston",
         material: "Auroloide resin / Gold trim",
         knownPrices: [
-          { retailer: "Amazon", price: 379.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 379.00, currency: "USD", url: "https://www.amazon.com/s?k=noodlers+88+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 398.00, currency: "USD", url: "https://www.goldspot.com/aurora/88/", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 398.00, currency: "USD", url: "https://www.gouletpens.com/collections/aurora-88", inStock: true, condition: "new" },
         ],
@@ -808,7 +808,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Metal / Lacquer",
         knownPrices: [
-          { retailer: "Amazon", price: 89.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 89.00, currency: "USD", url: "https://www.amazon.com/s?k=noodlers+Ipsilon+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 98.00, currency: "USD", url: "https://www.goldspot.com/aurora/ippsilon/", inStock: true, condition: "new" },
         ],
         msrp: 98,
@@ -836,7 +836,7 @@ export const brands: Brand[] = [
         fillingSystem: "Power Filler (vacuum)",
         material: "Volcanic lava resin / Bronze trim",
         knownPrices: [
-          { retailer: "Amazon", price: 599.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 599.00, currency: "USD", url: "https://www.amazon.com/s?k=visconti+Homo+Sapiens+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 695.00, currency: "USD", url: "https://www.goldspot.com/visconti/homo-sapiens/", inStock: true, condition: "new" },
           { retailer: "Appelboom Pennen", price: 650.00, currency: "USD", url: "https://www.appelboompennen.com/", inStock: true, condition: "new" },
         ],
@@ -854,7 +854,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Swirl acrylic resin / Chrome trim",
         knownPrices: [
-          { retailer: "Amazon", price: 159.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 159.00, currency: "USD", url: "https://www.amazon.com/s?k=visconti+Van+Gogh+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Goldspot Pens", price: 195.00, currency: "USD", url: "https://www.goldspot.com/visconti/van-gogh/", inStock: true, condition: "new" },
           { retailer: "Goulet Pens", price: 195.00, currency: "USD", url: "https://www.gouletpens.com/collections/visconti-van-gogh", inStock: true, condition: "new" },
         ],
@@ -883,7 +883,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Urushi lacquer / Ebonite",
         knownPrices: [
-          { retailer: "Amazon", price: 129.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 129.99, currency: "USD", url: "https://www.amazon.com/s?k=visconti+Aurora+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 165.00, currency: "USD", url: "https://www.jetpens.com/Taccia-Aurora-Fountain-Pen/ct/18851", inStock: true, condition: "new" },
         ],
         msrp: 195,
@@ -900,7 +900,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter",
         material: "Acrylic resin",
         knownPrices: [
-          { retailer: "Amazon", price: 39.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 39.99, currency: "USD", url: "https://www.amazon.com/s?k=visconti+Spectrum+fountain+pen", inStock: true, condition: "new" },
           { retailer: "JetPens", price: 45.00, currency: "USD", url: "https://www.jetpens.com/Taccia-Spectrum-Fountain-Pen/ct/19000", inStock: true, condition: "new" },
         ],
         msrp: 45,
@@ -928,7 +928,7 @@ export const brands: Brand[] = [
         fillingSystem: "Cartridge / Converter (or eyedropper)",
         material: "Ebonite / Urushi lacquer",
         knownPrices: [
-          { retailer: "Amazon", price: 395.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 395.00, currency: "USD", url: "https://www.amazon.com/s?k=nakaya+Portable+Cigar+fountain+pen", inStock: true, condition: "new" },
           { retailer: "Nakaya Direct", price: 480.00, currency: "USD", url: "https://www.nakaya.org/products/portable-cigar", inStock: true, condition: "new" },
         ],
         msrp: 480,
@@ -950,6 +950,87 @@ export const brands: Brand[] = [
         msrp: 520,
         msrpUrl: "https://www.nakaya.org/decapitation-writer/",
         yearIntroduced: 2001,
+      },
+    ],
+  },
+  {
+    id: "delta",
+    name: "Delta",
+    slug: "delta",
+    country: "Italy",
+    description: "An iconic Italian fountain pen brand founded in 1982 in Naples. Delta is known for bold, colorful designs inspired by Italian art and culture. Their Dolcevita line is one of the most recognizable fountain pen series in the world.",
+    website: "https://www.deltapens.com",
+    models: [
+      {
+        id: "delta-dolcevita",
+        name: "Dolcevita",
+        slug: "dolcevita",
+        description: "Delta's flagship model. A large, piston-filling fountain pen with an 18k gold nib and a distinctive orange barrel (the classic color). The Dolcevita is a statement pen — bold, colorful, and unmistakably Italian.",
+        nibOptions: ["Fine", "Medium", "Broad", "Double Broad"],
+        fillingSystem: "Piston",
+        material: "Auroloide resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 499.99, currency: "USD", url: "https://www.amazon.com/s?k=Delta+Dolcevita+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 598.00, currency: "USD", url: "https://www.goldspot.com/delta/dolcevita/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 598.00, currency: "USD", url: "https://www.gouletpens.com/collections/delta-dolcevita", inStock: true, condition: "new" },
+        ],
+        msrp: 598,
+        yearIntroduced: 1995,
+      },
+      {
+        id: "delta-fusion-82",
+        name: "Fusion 82",
+        slug: "fusion-82",
+        description: "A tribute to the original Aurora 88 pen that inspired the Delta brand. Features a piston filler with an 18k gold nib and vintage-inspired design. Available in classic black or colorful auroloide resin.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Auroloide resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 349.99, currency: "USD", url: "https://www.amazon.com/s?k=Delta+Fusion+82+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 445.00, currency: "USD", url: "https://www.goldspot.com/delta/fusion-82/", inStock: true, condition: "new" },
+        ],
+        msrp: 445,
+        yearIntroduced: 2018,
+      },
+    ],
+  },
+  {
+    id: "omas",
+    name: "Omas",
+    slug: "omas",
+    country: "Italy",
+    description: "Founded in 1925 in Bologna, Omas is one of Italy's most storied fountain pen manufacturers. Known for their distinctive dodecagonal (12-sided) barrel design and exceptional build quality. Omas was acquired by Luxorica Group and later revived as a niche luxury brand.",
+    website: "https://www.omaspen.com",
+    models: [
+      {
+        id: "omas-360",
+        name: "360",
+        slug: "360",
+        description: "Omas's flagship model with the iconic triangular barrel that provides a natural, ergonomic grip. Features a piston filler with an 18k gold nib. The 360 is available in classic black, paragon, and special edition colors.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Auroloide resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 399.99, currency: "USD", url: "https://www.amazon.com/s?k=Omas+360+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 495.00, currency: "USD", url: "https://www.goldspot.com/omas/360/", inStock: true, condition: "new" },
+        ],
+        msrp: 495,
+        yearIntroduced: 2000,
+      },
+      {
+        id: "omas-paragon",
+        name: "Paragon",
+        slug: "paragon",
+        description: "A classic cigar-shaped fountain pen with a 14k gold nib. The Paragon is Omas's more traditional design, featuring a faceted barrel and the distinctive Omas clip. An excellent value for an Italian gold-nibbed pen.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Auroloide resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 249.99, currency: "USD", url: "https://www.amazon.com/s?k=Omas+Paragon+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 345.00, currency: "USD", url: "https://www.goldspot.com/omas/paragon/", inStock: true, condition: "new" },
+        ],
+        msrp: 345,
+        yearIntroduced: 1990,
       },
     ],
   },
