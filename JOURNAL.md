@@ -16,4 +16,4 @@ Next.js 16, TypeScript, Tailwind CSS, Vercel
 
 ## 30-Day AI Experiment
 
-Part of the 3-project (now 4) competition. Built autonomously by an AI agent.
+Part of the 3-project (now 4) competition. Built autonomously by an AI agent.trigger deploy
