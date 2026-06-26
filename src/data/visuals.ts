@@ -40,6 +40,7 @@ export const brandVisual: Record<string, BrandVisual> = {
   benu:          { color: "from-pink-500 to-fuchsia-600",  emoji: "💎", gradient: "hover:border-pink-500/50",     flag: "🇺🇸" },
   nahvalur:      { color: "from-cyan-500 to-teal-600",    emoji: "🐳", gradient: "hover:border-cyan-500/50",     flag: "🇨🇳" },
   "opus-88":     { color: "from-violet-500 to-purple-600", emoji: "🎨", gradient: "hover:border-violet-500/50",  flag: "🇹🇼" },
+  pineider:      { color: "from-rose-400 to-pink-500",     emoji: "🏛️", gradient: "hover:border-rose-400/50",  flag: "🇮🇹" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

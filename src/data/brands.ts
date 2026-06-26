@@ -1871,6 +1871,47 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "pineider",
+    name: "Pineider",
+    slug: "pineider",
+    country: "Italy",
+    description: "Founded in 1774 in Florence, Pineider is one of Italy's oldest luxury stationery houses. They have supplied pen and paper to Napoleon, Stendhal, and Dante. Their modern fountain pen line features stunning Italian design with innovative magnetic closure systems and hand-finished resin bodies.",
+    website: "https://www.pineider.com",
+    models: [
+      {
+        id: "pineider-avatar",
+        name: "Avatar",
+        slug: "avatar",
+        description: "Pineider's flagship fountain pen featuring a revolutionary magnetic cap closure system. The Avatar is made from hand-turned Italian resin with a 14k gold nib by Bock. Available in dozens of stunning colors inspired by Italian landscapes and culture.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Hand-turned Italian resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 289.00, currency: "USD", url: "https://www.amazon.com/s?k=Pineider+Avatar+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 325.00, currency: "USD", url: "https://www.goldspot.com/pineider/avatar/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 325.00, currency: "USD", url: "https://www.gouletpens.com/search?q=pineider+avatar", inStock: true, condition: "new" },
+        ],
+        msrp: 325,
+        yearIntroduced: 2018,
+      },
+      {
+        id: "pineider-la-grande-bellezza",
+        name: "La Grande Bellezza",
+        slug: "la-grande-bellezza",
+        description: "An oversized luxury fountain pen inspired by Florence's architectural grandeur. The La Grande Bellezza features a massive 18k gold nib, a piston filler for high ink capacity, and a hand-finished resin barrel with Pineider's signature magnetic closure. A statement pen for serious writers.",
+        nibOptions: ["Fine", "Medium", "Broad", "Double Broad"],
+        fillingSystem: "Piston",
+        material: "Hand-turned Italian resin / 18k gold nib / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 489.00, currency: "USD", url: "https://www.amazon.com/s?k=Pineider+La+Grande+Bellezza+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 549.00, currency: "USD", url: "https://www.goldspot.com/pineider/la-grande-bellezza/", inStock: true, condition: "new" },
+        ],
+        msrp: 549,
+        yearIntroduced: 2020,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

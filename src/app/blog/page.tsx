@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-vs-gel-pen",
+    title: "Fountain Pen vs Gel Pen: Which Should You Choose?",
+    excerpt:
+      "Fountain pen vs gel pen: detailed comparison of writing feel, ink cost, refillability, and maintenance. Find out which writing instrument is right for you.",
+    date: "2026-06-26",
+    category: "Comparison Guide",
+  },
+  {
     slug: "fountain-pen-vs-ballpoint",
     title: "Fountain Pen vs Ballpoint Pen: Which Should You Choose?",
     excerpt:
