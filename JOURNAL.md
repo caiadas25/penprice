@@ -331,3 +331,21 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 - "cartridge vs piston fountain pen" (blog content)
 - "Taccia Aurora fountain pen price" (new model page)
 - "Nakaya Portable Cigar price" (new model page)
+
+## Sprint III — June 26, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Added 2 new brands (4 models total):
+  - **Nahvalur** (2 models): Original Plus, Zhuo Yue — affordable Chinese piston fillers ($45-$55)
+  - **Opus 88** (2 models): Koloro, Flora — Taiwanese eyedropper pens with shut-off valves ($65-$75)
+- Updated visuals.ts for all 32 brands
+
+### Keywords targeted
+- "Nahvalur Original Plus price" (new model page)
+- "Opus 88 Koloro fountain pen" (new model page)
+- "affordable piston filler fountain pen" (existing content)
+
+### Current stats
+- **Brands:** 32 (was 30)
+- **Models:** 89 (was 85)
+- **Blog posts:** 13
