@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-maintenance-guide",
+    title: "Fountain Pen Maintenance Guide",
+    excerpt:
+      "Complete cleaning and care guide for fountain pens. Step-by-step instructions for every filling system, troubleshooting, and ink-specific tips.",
+    date: "2026-06-27",
+    category: "Technical Guide",
+  },
+  {
     slug: "best-japanese-fountain-pens",
     title: "Best Japanese Fountain Pens in 2026",
     excerpt:
