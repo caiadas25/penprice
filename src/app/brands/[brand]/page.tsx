@@ -92,6 +92,26 @@ export default function BrandPage({ params }: { params: { brand: string } }) {
         })}
       </div>
 
+      {/* Other Brands */}
+      <div className="mt-12 pt-8 border-t border-slate-800">
+        <h2 className="text-lg font-bold text-white mb-4">Other Brands</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {brands
+            .filter((b) => b.slug !== brand.slug)
+            .slice(0, 8)
+            .map((b) => (
+              <Link
+                key={b.id}
+                href={`/brands/${b.slug}`}
+                className="p-3 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm"
+              >
+                <span className="text-white font-semibold">{b.name}</span>
+                <span className="block text-slate-500 text-xs mt-0.5">{b.country}</span>
+              </Link>
+            ))}
+        </div>
+      </div>
+
       {/* Back */}
       <div className="mt-12">
         <Link

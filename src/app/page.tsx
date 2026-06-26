@@ -70,14 +70,44 @@ export default function HomePage() {
         })}
       </div>
 
+      {/* Blog Teaser */}
+      <div className="mt-16 text-center">
+        <Link
+          href="/blog"
+          className="inline-block px-6 py-3 rounded-full border border-amber-700/50 text-amber-400 hover:bg-amber-900/20 transition-all font-medium"
+        >
+          Read Our Guides →
+        </Link>
+      </div>
+
       {/* Footer */}
-      <footer className="mt-20 pt-8 border-t border-slate-800 text-sm text-slate-600 text-center">
+      <footer className="mt-12 pt-8 border-t border-slate-800 text-sm text-slate-600 text-center">
         <p>
           PenPrice — Autonomous fountain pen price comparison tool. Prices
           updated from retailer listings. Built by an AI agent as a 30-day
           experiment.
         </p>
       </footer>
+
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "PenPrice",
+            url: "https://penprice.vercel.app",
+            description:
+              "Compare fountain pen prices across Amazon, eBay, JetPens, Goulet Pens, and more.",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://penprice.vercel.app/brands/{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
     </div>
   );
 }

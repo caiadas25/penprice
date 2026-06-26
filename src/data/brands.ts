@@ -642,6 +642,143 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "noodlers",
+    name: "Noodler's Ink",
+    slug: "noodlers",
+    country: "United States",
+    description:
+      "An American fountain pen company known for incredible value, quirky designs, and a commitment to the fountain pen community. Their pens use piston fillers or eye-dropper filling systems and come in a huge variety of ink-compatible models. A favorite among enthusiasts who want maximum ink capacity on a budget.",
+    website: "https://www.noodlersink.com",
+    models: [
+      {
+        id: "noodlers-ahab",
+        name: "Ahab",
+        slug: "ahab",
+        description:
+          "A large, demonstrator-style piston filler with a flex nib. Extremely popular as a first flex pen and for calligraphy practice. Available in many colors. The nib can be modified for more flex.",
+        nibOptions: ["Fine (Flex)"],
+        fillingSystem: "Piston",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 19.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 24.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-ahab", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 21.00, currency: "USD", url: "https://www.goldspot.com/noodlers/ahab/", inStock: true, condition: "new" },
+        ],
+        msrp: 24,
+        yearIntroduced: 2010,
+      },
+      {
+        id: "noodlers-konrad",
+        name: "Konrad",
+        slug: "konrad",
+        description:
+          "A piston-filling fountain pen with a slightly smaller body than the Ahab. More refined design with an ebonite or acrylic body. Excellent ink capacity and a reliable flex nib.",
+        nibOptions: ["Fine (Flex)", "Medium (Flex)"],
+        fillingSystem: "Piston",
+        material: "Ebonite / Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 24.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 28.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-konrad", inStock: true, condition: "new" },
+        ],
+        msrp: 28,
+        yearIntroduced: 2012,
+      },
+      {
+        id: "noodlers-creaper",
+        name: "Creaper",
+        slug: "creaper",
+        description:
+          "The smallest and most affordable Noodler's flex pen. A slim piston filler with a flex nib — great for those who want to try flex writing without committing to the larger Ahab or Konrad.",
+        nibOptions: ["Fine (Flex)"],
+        fillingSystem: "Piston",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 14.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 17.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-creaper", inStock: true, condition: "new" },
+        ],
+        msrp: 17,
+        yearIntroduced: 2011,
+      },
+      {
+        id: "noodlers-triple-tail",
+        name: "Triple Tail",
+        slug: "triple-tail",
+        description:
+          "A unique pen designed to hold 3 ink colors simultaneously using a triple-chamber piston system. Ideal for artists and those who like to switch inks without cleaning.",
+        nibOptions: ["Fine (Flex)", "Medium (Flex)"],
+        fillingSystem: "Triple-Chamber Piston",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 34.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 38.00, currency: "USD", url: "https://www.gouletpens.com/collections/noodlers-triple-tail", inStock: true, condition: "new" },
+        ],
+        msrp: 38,
+        yearIntroduced: 2018,
+      },
+    ],
+  },
+  {
+    id: "aurora",
+    name: "Aurora",
+    slug: "aurora",
+    country: "Italy",
+    description:
+      "Founded in 1919 in Turin, Aurora is Italy's oldest pen manufacturer and one of the most prestigious fountain pen brands in the world. They manufacture their own nibs in-house — a distinction shared by only a handful of companies. Known for exceptional build quality, classic Italian design, and a distinctively smooth writing experience.",
+    website: "https://www.aurorapen.com",
+    models: [
+      {
+        id: "aurora-optima",
+        name: "Optima",
+        slug: "optima",
+        description:
+          "Aurora's flagship model. A gorgeous piston-filling pen with an 18K gold nib, Auroloide resin barrel, and the iconic clip shaped like a tuning fork. Often considered one of the best luxury fountain pens made in Italy.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Auroloide resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 489.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 498.00, currency: "USD", url: "https://www.goldspot.com/aurora/optima/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 498.00, currency: "USD", url: "https://www.gouletpens.com/collections/aurora-optima", inStock: true, condition: "new" },
+        ],
+        msrp: 498,
+        yearIntroduced: 2006,
+      },
+      {
+        id: "aurora-88",
+        name: "88",
+        slug: "88",
+        description:
+          "Named after the iconic Aurora 88 from 1947 (the pen that launched Aurora). A modern reinterpretation with a piston filler, 18K gold nib, and classic cigar-shaped design. A piece of pen history.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Auroloide resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 379.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 398.00, currency: "USD", url: "https://www.goldspot.com/aurora/88/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 398.00, currency: "USD", url: "https://www.gouletpens.com/collections/aurora-88", inStock: true, condition: "new" },
+        ],
+        msrp: 398,
+        yearIntroduced: 2016,
+      },
+      {
+        id: "aurora-ippsilon",
+        name: "Ipsilon",
+        slug: "ipsilon",
+        description:
+          "Aurora's entry-level gold nib pen. A cartridge/converter filler with a 14K gold nib at a price point far below most gold-nibbed pens. An excellent gateway to the Aurora writing experience.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Metal / Lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 89.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 98.00, currency: "USD", url: "https://www.goldspot.com/aurora/ippsilon/", inStock: true, condition: "new" },
+        ],
+        msrp: 98,
+        yearIntroduced: 2019,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

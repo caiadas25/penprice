@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -44,16 +45,19 @@ export default function RootLayout({
       <body className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-200">
         <nav className="border-b border-slate-800/50 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center gap-4">
-            <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <span className="text-2xl">🖊️</span>
               <span className="text-xl font-bold">
                 Pen<span className="text-amber-400">Price</span>
               </span>
-            </a>
+            </Link>
             <nav className="ml-auto flex items-center gap-4 text-sm text-slate-400">
-              <a href="/" className="hover:text-amber-400 transition-colors">
+              <Link href="/" className="hover:text-amber-400 transition-colors">
                 Brands
-              </a>
+              </Link>
+              <Link href="/blog" className="hover:text-amber-400 transition-colors">
+                Guides
+              </Link>
             </nav>
           </div>
         </nav>
