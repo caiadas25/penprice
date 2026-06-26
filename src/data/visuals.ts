@@ -38,6 +38,8 @@ export const brandVisual: Record<string, BrandVisual> = {
   monteverde:    { color: "from-green-500 to-emerald-600", emoji: "🌿", gradient: "hover:border-green-500/50",    flag: "🇺🇸" },
   esterbrook:    { color: "from-amber-500 to-yellow-500",  emoji: "✒️", gradient: "hover:border-amber-500/50",    flag: "🇺🇸" },
   benu:          { color: "from-pink-500 to-fuchsia-600",  emoji: "💎", gradient: "hover:border-pink-500/50",     flag: "🇺🇸" },
+  nahvalur:      { color: "from-cyan-500 to-teal-600",    emoji: "🐳", gradient: "hover:border-cyan-500/50",     flag: "🇨🇳" },
+  "opus-88":     { color: "from-violet-500 to-purple-600", emoji: "🎨", gradient: "hover:border-violet-500/50",  flag: "🇹🇼" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

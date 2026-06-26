@@ -1784,6 +1784,93 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "nahvalur",
+    name: "Nahvalur",
+    slug: "nahvalur",
+    country: "China",
+    description:
+      "Nahvalur (formerly Narwhal) is a Chinese pen maker known for affordable piston-filling fountain pens with unique resin bodies. Their pens offer premium features at budget prices.",
+    website: "https://www.nahvalur.com",
+    models: [
+      {
+        id: "nahvalur-original-plus",
+        name: "Original Plus",
+        slug: "original-plus",
+        description:
+          "Nahvalur's flagship pen. A piston filler with a large ink capacity and a smooth JoWo steel nib. The Original Plus features a demonstrator body that shows off the ink color.",
+        nibOptions: ["Fine", "Medium", "Broad", "Stub 1.1"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 55.00, currency: "USD", url: "https://www.amazon.com/s?k=Nahvalur+Original+Plus+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 55.00, currency: "USD", url: "https://www.gouletpens.com/collections/nahvalur-original-plus", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 55.00, currency: "USD", url: "https://www.jetpens.com/Nahvalur-Original-Plus-Fountain-Pen/ct/10029", inStock: true, condition: "new" },
+        ],
+        msrp: 55,
+        yearIntroduced: 2021,
+      },
+      {
+        id: "nahvalur-zhuo-yue",
+        name: "Zhuo Yue",
+        slug: "zhuo-yue",
+        description:
+          "A slim, elegant piston filler with a unique clip design. The Zhuo Yue offers a more refined look than the Original Plus while maintaining Nahvalur's signature smooth nib and large ink capacity.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 45.00, currency: "USD", url: "https://www.amazon.com/s?k=Nahvalur+Zhuo+Yue+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 45.00, currency: "USD", url: "https://www.gouletpens.com/collections/nahvalur-zhuo-yue", inStock: true, condition: "new" },
+        ],
+        msrp: 45,
+        yearIntroduced: 2022,
+      },
+    ],
+  },
+  {
+    id: "opus-88",
+    name: "Opus 88",
+    slug: "opus-88",
+    country: "Taiwan",
+    description:
+      "Opus 88 makes affordable eyedropper fountain pens with massive ink capacity. Their pens use a shut-off valve mechanism to prevent leaks, making eyedropper filling practical and worry-free.",
+    website: "https://www.opus88.com",
+    models: [
+      {
+        id: "opus-88-koloro",
+        name: "Koloro",
+        slug: "koloro",
+        description:
+          "Opus 88's most popular model. A colorful eyedropper pen with a shut-off valve and smooth JoWo steel nib. The Koloro holds a massive amount of ink and comes in dozens of color combinations.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Eyedropper with shut-off valve",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 62.00, currency: "USD", url: "https://www.amazon.com/s?k=Opus+88+Koloro+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 65.00, currency: "USD", url: "https://www.gouletpens.com/collections/opus-88-koloro", inStock: true, condition: "new" },
+        ],
+        msrp: 65,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "opus-88-flora",
+        name: "Flora",
+        slug: "flora",
+        description:
+          "A larger eyedropper pen with a floral-inspired cap design. The Flora offers the same shut-off valve mechanism as the Koloro but in a bigger, more comfortable body for extended writing sessions.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Eyedropper with shut-off valve",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 72.00, currency: "USD", url: "https://www.amazon.com/s?k=Opus+88+Flora+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 75.00, currency: "USD", url: "https://www.gouletpens.com/collections/opus-88-flora", inStock: true, condition: "new" },
+        ],
+        msrp: 75,
+        yearIntroduced: 2020,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
