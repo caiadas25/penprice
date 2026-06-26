@@ -785,7 +785,7 @@ export const brands: Brand[] = [
     slug: "visconti",
     country: "Italy",
     description:
-      "Founded in 1988 in Florence, Visconti is known for innovative filling systems, stunning materials, and bold Italian design. Their Homo Sapiens line (made from volcanic lava) and Van Gogh series are legendary. They pioneered the use of acrylic resin and power-filling systems in modern fountain pens.",
+      "Founded in 1988 in Florence, Visconti is known for innovative filling systems, stunning materials, and bold Italian design. Their Homo Sapiens line (made from volcanic lava) and Van Gogh series are legendary.",
     website: "https://www.viscontipens.com",
     models: [
       {
@@ -793,7 +793,7 @@ export const brands: Brand[] = [
         name: "Homo Sapiens",
         slug: "homo-sapiens",
         description:
-          "Visconti's iconic flagship. The body is made from real volcanic lava from Mount Etna, giving it a unique matte texture and incredible durability. Features an 18k gold nib, power filler vacuum system, and magnetic cap. A truly unique writing instrument.",
+          "Visconti's iconic flagship. The body is made from real volcanic lava from Mount Etna, giving it a unique matte texture and incredible durability. Features an 18k gold nib, power filler vacuum system, and magnetic cap.",
         nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Double Broad"],
         fillingSystem: "Power Filler (vacuum)",
         material: "Volcanic lava resin / Bronze trim",
@@ -822,21 +822,90 @@ export const brands: Brand[] = [
         msrp: 195,
         yearIntroduced: 2010,
       },
+    ],
+  },
+  {
+    id: "taccia",
+    name: "Taccia",
+    slug: "taccia",
+    country: "Japan",
+    description:
+      "A Japanese brand known for stunning urushi lacquer finishes and unique design collaborations. Taccia pens combine traditional Japanese craftsmanship with modern writing performance. Their models are often inspired by Japanese art and culture.",
+    website: "https://www.taccia-pen.com",
+    models: [
       {
-        id: "visconti-divina",
-        name: "Divina",
-        slug: "divina",
+        id: "taccia-aurora",
+        name: "Aurora",
+        slug: "aurora",
         description:
-          "Inspired by the Divine Proportion (Golden Ratio). The barrel features a distinctive tapered shape based on Fibonacci spirals. Available in celluloid and acrylic resins with an 18k gold nib and power filler system.",
+          "A mid-range urushi lacquer pen with a 14k gold nib. The Aurora features Taccia's signature swirling urushi finish and a comfortable cigar-shaped body. An excellent introduction to Japanese urushi pens.",
         nibOptions: ["Fine", "Medium", "Broad"],
-        fillingSystem: "Power Filler (vacuum)",
-        material: "Celluloid / Acrylic resin",
+        fillingSystem: "Cartridge / Converter",
+        material: "Urushi lacquer / Ebonite",
         knownPrices: [
-          { retailer: "Amazon", price: 489.00, currency: "USD", url: "", inStock: true, condition: "new" },
-          { retailer: "Goldspot Pens", price: 549.00, currency: "USD", url: "https://www.goldspot.com/visconti/divina/", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 129.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 165.00, currency: "USD", url: "https://www.jetpens.com/Taccia-Aurora-Fountain-Pen/ct/18851", inStock: true, condition: "new" },
         ],
-        msrp: 595,
-        yearIntroduced: 2012,
+        msrp: 195,
+        yearIntroduced: 2015,
+      },
+      {
+        id: "taccia-spectrum",
+        name: "Spectrum",
+        slug: "spectrum",
+        description:
+          "An affordable resin pen with a steel nib. The Spectrum features Taccia's distinctive design language at a lower price point. Great for those who want Japanese quality without the urushi price tag.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 39.99, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 45.00, currency: "USD", url: "https://www.jetpens.com/Taccia-Spectrum-Fountain-Pen/ct/19000", inStock: true, condition: "new" },
+        ],
+        msrp: 45,
+        yearIntroduced: 2018,
+      },
+    ],
+  },
+  {
+    id: "nakaya",
+    name: "Nakaya",
+    slug: "nakaya",
+    country: "Japan",
+    description:
+      "One of the most prestigious fountain pen makers in the world. Nakaya is a small workshop in Tokyo that hand-makes each pen using traditional Japanese urushi lacquer techniques. Every Nakaya is a unique work of art, made to order.",
+    website: "https://www.nakaya.org",
+    models: [
+      {
+        id: "nakaya-portable-cigar",
+        name: "Portable Cigar",
+        slug: "portable-cigar",
+        description:
+          "Nakaya's most popular model. A cigar-shaped pen with a 14k gold nib and exquisite urushi lacquer finish. Each pen is handcrafted and can be ordered in dozens of lacquer styles, from simple solid colors to elaborate maki-e designs.",
+        nibOptions: ["Ultra Extra Fine", "Extra Fine", "Fine", "Medium", "Broad", "Soft Fine", "Soft Medium"],
+        fillingSystem: "Cartridge / Converter (or eyedropper)",
+        material: "Ebonite / Urushi lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 395.00, currency: "USD", url: "", inStock: true, condition: "new" },
+          { retailer: "Nakaya Direct", price: 480.00, currency: "USD", url: "https://www.nakaya.org/products/portable-cigar", inStock: true, condition: "new" },
+        ],
+        msrp: 480,
+        yearIntroduced: 1999,
+      },
+      {
+        id: "nakaya-decapitation-writer",
+        name: "Decapitation Writer",
+        slug: "decapitation-writer",
+        description:
+          "A large, flat-top pen with a posted cap that creates a long, balanced writing instrument. The name comes from the Japanese word for the flat-top design. Hand-finished in urushi lacquer with a 14k gold nib.",
+        nibOptions: ["Fine", "Medium", "Broad", "Music"],
+        fillingSystem: "Cartridge / Converter (or eyedropper)",
+        material: "Ebonite / Urushi lacquer",
+        knownPrices: [
+          { retailer: "Nakaya Direct", price: 520.00, currency: "USD", url: "https://www.nakaya.org/products/decapitation-writer", inStock: true, condition: "new" },
+        ],
+        msrp: 520,
+        yearIntroduced: 2001,
       },
     ],
   },

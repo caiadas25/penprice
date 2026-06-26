@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-filling-systems-explained",
+    title: "Fountain Pen Filling Systems Explained",
+    excerpt:
+      "Confused by cartridge vs piston vs vacuum? This guide breaks down every major filling system with pros, cons, ink capacities, and price comparisons.",
+    date: "2026-06-26",
+    category: "Technical Guide",
+  },
+  {
     slug: "best-fountain-pens-for-beginners",
     title: "Best Fountain Pens for Beginners in 2026",
     excerpt:
