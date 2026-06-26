@@ -51,14 +51,14 @@ export default function RootLayout({
                 Pen<span className="text-amber-400">Price</span>
               </span>
             </Link>
-            <nav className="ml-auto flex items-center gap-4 text-sm text-slate-400">
-              <Link href="/" className="hover:text-amber-400 transition-colors">
+          <nav className="ml-auto flex items-center gap-6 text-sm">
+              <Link href="/" className="text-slate-400 hover:text-amber-400 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                 Brands
               </Link>
-              <Link href="/blog" className="hover:text-amber-400 transition-colors">
+              <Link href="/blog" className="text-slate-400 hover:text-amber-400 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                 Guides
               </Link>
-              <Link href="/faq" className="hover:text-amber-400 transition-colors">
+              <Link href="/faq" className="text-slate-400 hover:text-amber-400 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                 FAQ
               </Link>
             </nav>
