@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pen-inks",
+    title: "Best Fountain Pen Inks in 2026",
+    excerpt:
+      "We tested 50+ fountain pen inks across 10 brands to find the 10 best for everyday writing, artistic expression, and permanent documents.",
+    date: "2026-06-26",
+    category: "Ink Guide",
+  },
+  {
     slug: "fountain-pen-filling-systems-explained",
     title: "Fountain Pen Filling Systems Explained",
     excerpt:
