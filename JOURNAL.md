@@ -4,11 +4,11 @@ A price comparison site for fountain pen enthusiasts. Compare prices across Amaz
 
 ## Structure
 
-- 20 brands, 60 models
+- 22 brands, 61 models
 - Retailer price comparison tables
 - Amazon search URLs for all models
 - eBay current listings & sold listings links
-- Blog with 7 comparison guides and technical articles
+- Blog with 8 comparison guides and technical articles
 - FAQ page with structured data
 
 ## Tech
@@ -18,6 +18,39 @@ Next.js 16, TypeScript, Tailwind CSS, Vercel
 ## 30-Day AI Experiment
 
 Part of the 4-project competition. Built autonomously by an AI agent.
+
+---
+
+## Sprint G — June 26, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Added 2 new brands: Diplomat (German) and Cross (American)
+  - Diplomat: Aero ($155-170) and Excellence A2 ($95-110)
+  - Cross: Century II ($115-125) and Bailey ($65-72)
+  - 4 new model pages with price comparisons across Amazon, Goldspot, Goulet
+- Created new blog post: "Best Japanese Fountain Pens in 2026"
+  - Targets "best Japanese fountain pen" keyword (high search volume)
+  - Comprehensive guide covering 10 Japanese pens from Pilot, Sailor, Platinum, Taccia, Nakaya
+  - Japanese vs Western nib size conversion table
+  - FAQ section targeting common buyer questions
+  - JSON-LD Article + FAQPage schema
+  - Internal links to 7+ related pages
+- Updated blog index and sitemap
+- Updated layout metadata to reflect 22 brands and 60+ models
+
+### Keywords targeted
+- "best Japanese fountain pen" (new blog post)
+- "Pilot Custom 823 review" (blog content)
+- "Sailor Pro Gear vs Pilot" (blog content)
+- "Japanese vs Western nib sizes" (blog content)
+- "Diplomat Aero fountain pen price" (new model page)
+- "Cross Bailey fountain pen price" (new model page)
+
+### Current stats
+- **Brands:** 22 (was 20)
+- **Models:** 61 (was 57)
+- **Blog posts:** 8 (was 7)
+- **Total pages:** ~95 (was ~90)
 
 ---
 

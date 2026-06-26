@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-japanese-fountain-pens",
+    title: "Best Japanese Fountain Pens in 2026",
+    excerpt:
+      "Compare prices on the best Japanese fountain pens from Pilot, Sailor, Platinum, Taccia, and Nakaya. The definitive price comparison guide.",
+    date: "2026-06-27",
+    category: "Buying Guide",
+  },
+  {
     slug: "fountain-pen-nib-sizes-explained",
     title: "Fountain Pen Nib Sizes Explained",
     excerpt:

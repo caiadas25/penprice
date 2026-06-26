@@ -1255,6 +1255,95 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "diplomat",
+    name: "Diplomat",
+    slug: "diplomat",
+    country: "Germany",
+    description:
+      "Founded in 1922 in Hamburg, Diplomat is a German manufacturer known for precision-engineered fountain pens with distinctive aluminum bodies. Their Aero and Excellence lines are popular among professionals who value German craftsmanship and smooth, reliable writing.",
+    website: "https://www.diplomat-pen.com",
+    models: [
+      {
+        id: "diplomat-aero",
+        name: "Aero",
+        slug: "aero",
+        description:
+          "Diplomat's iconic all-aluminum fountain pen with a distinctive grooved barrel design inspired by the Zeppelin airship. Features a steel nib with excellent ink flow and a satisfying snap cap. The Aero is lightweight yet feels substantial, and the matte finish resists fingerprints.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Aluminum",
+        knownPrices: [
+          { retailer: "Amazon", price: 155.00, currency: "USD", url: "https://www.amazon.com/s?k=Diplomat+Aero+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 170.00, currency: "USD", url: "https://www.goldspot.com/diplomat/aero/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 170.00, currency: "USD", url: "https://www.gouletpens.com/collections/diplomat-aero", inStock: true, condition: "new" },
+        ],
+        msrp: 170,
+        yearIntroduced: 2011,
+      },
+      {
+        id: "diplomat-excellence",
+        name: "Excellence A2",
+        slug: "excellence-a2",
+        description:
+          "Diplomat's flagship pen with a brushed metal barrel and a premium steel nib. The Excellence A2 features a weighted balance that sits perfectly in hand, a magnetic cap, and a distinctive red dot on the clip. A professional-grade pen at a competitive price.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass / Aluminum / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 95.00, currency: "USD", url: "https://www.amazon.com/s?k=Diplomat+Excellence+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 110.00, currency: "USD", url: "https://www.goldspot.com/diplomat/excellence/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 110.00, currency: "USD", url: "https://www.gouletpens.com/collections/diplomat-excellence", inStock: true, condition: "new" },
+        ],
+        msrp: 110,
+        yearIntroduced: 2015,
+      },
+    ],
+  },
+  {
+    id: "cross",
+    name: "Cross",
+    slug: "cross",
+    country: "United States",
+    description:
+      "Founded in 1846 in Providence, Rhode Island, Cross is America's oldest writing instrument manufacturer. Known for their Century and Bailey lines, Cross pens are a staple in corporate gifting and professional settings. The brand guarantees their writing instruments for life.",
+    website: "https://www.cross.com",
+    models: [
+      {
+        id: "cross-century-ii",
+        name: "Century II",
+        slug: "century-ii",
+        description:
+          "Cross's classic slim-profile fountain pen with a polished chrome or gold-filled finish. The Century II features a smooth steel nib and a comfortable twist-action mechanism. A timeless, understated design that has been a boardroom staple for decades.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass / Chrome or 10k Gold-filled",
+        knownPrices: [
+          { retailer: "Amazon", price: 115.00, currency: "USD", url: "https://www.amazon.com/s?k=Cross+Century+II+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 125.00, currency: "USD", url: "https://www.goldspot.com/cross/century-ii/", inStock: true, condition: "new" },
+        ],
+        msrp: 125,
+        yearIntroduced: 1990,
+      },
+      {
+        id: "cross-bailey",
+        name: "Bailey",
+        slug: "bailey",
+        description:
+          "Cross's popular mid-range fountain pen with a distinctive bulbous barrel and polished chrome accents. The Bailey features a comfortable grip and a smooth steel nib. Available in multiple lacquer colors, it offers a premium feel at an accessible price.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass / Lacquer / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 65.00, currency: "USD", url: "https://www.amazon.com/s?k=Cross+Bailey+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 72.00, currency: "USD", url: "https://www.goldspot.com/cross/bailey/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 72.00, currency: "USD", url: "https://www.gouletpens.com/collections/cross-bailey", inStock: true, condition: "new" },
+        ],
+        msrp: 72,
+        yearIntroduced: 2005,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
