@@ -1344,6 +1344,66 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "franklin-christoph",
+    name: "Franklin-Christoph",
+    slug: "franklin-christoph",
+    country: "United States",
+    description:
+      "Founded in 2001 in North Carolina, Franklin-Christoph is an American fountain pen maker known for their hand-turned acrylic bodies and excellent steel nibs. They sell direct-to-consumer, which keeps prices competitive. Their Model 02 and Model 03 are cult favorites among fountain pen enthusiasts.",
+    website: "https://www.franklin-christoph.com",
+    models: [
+      {
+        id: "fc-model-02",
+        name: "Model 02 Intrinsic",
+        slug: "model-02",
+        description:
+          "Franklin-Christoph's flagship pocket pen with a distinctive cigar shape and screw cap. The Model 02 features hand-turned acrylic bodies in stunning colors, a JoWo #5 steel nib, and a compact design that posts to full size. A cult classic.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Hand-turned acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 165.00, currency: "USD", url: "https://www.amazon.com/s?k=Franklin-Christoph+Model+02+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 165.00, currency: "USD", url: "https://www.goldspot.com/franklin-christoph/model-02/", inStock: true, condition: "new" },
+        ],
+        msrp: 165,
+        yearIntroduced: 2010,
+      },
+      {
+        id: "fc-model-03",
+        name: "Model 03 Iterum",
+        slug: "model-03",
+        description:
+          "A larger, full-size pen with the same hand-turned acrylic bodies as the Model 02. The Model 03 features a JoWo #6 nib (larger than the Model 02's #5), a comfortable grip section, and a clip for pocket carry. Available in dozens of stunning acrylic patterns.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1", "Music"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Hand-turned acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 185.00, currency: "USD", url: "https://www.amazon.com/s?k=Franklin-Christoph+Model+03+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 185.00, currency: "USD", url: "https://www.goldspot.com/franklin-christoph/model-03/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 185.00, currency: "USD", url: "https://www.gouletpens.com/collections/franklin-christoph", inStock: true, condition: "new" },
+        ],
+        msrp: 185,
+        yearIntroduced: 2012,
+      },
+      {
+        id: "fc-model-20",
+        name: "Model 20 Marietta",
+        slug: "model-20",
+        description:
+          "Franklin-Christoph's desk pen with a long, elegant body and a JoWo #5 nib. The Model 20 is designed for extended writing sessions at a desk, with a comfortable weight and balance. Available in classic black and special acrylic editions.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Hand-turned acrylic / Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 145.00, currency: "USD", url: "https://www.amazon.com/s?k=Franklin-Christoph+Model+20+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 145.00, currency: "USD", url: "https://www.goldspot.com/franklin-christoph/model-20/", inStock: true, condition: "new" },
+        ],
+        msrp: 145,
+        yearIntroduced: 2014,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

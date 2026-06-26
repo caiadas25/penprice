@@ -21,6 +21,36 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 
 ---
 
+## Sprint B — June 26, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Created new blog post: "Fountain Pen Maintenance Guide"
+  - Targets "fountain pen cleaning" and "fountain pen maintenance" keywords
+  - Complete cleaning instructions for cartridge, piston, and vacuum fillers
+  - Troubleshooting section with 4 common problems (hard starts, skipping, leaking, wet/dry)
+  - Ink-specific maintenance tips (Baystate Blue, shimmer, iron gall, pigmented)
+  - Storage guide with 4 rules
+  - FAQ section targeting "how often to clean fountain pen" and "can I fly with a fountain pen"
+  - JSON-LD Article + FAQPage schema
+  - Internal links to 4 related guides
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "fountain pen cleaning" (new blog post)
+- "fountain pen maintenance" (new blog post)
+- "how to clean a fountain pen" (blog content)
+- "fountain pen storage" (blog content)
+- "can I fly with a fountain pen" (FAQ content)
+- "fountain pen skipping fix" (troubleshooting content)
+
+### Current stats
+- **Brands:** 22 (unchanged)
+- **Models:** 61 (unchanged)
+- **Blog posts:** 9 (was 8)
+- **Total pages:** ~96 (was ~95)
+
+---
+
 ## Sprint G — June 26, 2026 (Growth Sprint — Deep Dive)
 
 ### What was done
