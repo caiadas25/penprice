@@ -58,6 +58,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/blog/fountain-pen-nib-sizes-explained`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/blog/twsbi-eco-vs-pilot-metropolitan`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,

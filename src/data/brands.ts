@@ -1146,6 +1146,115 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "parker",
+    name: "Parker",
+    slug: "parker",
+    country: "United Kingdom / France",
+    description:
+      "Founded in 1888 in Janesville, Wisconsin, Parker is one of the most iconic fountain pen brands in history. Known for the Duofold, Sonnet, and Jotter lines, Parker pens have been used by world leaders, writers, and professionals for over a century. Now owned by Newell Brands, Parker remains a top choice for those seeking classic design and reliable performance.",
+    website: "https://www.parkerpen.com",
+    models: [
+      {
+        id: "parker-jotter",
+        name: "Jotter",
+        slug: "jotter",
+        description:
+          "One of the most recognizable pens in the world. The Parker Jotter fountain pen features a stainless steel nib, a slim profile, and the iconic arrow clip. Originally a ballpoint introduced in 1954, the fountain pen version offers Parker quality at an accessible price point.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter (Quink)",
+        material: "Stainless steel / Brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 28.00, currency: "USD", url: "https://www.amazon.com/s?k=Parker+Jotter+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 32.00, currency: "USD", url: "https://www.goldspot.com/parker/jotter/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 32.00, currency: "USD", url: "https://www.gouletpens.com/collections/parker-jotter", inStock: true, condition: "new" },
+        ],
+        msrp: 32,
+        msrpUrl: "https://www.parkerpen.com/us/en/parker-jotter.html",
+        yearIntroduced: 1954,
+      },
+      {
+        id: "parker-sonnet",
+        name: "Sonnet",
+        slug: "sonnet",
+        description:
+          "Parker's mid-range premium pen with a 14k gold nib. The Sonnet is available in a stunning range of finishes from classic black to studded precious metal versions. It offers a smooth, wet writing experience that punches well above its price point.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass / Lacquer / Precious metals",
+        knownPrices: [
+          { retailer: "Amazon", price: 165.00, currency: "USD", url: "https://www.amazon.com/s?k=Parker+Sonnet+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 195.00, currency: "USD", url: "https://www.goldspot.com/parker/sonnet/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 195.00, currency: "USD", url: "https://www.gouletpens.com/collections/parker-sonnet", inStock: true, condition: "new" },
+        ],
+        msrp: 195,
+        msrpUrl: "https://www.parkerpen.com/us/en/parker-sonnet.html",
+        yearIntroduced: 1973,
+      },
+      {
+        id: "parker-duofold",
+        name: "Duofold",
+        slug: "duofold",
+        description:
+          "Parker's flagship luxury pen, first introduced in 1921. The Duofold is a symbol of prestige and craftsmanship, featuring an 18k gold nib, premium lacquer finishes, and the iconic oversized design. Used by world leaders and collectors, the Duofold is one of the most storied fountain pen lines in history.",
+        nibOptions: ["Fine", "Medium", "Broad", "Palladium Fine"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Precious resin / 18k gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 450.00, currency: "USD", url: "https://www.amazon.com/s?k=Parker+Duofold+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 550.00, currency: "USD", url: "https://www.goldspot.com/parker/duofold/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 550.00, currency: "USD", url: "https://www.gouletpens.com/collections/parker-duofold", inStock: true, condition: "new" },
+        ],
+        msrp: 550,
+        msrpUrl: "https://www.parkerpen.com/us/en/parker-duofold.html",
+        yearIntroduced: 1921,
+      },
+    ],
+  },
+  {
+    id: "sheaffer",
+    name: "Sheaffer",
+    slug: "sheaffer",
+    country: "United States",
+    description:
+      "Founded in 1913 in Fort Madison, Iowa, Sheaffer is one of America's oldest fountain pen brands. Known for pioneering the lever-filling mechanism and their distinctive white dot marking, Sheaffer pens have been trusted by writers and professionals for over a century. Today owned by Cross (A.T. Cross Company), Sheaffer continues to offer reliable, well-crafted pens at various price points.",
+    website: "https://www.sheaffer.com",
+    models: [
+      {
+        id: "sheaffer-100",
+        name: "100",
+        slug: "100",
+        description:
+          "Sheaffer's entry-level fountain pen with a steel nib and classic design. The Sheaffer 100 features the iconic white dot on the clip, a slim profile, and reliable performance. Available in a range of colors from classic black to bold blue and red.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass / Lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 39.99, currency: "USD", url: "https://www.amazon.com/s?k=Sheaffer+100+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 42.00, currency: "USD", url: "https://www.goldspot.com/sheaffer/100/", inStock: true, condition: "new" },
+        ],
+        msrp: 45,
+        yearIntroduced: 2010,
+      },
+      {
+        id: "sheaffer-prelude",
+        name: "Prelude",
+        slug: "prelude",
+        description:
+          "Sheaffer's mid-range offering with a stainless steel nib and premium lacquer finishes. The Prelude features a comfortable grip section, a distinctive tri-tone clip, and Sheaffer's hallmark white dot. A solid, dependable pen for everyday use.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass / Lacquer / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 65.00, currency: "USD", url: "https://www.amazon.com/s?k=Sheaffer+Prelude+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 72.00, currency: "USD", url: "https://www.goldspot.com/sheaffer/prelude/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 72.00, currency: "USD", url: "https://www.gouletpens.com/collections/sheaffer-prelude", inStock: true, condition: "new" },
+        ],
+        msrp: 72,
+        yearIntroduced: 2005,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

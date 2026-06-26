@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-nib-sizes-explained",
+    title: "Fountain Pen Nib Sizes Explained",
+    excerpt:
+      "From Extra Fine to Broad, learn what each nib size writes like. Japanese vs European sizing, steel vs gold, and the best pens for every nib size.",
+    date: "2026-06-27",
+    category: "Technical Guide",
+  },
+  {
     slug: "twsbi-eco-vs-pilot-metropolitan",
     title: "TWSBI Eco vs Pilot Metropolitan",
     excerpt:

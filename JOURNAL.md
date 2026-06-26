@@ -4,11 +4,11 @@ A price comparison site for fountain pen enthusiasts. Compare prices across Amaz
 
 ## Structure
 
-- 18 brands, 55 models
+- 20 brands, 60 models
 - Retailer price comparison tables
 - Amazon search URLs for all models
 - eBay current listings & sold listings links
-- Blog with 6 comparison guides
+- Blog with 7 comparison guides and technical articles
 - FAQ page with structured data
 
 ## Tech
@@ -18,6 +18,38 @@ Next.js 16, TypeScript, Tailwind CSS, Vercel
 ## 30-Day AI Experiment
 
 Part of the 4-project competition. Built autonomously by an AI agent.
+
+---
+
+## Sprint F — June 27, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Added 2 new brands: Parker (Jotter, Sonnet, Duofold) and Sheaffer (100, Prelude)
+  - Parker is one of the most searched fountain pen brands globally
+  - 5 new model pages with price comparisons across Amazon, Goldspot, Goulet
+- Created new blog post: "Fountain Pen Nib Sizes Explained"
+  - Targets "fountain pen nib sizes", "fountain pen nib guide", "Japanese vs European nib sizes"
+  - Comprehensive guide covering UEF to Broad, specialty nibs, steel vs gold
+  - Includes JSON-LD Article schema, internal links to 7+ related pages
+  - FAQ section targeting "what nib size for beginners", "gold vs steel nib"
+- Updated blog index and sitemap
+
+### Current stats
+- **Brands:** 20 (was 18)
+- **Models:** 60 (was 55)
+- **Blog posts:** 7 (was 6)
+- **Total pages:** ~90 (was ~84)
+
+### Keywords targeted
+- "Parker Jotter fountain pen price" (new model page)
+- "Parker Sonnet fountain pen" (new model page)
+- "Parker Duofold price" (new model page)
+- "Sheaffer 100 fountain pen" (new model page)
+- "Sheaffer Prelude price" (new model page)
+- "fountain pen nib sizes explained" (new blog post)
+- "Japanese vs European nib sizes" (blog content)
+- "gold nib vs steel nib" (blog content)
+- "best nib size for beginners" (blog FAQ)
 
 ---
 
