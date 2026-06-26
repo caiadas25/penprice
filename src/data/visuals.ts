@@ -36,6 +36,8 @@ export const brandVisual: Record<string, BrandVisual> = {
   montegrappa:   { color: "from-amber-500 to-yellow-600",  emoji: "🏔️", gradient: "hover:border-amber-500/50",    flag: "🇮🇹" },
   conklin:       { color: "from-amber-600 to-orange-600",  emoji: "🇺🇸", gradient: "hover:border-amber-600/50",    flag: "🇺🇸" },
   monteverde:    { color: "from-green-500 to-emerald-600", emoji: "🌿", gradient: "hover:border-green-500/50",    flag: "🇺🇸" },
+  esterbrook:    { color: "from-amber-500 to-yellow-500",  emoji: "✒️", gradient: "hover:border-amber-500/50",    flag: "🇺🇸" },
+  benu:          { color: "from-pink-500 to-fuchsia-600",  emoji: "💎", gradient: "hover:border-pink-500/50",     flag: "🇺🇸" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

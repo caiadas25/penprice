@@ -1681,6 +1681,109 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "esterbrook",
+    name: "Esterbrook",
+    slug: "esterbrook",
+    country: "United States",
+    description:
+      "Founded in 1858 in Camden, New Jersey, Esterbrook was one of America's most prolific pen makers. Revived in 2018, the modern Esterbrook blends vintage heritage with modern manufacturing. Known for the popular Estie and JR Pocket Pen.",
+    website: "https://www.esterbrookpens.com",
+    models: [
+      {
+        id: "esterbrook-estie",
+        name: "Estie",
+        slug: "estie",
+        description:
+          "Esterbrook's flagship pen. A modern cigar-shaped design with a smooth JoWo steel nib. Available in dozens of colors and special editions. The Estie oversized offers a larger body for those who prefer a bigger pen.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 175.00, currency: "USD", url: "https://www.amazon.com/s?k=Esterbrook+Estie+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 175.00, currency: "USD", url: "https://www.goldspot.com/esterbrook/estie/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 175.00, currency: "USD", url: "https://www.gouletpens.com/collections/esterbrook-estie", inStock: true, condition: "new" },
+        ],
+        msrp: 175,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "esterbrook-jr",
+        name: "JR Pocket Pen",
+        slug: "jr",
+        description:
+          "A compact pocket pen that posts to a comfortable full size. The JR features a JoWo steel nib and comes in fun, colorful resins. Perfect as an EDC fountain pen.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 75.00, currency: "USD", url: "https://www.amazon.com/s?k=Esterbrook+JR+Pocket+Pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 75.00, currency: "USD", url: "https://www.goldspot.com/esterbrook/jr/", inStock: true, condition: "new" },
+        ],
+        msrp: 75,
+        yearIntroduced: 2021,
+      },
+    ],
+  },
+  {
+    id: "benu",
+    name: "Benu",
+    slug: "benu",
+    country: "United States",
+    description:
+      "Benu pens are known for their bold, eye-catching resin designs. Each pen features a unique, vibrant color pattern and a smooth JoWo steel nib. Benu pens are conversation starters.",
+    website: "https://www.benupens.com",
+    models: [
+      {
+        id: "benu-euphoria",
+        name: "Euphoria",
+        slug: "euphoria",
+        description:
+          "Benu's flagship pen. A large, bold resin pen with a distinctive shape and vibrant colors. Each Euphoria is unique due to the resin pour process. Smooth JoWo steel nib. A statement pen.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 165.00, currency: "USD", url: "https://www.amazon.com/s?k=Benu+Euphoria+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 165.00, currency: "USD", url: "https://www.goldspot.com/benu/euphoria/", inStock: true, condition: "new" },
+        ],
+        msrp: 165,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "benu-talisman",
+        name: "Talisman",
+        slug: "talisman",
+        description:
+          "A slightly smaller pen than the Euphoria but equally vibrant. The Talisman features a cap with a decorative band and a comfortable grip section. Great for everyday writing with flair.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 135.00, currency: "USD", url: "https://www.amazon.com/s?k=Benu+Talisman+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 135.00, currency: "USD", url: "https://www.goldspot.com/benu/talisman/", inStock: true, condition: "new" },
+        ],
+        msrp: 135,
+        yearIntroduced: 2021,
+      },
+      {
+        id: "benu-pencils",
+        name: "Briolette",
+        slug: "briolette",
+        description:
+          "Benu's entry-level pen. A faceted resin body with a smooth steel nib. The Briolette offers Benu's signature bold design at a more accessible price point.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 85.00, currency: "USD", url: "https://www.amazon.com/s?k=Benu+Briolette+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 85.00, currency: "USD", url: "https://www.goldspot.com/benu/briolette/", inStock: true, condition: "new" },
+        ],
+        msrp: 85,
+        yearIntroduced: 2022,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

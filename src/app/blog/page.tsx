@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-vs-ballpoint",
+    title: "Fountain Pen vs Ballpoint Pen: Which Should You Choose?",
+    excerpt:
+      "Comprehensive comparison of fountain pens and ballpoint pens. Writing feel, ink cost, maintenance, and style — find out which is right for you.",
+    date: "2026-06-26",
+    category: "Comparison Guide",
+  },
+  {
     slug: "best-fountain-pens-under-100",
     title: "Best Fountain Pens Under $100 in 2026",
     excerpt:
