@@ -862,6 +862,118 @@ export const brands: Brand[] = [
         msrpUrl: "https://www.viscontipens.com/van-gogh/",
         yearIntroduced: 2010,
       },
+      {
+        id: "visconti-rembrandt",
+        name: "Rembrandt",
+        slug: "rembrandt",
+        description:
+          "A mid-range Visconti featuring their proprietary My Pen System (interchangeable cap top). Made from swirl acrylic resin with a stainless steel nib and a clip inspired by Rembrandt's era. A refined entry point to Visconti ownership.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Swirl acrylic resin / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 195.00, currency: "USD", url: "https://www.amazon.com/s?k=Visconti+Rembrandt+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 215.00, currency: "USD", url: "https://www.goldspot.com/visconti/rembrandt/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 215.00, currency: "USD", url: "https://www.gouletpens.com/search?q=visconti+rembrandt", inStock: true, condition: "new" },
+        ],
+        msrp: 225,
+        msrpUrl: "https://www.viscontipens.com/rembrandt/",
+        yearIntroduced: 2012,
+      },
+    ],
+  },
+  {
+    id: "leonardo",
+    name: "Leonardo",
+    slug: "leonardo",
+    country: "Italy",
+    description:
+      "Founded in 2018 in Florence, Leonardo Officina Italiana is a newer Italian pen maker founded by members of the former Delta team. Known for their vintage-inspired designs, large ink capacities, and excellent build quality at competitive prices.",
+    website: "https://www.leonardopen.com",
+    models: [
+      {
+        id: "leonardo-momento-zero",
+        name: "Momento Zero",
+        slug: "momento-zero",
+        description:
+          "Leonardo's flagship model. A large piston-filling fountain pen with a 14k gold nib and gorgeous acrylic resin barrel. Known for its massive ink capacity and comfortable writing experience. Available in dozens of stunning resin colors.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 179.00, currency: "USD", url: "https://www.amazon.com/s?k=Leonardo+Momento+Zero+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 199.00, currency: "USD", url: "https://www.goldspot.com/leonardo/momento-zero/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 199.00, currency: "USD", url: "https://www.gouletpens.com/search?q=leonardo+momento+zero", inStock: true, condition: "new" },
+        ],
+        msrp: 199,
+        msrpUrl: "https://www.leonardopen.com/momento-zero/",
+        yearIntroduced: 2019,
+      },
+      {
+        id: "leonardo-furore",
+        name: "Furore",
+        slug: "furore",
+        description:
+          "A cartridge/converter model with a steel nib at a lower price point than the Momento Zero. The Furore features Leonardo's signature resin colors and excellent nib tuning. Available in standard and ventidue (22) variants.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 89.00, currency: "USD", url: "https://www.amazon.com/s?k=Leonardo+Furore+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 105.00, currency: "USD", url: "https://www.goldspot.com/leonardo/furore/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 105.00, currency: "USD", url: "https://www.gouletpens.com/search?q=leonardo+furore", inStock: true, condition: "new" },
+        ],
+        msrp: 105,
+        msrpUrl: "https://www.leonardopen.com/furore/",
+        yearIntroduced: 2020,
+      },
+    ],
+  },
+  {
+    id: "waterman",
+    name: "Waterman",
+    slug: "waterman",
+    country: "France",
+    description:
+      "Founded in 1883 by Lewis Waterman in New York, the brand relocated to Paris and became one of France's most iconic pen makers. Now owned by Newell Brands, Waterman is known for sleek, understated European design and reliable writing performance at mid-range prices.",
+    website: "https://www.waterman.com",
+    models: [
+      {
+        id: "waterman-hemisphere",
+        name: "Hémisphère",
+        slug: "hemisphere",
+        description:
+          "Waterman's best-selling model. A slim, elegant fountain pen with a stainless steel nib and a polished metal body. The Hémisphère is lightweight and refined — a classic corporate gift pen that also happens to write very well.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Stainless steel / Lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 52.00, currency: "USD", url: "https://www.amazon.com/s?k=Waterman+Hemisphere+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 65.00, currency: "USD", url: "https://www.gouletpens.com/search?q=waterman+hemisphere", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 58.00, currency: "USD", url: "https://www.goldspot.com/waterman/hemisphere/", inStock: true, condition: "new" },
+        ],
+        msrp: 65,
+        msrpUrl: "https://www.waterman.com/hemisphere/",
+        yearIntroduced: 1999,
+      },
+      {
+        id: "waterman-expert",
+        name: "Expert",
+        slug: "expert",
+        description:
+          "A larger, more substantial pen than the Hémisphère with a wider barrel and a gold-plated stainless steel nib. The Expert features a classic cigar shape with a polished clip. A step up in presence and writing comfort.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Stainless steel / Lacquer / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 95.00, currency: "USD", url: "https://www.amazon.com/s?k=Waterman+Expert+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 115.00, currency: "USD", url: "https://www.gouletpens.com/search?q=waterman+expert", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 108.00, currency: "USD", url: "https://www.goldspot.com/waterman/expert/", inStock: true, condition: "new" },
+        ],
+        msrp: 115,
+        msrpUrl: "https://www.waterman.com/expert/",
+        yearIntroduced: 2003,
+      },
     ],
   },
   {
