@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-under-100",
+    title: "Best Fountain Pens Under $100 in 2026",
+    excerpt:
+      "The sweet spot for fountain pens. Compare prices on the Pilot Custom 74, TWSBI Diamond 580, Sailor Pro Gear Slim, Kaweco Dia2, and more.",
+    date: "2026-06-26",
+    category: "Buying Guide",
+  },
+  {
     slug: "best-fountain-pens-under-20",
     title: "Best Fountain Pens Under $20 in 2026",
     excerpt:

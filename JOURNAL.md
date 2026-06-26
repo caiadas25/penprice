@@ -2,33 +2,32 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
-## Sprint H — June 26, 2026 (Growth Sprint — Deep Dive)
+## Sprint I — June 26, 2026 (Growth Sprint — Deep Dive)
 
 ### What was done
-- Added 3 new brands (8 models total):
-  - **Jinhao** (3 models): X450, X750, 82 — ultra-budget Chinese pens ($4-$8)
-  - **Hongdian** (3 models): Forest Series, A1, Black Forest — budget Chinese pens ($13-$21)
-  - **Montegrappa** (2 models): Elmo 01, Parola — premium Italian pens ($135-$210)
-- Created `/blog/best-fountain-pens-under-20` — budget buying guide
-  - Targets "best fountain pens under 20" and "budget fountain pen" keywords
-  - 7 pen recommendations with live price links
-  - FAQ section with FAQPage schema
+- Added 2 new brands (8 models total):
+  - **Conklin** (3 models): Duragraph, Endura, All American — classic American pens ($48-$68)
+  - **Monteverde** (3 models): Ritma, Artista Crystal, Monza — affordable pens with innovative features ($18-$42)
+- Created `/blog/best-fountain-pens-under-100` — mid-range buying guide
+  - Targets "best fountain pens under 100" and "mid-range fountain pen" keywords
+  - 8 pen recommendations with live price links
+  - FAQ section with FAQPage schema (3 questions)
   - JSON-LD Article schema
-  - Internal links to brand pages, maintenance guide, other blog posts
-- Updated visuals.ts with brand colors/emoji for all 26 brands
+  - Internal links to brand pages, other blog posts, and price comparison pages
+- Updated visuals.ts with brand colors/emoji for all 28 brands
 - Updated blog index and sitemap
 
 ### Keywords targeted
-- "best fountain pens under 20" (new blog post)
-- "budget fountain pen" (blog content)
-- "Jinhao X450 price" (new model page)
-- "Hongdian Black Forest fountain pen" (new model page)
-- "Montegrappa Elmo price" (new model page)
+- "best fountain pens under 100" (new blog post)
+- "mid-range fountain pen" (blog content)
+- "Conklin Duragraph price" (new model page)
+- "Monteverde Ritma review" (new model page)
+- "Pilot Custom 74 price" (existing model, linked from blog)
 
 ### Current stats
-- **Brands:** 26 (was 23)
-- **Models:** 72 (was 64)
-- **Blog posts:** 10 (was 9)
+- **Brands:** 28 (was 26)
+- **Models:** 80 (was 72)
+- **Blog posts:** 11 (was 10)
 
 ## Structure
 

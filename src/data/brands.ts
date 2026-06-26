@@ -1561,6 +1561,126 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "conklin",
+    name: "Conklin",
+    slug: "conklin",
+    country: "United States",
+    description:
+      "Founded in 1898 by Roy Conklin in Toledo, Ohio. One of America's oldest pen manufacturers. Known for the Duragraph and Endura collections, and for pioneering the piston filling mechanism.",
+    website: "https://www.conklinpens.com",
+    models: [
+      {
+        id: "conklin-duragraph",
+        name: "Duragraph",
+        slug: "duragraph",
+        description:
+          "A robust demonstrator fountain pen with a faceted cap. The Duragraph offers a satisfying weight and smooth steel nib at a competitive price. Available in multiple resin colors.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 52.00, currency: "USD", url: "https://www.amazon.com/s?k=Conklin+Duragraph+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 54.00, currency: "USD", url: "https://www.gouletpens.com/collections/conklin-duragraph", inStock: true, condition: "new" },
+        ],
+        msrp: 55,
+        msrpUrl: "https://www.conklinpens.com/collections/duragraph",
+        yearIntroduced: 2014,
+      },
+      {
+        id: "conklin-endura",
+        name: "Endura",
+        slug: "endura",
+        description:
+          "A modern classic with an Art Deco-inspired design. The Endura features a sturdy metal body with a spring-loaded clip. Comfortable for extended writing sessions.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass with lacquer finish",
+        knownPrices: [
+          { retailer: "Amazon", price: 68.00, currency: "USD", url: "https://www.amazon.com/s?k=Conklin+Endura+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 70.00, currency: "USD", url: "https://www.gouletpens.com/collections/conklin-endura", inStock: true, condition: "new" },
+        ],
+        msrp: 75,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "conklin-all-american",
+        name: "All American",
+        slug: "all-american",
+        description:
+          "An oversized fountain pen that offers excellent value. The All American has a large #6 JoWo steel nib and generous ink capacity. Ideal for those who prefer a bigger pen.",
+        nibOptions: ["Fine", "Medium", "Broad", "Stub"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 48.00, currency: "USD", url: "https://www.amazon.com/s?k=Conklin+All+American+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 50.00, currency: "USD", url: "https://www.gouletpens.com/collections/conklin-all-american", inStock: true, condition: "new" },
+        ],
+        msrp: 55,
+        yearIntroduced: 2018,
+      },
+    ],
+  },
+  {
+    id: "monteverde",
+    name: "Monteverde",
+    slug: "monteverde",
+    country: "United States",
+    description:
+      "Founded in 1999, Monteverde (Yafa Brands) is known for affordable fountain pens with innovative features. Their Ritma and Artista Crystal lines offer premium feel at mid-range prices.",
+    website: "https://www.monteverdepens.com",
+    models: [
+      {
+        id: "monteverde-ritma",
+        name: "Ritma",
+        slug: "ritma",
+        description:
+          "A magnetic-capped fountain pen with a minimalist hexagonal metal body. The magnetic cap posts securely with a satisfying snap. Smooth JoWo steel nib. Excellent build quality for the price.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Stainless steel",
+        knownPrices: [
+          { retailer: "Amazon", price: 42.00, currency: "USD", url: "https://www.amazon.com/s?k=Monteverde+Ritma+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 45.00, currency: "USD", url: "https://www.gouletpens.com/collections/monteverde-ritma", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 44.00, currency: "USD", url: "https://www.jetpens.com/Monteverde-Ritma-Fountain-Pen/ct/7568", inStock: true, condition: "new" },
+        ],
+        msrp: 48,
+        yearIntroduced: 2020,
+      },
+      {
+        id: "monteverde-artista-crystal",
+        name: "Artista Crystal",
+        slug: "artista-crystal",
+        description:
+          "A clear demonstrator fountain pen with a comfortable ergonomic grip section. The Artista Crystal lets you watch ink flow through the feed. Great value for a demonstrator pen.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Clear acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 28.00, currency: "USD", url: "https://www.amazon.com/s?k=Monteverde+Artista+Crystal+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 30.00, currency: "USD", url: "https://www.gouletpens.com/collections/monteverde-artista-crystal", inStock: true, condition: "new" },
+        ],
+        msrp: 32,
+        yearIntroduced: 2018,
+      },
+      {
+        id: "monteverde-monza",
+        name: "Monza",
+        slug: "monza",
+        description:
+          "An affordable entry-level fountain pen with a classic cigar shape. The Monza is a great starter pen with a smooth steel nib and reliable converter system.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 18.00, currency: "USD", url: "https://www.amazon.com/s?k=Monteverde+Monza+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 19.00, currency: "USD", url: "https://www.gouletpens.com/collections/monteverde-monza", inStock: true, condition: "new" },
+        ],
+        msrp: 20,
+        yearIntroduced: 2021,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
