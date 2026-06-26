@@ -4,7 +4,7 @@ A price comparison site for fountain pen enthusiasts. Compare prices across Amaz
 
 ## Structure
 
-- 12 brands, 42 models
+- 14 brands, 46 models
 - Retailer price comparison tables
 - eBay current listings & sold listings links
 - Amazon search links
@@ -21,76 +21,47 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 
 ---
 
-## Sprint B — June 26, 2026 (Growth Sprint)
+## Sprint A — June 26, 2026 (Growth Sprint — Deep Dive)
 
 ### What was done
-- Added new brand: Visconti (3 models: Homo Sapiens, Van Gogh, Divina)
-  - Italian luxury brand, highly searched by fountain pen enthusiasts
-  - Homo Sapiens: volcanic lava body, power filler system
-  - Van Gogh: swirl acrylic, accessible price point
-  - Divina: Golden Ratio design, celluloid body
-- Created `/blog/best-fountain-pens-for-beginners` — comprehensive beginner guide
-  - Targets high-volume keyword "best fountain pen for beginners"
-  - Top 10 pen picks with category labels
-  - Nib size comparison table (Japanese vs Western)
-  - Filling system explainer
+- Added 2 new Japanese brands: Taccia (2 models) and Nakaya (2 models)
+  - Taccia: Aurora (urushi lacquer), Spectrum (affordable resin)
+  - Nakaya: Portable Cigar, Decapitation Writer (handmade urushi)
+- Created `/blog/fountain-pen-filling-systems-explained` — comprehensive guide
+  - Targets "fountain pen filling systems" and "cartridge vs piston" keywords
+  - Covers 5 systems: Cartridge/Converter, Piston, Vacuum, Eyedropper, Lever
+  - Quick comparison table, pros/cons, capacity data, linked pens
   - JSON-LD Article schema
-- Created `/faq` page — 12 common questions about fountain pens
-  - Targets "fountain pen FAQ" and long-tail questions
-  - JSON-LD FAQPage schema for rich snippets
-  - Internal links to guides and brand pages
-- Updated blog index with new beginner guide
-- Updated sitemap with new blog post and FAQ page
-- Added FAQ link to navigation
+- Updated blog index with new filling systems post
+- Updated sitemap with new blog entry
 
 ### Keywords targeted
-- "best fountain pen for beginners" (new blog post)
-- "fountain pen FAQ" (new FAQ page)
-- "Visconti Homo Sapiens price" (new model page)
-- "Visconti Van Gogh price" (new model page)
-- "how to choose a fountain pen" (FAQ content)
-- "fountain pen nib sizes explained" (FAQ content)
+- "fountain pen filling systems" (new blog post)
+- "cartridge vs piston fountain pen" (blog content)
+- "fountain pen ink capacity comparison" (blog content)
+- "Taccia Aurora fountain pen price" (new model page)
+- "Nakaya Portable Cigar price" (new model page)
 
 ### Pages added/optimized
-- NEW: `/blog/best-fountain-pens-for-beginners` (Article schema)
-- NEW: `/faq` (FAQPage schema)
-- NEW: `/brands/visconti` (brand page)
-- NEW: `/brands/visconti/homo-sapiens` (model page)
-- NEW: `/brands/visconti/van-gogh` (model page)
-- NEW: `/brands/visconti/divina` (model page)
+- NEW: `/blog/fountain-pen-filling-systems-explained` (Article schema)
+- NEW: `/brands/taccia` (brand page)
+- NEW: `/brands/taccia/aurora` (model page)
+- NEW: `/brands/taccia/spectrum` (model page)
+- NEW: `/brands/nakaya` (brand page)
+- NEW: `/brands/nakaya/portable-cigar` (model page)
+- NEW: `/brands/nakaya/decapitation-writer` (model page)
 - UPDATED: Blog index (new entry)
 - UPDATED: Sitemap (new entries)
-- UPDATED: Navigation (FAQ link)
-- UPDATED: Layout metadata (added "50+ models" count)
 
 ### Current stats
-- **Brands:** 12 (was 11)
-- **Models:** 42 (was 39)
-- **Blog posts:** 2 (was 1)
-- **FAQ page:** 1 (new)
-- **JSON-LD schemas:** WebSite (homepage) + Article (2 blog posts) + FAQPage (FAQ)
+- **Brands:** 14 (was 12)
+- **Models:** 46 (was 42)
+- **Blog posts:** 3 (was 2)
+- **FAQ page:** 1
+- **JSON-LD schemas:** WebSite (homepage) + Article (3 blog posts) + FAQPage (FAQ)
 
 ### Next steps
-- Add more Japanese brands (Taccia, Nakaya)
 - Add more retailer-specific Amazon/eBay URLs to knownPrices
 - Post on r/fountainpens about the price comparison tool
 - Submit to Google Search Console
-
----
-
-## Sprint A — June 26, 2026
-
-### What was done
-- Added 2 new brands: Noodler's Ink (4 models) and Aurora (3 models)
-- Created `/blog` with index page and first article: "Best Fountain Pens Under $50"
-- Added JSON-LD WebSite structured data to homepage
-- Added Blog/Guides link to nav
-- Added "Other Brands" internal linking grid on every brand page
-- Updated sitemap with blog entries
-- Fixed broken HTML tags in layout nav
-
-### Current stats
-- **Brands:** 11 (was 9)
-- **Models:** 39 (was 32)
-- **Blog posts:** 1
-- **JSON-LD schemas:** WebSite (homepage) + Article (blog post)
+- Add more Italian brands (Delta, Omas)
