@@ -2,6 +2,30 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
+## Sprint II — June 26, 2026 (Growth Sprint — Deep Dive)
+
+### What was done
+- Added 2 new brands (5 models total):
+  - **Esterbrook** (2 models): Estie, JR Pocket Pen — revived American heritage brand ($75-$175)
+  - **Benu** (3 models): Euphoria, Talisman, Briolette — bold, eye-catching resin designs ($85-$165)
+- Created `/blog/fountain-pen-vs-ballpoint` — comparison guide
+  - Targets "fountain pen vs ballpoint" and "fountain pen or ballpoint" keywords
+  - Comparison table, writing experience, cost analysis, who-should-choose sections
+  - JSON-LD Article schema, internal links to beginner guides and other posts
+- Updated visuals.ts with brand colors/emoji for all 30 brands
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "fountain pen vs ballpoint" (new blog post)
+- "fountain pen or ballpoint" (blog content)
+- "Esterbrook Estie price" (new model page)
+- "Benu Euphoria fountain pen" (new model page)
+
+### Current stats
+- **Brands:** 30 (was 28)
+- **Models:** 85 (was 80)
+- **Blog posts:** 13 (was 11)
+
 ## Sprint I — June 26, 2026 (Growth Sprint — Deep Dive)
 
 ### What was done
