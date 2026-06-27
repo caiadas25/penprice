@@ -2094,6 +2094,92 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "caran-dache",
+    name: "Caran d'Ache",
+    slug: "caran-dache",
+    country: "Switzerland",
+    description:
+      "Swiss luxury writing instruments since 1915. Caran d'Ache is known for their meticulous craftsmanship, vibrant colors, and premium materials. Their fountain pens are works of art with exceptional nib quality.",
+    website: "https://www.carandache.com/ch/en",
+    models: [
+      {
+        id: "caran-dache-ecridor",
+        name: "Ecridor",
+        slug: "ecridor",
+        description:
+          "A sleek, modern hexagonal fountain pen with a rhodium-plated finish. The Ecridor combines Swiss precision with contemporary design. The 18k gold nib provides a smooth, consistent writing experience.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Rhodium-plated brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 250.00, currency: "USD", url: "https://www.amazon.com/s?k=Caran+d%27Ache+Ecridor+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 295.00, currency: "USD", url: "https://www.goldspot.com/caran-dache/ecridor/", inStock: true, condition: "new" },
+        ],
+        msrp: 310,
+        yearIntroduced: 2003,
+      },
+      {
+        id: "caran-dache-leman",
+        name: "Léman",
+        slug: "leman",
+        description:
+          "The Léman is Caran d'Ache's flagship fountain pen, featuring a rounded barrel with lacquer finish and an 18k gold nib. Named after Lake Geneva, it embodies Swiss luxury and craftsmanship.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Lacquered brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 385.00, currency: "USD", url: "https://www.amazon.com/s?k=Caran+d%27Ache+Leman+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 425.00, currency: "USD", url: "https://www.goldspot.com/caran-dache/leman/", inStock: true, condition: "new" },
+        ],
+        msrp: 450,
+        yearIntroduced: 2000,
+      },
+    ],
+  },
+  {
+    id: "rotring",
+    name: "Rotring",
+    slug: "rotring",
+    country: "Germany",
+    description:
+      "German precision writing instruments since 1928. Rotring is famous for their technical drawing pens and the iconic 600 and 800 series fountain pens with their distinctive hexagonal barrels and red ring detail.",
+    website: "https://www.rotring.com",
+    models: [
+      {
+        id: "rotring-600",
+        name: "600",
+        slug: "600",
+        description:
+          "The Rotring 600 is a precision-engineered fountain pen with a brass body and hexagonal barrel that prevents rolling. The knurled grip section and red ring detail are iconic design elements. A favorite among architects and engineers.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 99.99, currency: "USD", url: "https://www.amazon.com/s?k=Rotring+600+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 110.00, currency: "USD", url: "https://www.jetpens.com/Rotring-600-Fountain-Pen/ct/3090", inStock: true, condition: "new" },
+        ],
+        msrp: 120,
+        yearIntroduced: 1988,
+      },
+      {
+        id: "rotring-800",
+        name: "800",
+        slug: "800",
+        description:
+          "The premium Rotring 800 features a retractable nib mechanism (a rare feature in fountain pens) and a brass body with a weightier feel than the 600. The retractable nib protects it during travel.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 195.00, currency: "USD", url: "https://www.amazon.com/s?k=Rotring+800+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 210.00, currency: "USD", url: "https://www.jetpens.com/Rotring-800-Fountain-Pen/ct/6605", inStock: true, condition: "new" },
+        ],
+        msrp: 230,
+        yearIntroduced: 1990,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
