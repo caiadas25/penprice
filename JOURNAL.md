@@ -2,6 +2,36 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
+## Sprint C/D (Round 4) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+
+### What was done
+- Added 2 new brands (4 models total):
+  - **Caran d'Ache** (Switzerland): Ecridor ($250), Léman ($385) — Swiss luxury writing instruments
+  - **Rotring** (Germany): 600 ($100), 800 ($195) — precision technical fountain pens
+- Created `/blog/rotring-600-vs-lamy-safari` — comparison post targeting "Rotring 600 vs Lamy Safari" keyword
+  - Full feature comparison table (12 features)
+  - Price comparison from Amazon, JetPens, Goulet Pens
+  - Quick verdict with "choose X if" decision guide
+  - FAQ with 2 questions and FAQPage schema
+  - Article JSON-LD schema
+  - Internal links to model pages and related comparisons
+- Updated visuals.ts with brand colors for Caran d'Ache and Rotring
+- Updated blog index, sitemap, and layout metadata (39 brands, 102+ models)
+
+### Keywords targeted
+- "Caran d'Ache Ecridor price" (new model page)
+- "Caran d'Ache Léman fountain pen" (new model page)
+- "Rotring 600 fountain pen price" (new model page)
+- "Rotring 800 vs 600" (new model page)
+- "Rotring 600 vs Lamy Safari" (new blog post — high-volume comparison)
+- "best pen for technical drawing" (blog content)
+- "brass fountain pen" (blog content)
+
+### Current stats
+- **Brands:** 39 (was 37)
+- **Models:** 102 (was 98)
+- **Blog posts:** 19 (was 18)
+
 ## Sprint B (Round 4) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
 
 ### What was done
