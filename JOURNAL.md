@@ -83,3 +83,22 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 - JSON-LD Article schema on new blog post
 - Keyword-rich title: "Best Fountain Pens Under $200 in 2026 — Premium Value Guide | PenPrice"
 - Meta description targeting multiple retailer names (Amazon, JetPens, Goulet Pens, Goldspot)
+
+## Sprint B — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added new blog post: "Best Fountain Pens for Left-Handed Writers in 2026"
+- Targets niche but high-intent keyword
+- JSON-LD Article schema
+- 7 pen recommendations with writing tips specific to left-handed users
+- Fixed blog index and sitemap merge issues
+- Updated sitemap with new post
+
+### Keywords targeted
+- "best fountain pens for left-handed writers"
+- "left-handed fountain pen"
+- "fountain pen smudge left hand"
+
+### Current stats
+- **Brands:** 30
+- **Models:** 85+
+- **Blog posts:** 16 (was 15)
