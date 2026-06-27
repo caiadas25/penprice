@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-students",
+    title: "Best Fountain Pens for Students in 2026",
+    excerpt: "Budget-friendly fountain pens for students compared by durability, ink capacity, and price. Pilot Metropolitan, Lamy Safari, TWSBI Eco, and more.",
+    date: "2026-06-27",
+    category: "Buying Guide",
+  },
+  {
     slug: "pilot-custom-823-vs-sailor-pro-gear",
     title: "Pilot Custom 823 vs Sailor Pro Gear — Gold Nib Showdown",
     excerpt: "Two Japanese gold nib icons compared. Vacuum filler vs cartridge, 14k vs 21k gold, smooth writer vs pencil-like feedback. Full comparison with prices.",

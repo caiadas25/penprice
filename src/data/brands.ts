@@ -2281,6 +2281,98 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "wancher",
+    name: "Wancher",
+    slug: "wancher",
+    country: "Japan",
+    description:
+      "Founded in 1915, Wancher is a Japanese pen maker known for affordable, well-crafted fountain pens with interesting filling systems. Their Dream Pen and Storia models are popular among enthusiasts seeking Japanese quality at accessible prices.",
+    website: "https://www.wancherpen.com",
+    models: [
+      {
+        id: "wancher-dream-pen",
+        name: "Dream Pen",
+        slug: "dream-pen",
+        description:
+          "A piston-filling fountain pen with a 14k gold nib. The Dream Pen offers smooth writing, generous ink capacity, and a classic Japanese aesthetic. Available in multiple resin colors with a comfortable, well-balanced body.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 120.00, currency: "USD", url: "https://www.amazon.com/s?k=Wancher+Dream+Pen+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 125.00, currency: "USD", url: "https://www.jetpens.com/Wancher-Dream-Pen-Fountain-Pen/ct/6254", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 129.00, currency: "USD", url: "https://www.gouletpens.com/collections/wancher-dream-pen", inStock: true, condition: "new" },
+        ],
+        msrp: 130.00,
+        msrpUrl: "https://www.wancherpen.com",
+        yearIntroduced: 2010,
+      },
+      {
+        id: "wancher-storia",
+        name: "Storia",
+        slug: "storia",
+        description:
+          "An affordable piston-filling fountain pen with a steel nib. The Storia is Wancher's entry-level pen, offering excellent value with a comfortable grip and smooth writing experience. Popular among students and beginners.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Piston",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 85.00, currency: "USD", url: "https://www.amazon.com/s?k=Wancher+Storia+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 89.00, currency: "USD", url: "https://www.jetpens.com/Wancher-Storia-Fountain-Pen/ct/6255", inStock: true, condition: "new" },
+        ],
+        msrp: 90.00,
+        msrpUrl: "https://www.wancherpen.com",
+        yearIntroduced: 2015,
+      },
+    ],
+  },
+  {
+    id: "bexley",
+    name: "Bexley",
+    slug: "bexley",
+    country: "USA",
+    description:
+      "Bexley is an American fountain pen manufacturer known for their classic, well-built pens with a focus on American craftsmanship. Their President and Ohio models are favorites among pen enthusiasts for their vintage aesthetics and reliable performance.",
+    website: "https://www.bexleypens.com",
+    models: [
+      {
+        id: "bexley-president",
+        name: "The President",
+        slug: "the-president",
+        description:
+          "A classic American fountain pen with a 14k gold nib and piston filling system. The President features a traditional cigar shape with a brushed metal finish, offering a premium writing experience at a mid-range price.",
+        nibOptions: ["Fine", "Medium", "Broad", "Stub"],
+        fillingSystem: "Piston",
+        material: "Brass / Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 200.00, currency: "USD", url: "https://www.amazon.com/s?k=Bexley+President+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 210.00, currency: "USD", url: "https://www.gouletpens.com/collections/bexley-president", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 199.95, currency: "USD", url: "https://www.goldspot.com/bexley/president/", inStock: true, condition: "new" },
+        ],
+        msrp: 225.00,
+        msrpUrl: "https://www.bexleypens.com",
+        yearIntroduced: 2008,
+      },
+      {
+        id: "bexley-ohio",
+        name: "Ohio",
+        slug: "ohio",
+        description:
+          "A compact, lightweight fountain pen with a steel nib and cartridge/converter filling system. The Ohio is Bexley's entry-level pen, offering American-made quality at an accessible price point.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 150.00, currency: "USD", url: "https://www.amazon.com/s?k=Bexley+Ohio+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 155.00, currency: "USD", url: "https://www.gouletpens.com/collections/bexley-ohio", inStock: true, condition: "new" },
+        ],
+        msrp: 160.00,
+        msrpUrl: "https://www.bexleypens.com",
+        yearIntroduced: 2012,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

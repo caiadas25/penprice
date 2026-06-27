@@ -2,6 +2,41 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
+## Sprint A (Round 6) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added 2 new brands (4 models total):
+  - **Wancher** (Japan): Dream Pen ($120), Storia ($85) — affordable Japanese fountain pens with interesting filling systems
+  - **Bexley** (USA): The President ($200), Ohio ($150) — classic American fountain pens with vintage aesthetics
+- Created `/blog/best-fountain-pens-for-students` — comprehensive guide targeting "best fountain pens for students" keyword
+  - 7 pen recommendations with price comparisons across retailers
+  - "What to Look For in a Student Pen" section (durability, ink capacity, nib size, price)
+  - 3 FAQ questions with FAQPage structured data (JSON-LD)
+  - Article JSON-LD schema
+  - Internal links to 4 related guides (beginners, under-50, nib sizes, vs gel pen)
+- Updated visuals.ts with brand colors for Wancher and Bexley
+- Updated blog index and sitemap
+- Updated layout metadata: 43 brands, 111+ models
+
+### Keywords targeted
+- "best fountain pen for students" (new blog post — high-intent keyword)
+- "best fountain pen for students 2026" (blog content)
+- "fountain pen for school" (blog content)
+- "best affordable fountain pen" (blog content)
+- "Pilot Metropolitan for students" (pen recommendation)
+- "Lamy Safari for students" (pen recommendation)
+- "TWSBI Eco for students" (pen recommendation)
+- "Platinum Preppy for students" (pen recommendation)
+- "Kaweco Sport for students" (pen recommendation)
+- "Jinhao X450 for students" (pen recommendation)
+- "Faber-Castell Loom for students" (pen recommendation)
+
+### Current stats
+- **Brands:** 43 (was 41)
+- **Models:** 111+ (was 107+)
+- **Blog posts:** 21 (was 20)
+
+---
+
 ## Sprint A (Round 5) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
 
 ### What was done
