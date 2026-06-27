@@ -370,7 +370,7 @@ export default function BestFountainPensForJournalingPage() {
                     href="/blog/best-fountain-pen-inks"
                     className="text-amber-400 hover:underline"
                   >
-                    Noodler's Heart of Darkness
+                    Noodler&apos;s Heart of Darkness
                   </Link>{" "}
                   are great if you want smudge-proof entries. Dye-based inks
                   like Pilot Iroshizuku are easier to clean and come in beautiful
