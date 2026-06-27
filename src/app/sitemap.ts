@@ -34,6 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/blog/pilot-custom-823-vs-sailor-pro-gear`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/blog/best-fountain-pens-under-300`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,

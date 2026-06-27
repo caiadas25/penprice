@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "pilot-custom-823-vs-sailor-pro-gear",
+    title: "Pilot Custom 823 vs Sailor Pro Gear — Gold Nib Showdown",
+    excerpt: "Two Japanese gold nib icons compared. Vacuum filler vs cartridge, 14k vs 21k gold, smooth writer vs pencil-like feedback. Full comparison with prices.",
+    date: "2026-06-27",
+    category: "Comparison",
+  },
+  {
     slug: "rotring-600-vs-lamy-safari",
     title: "Rotring 600 vs Lamy Safari — Technical Pen Showdown",
     excerpt: "Two iconic precision fountain pens compared. Brass vs plastic, knurled metal vs triangular grip. Full feature and price comparison.",

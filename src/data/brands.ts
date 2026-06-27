@@ -2180,6 +2180,107 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "asvine",
+    name: "Asvine",
+    slug: "asvine",
+    country: "China",
+    description:
+      "Asvine is a Chinese fountain pen manufacturer that has gained a cult following for producing high-quality piston-filling pens at remarkably affordable prices. Their C80 and P36 models are widely praised for smooth nibs and solid build quality that rivals pens costing three times as much.",
+    website: "https://www.amazon.com/stores/ASVINE/page/D8C1E2AD-783A-4FC2-B0C7-39D5B3E5D8A8",
+    models: [
+      {
+        id: "asvine-c80",
+        name: "C80",
+        slug: "c80",
+        description:
+          "A piston-filling fountain pen with a 14k gold-plated steel nib. The C80 features a frosted acrylic body in multiple colors and a smooth piston mechanism. Often compared to pens costing $100+.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 35.99, currency: "USD", url: "https://www.amazon.com/s?k=Asvine+C80+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 18.00, currency: "USD", url: "https://www.amazon.com/s?k=Asvine+C80+fountain+pen+used", inStock: true, condition: "used" },
+        ],
+        msrp: 39.99,
+        yearIntroduced: 2023,
+      },
+      {
+        id: "asvine-p36",
+        name: "P36",
+        slug: "p36",
+        description:
+          "A compact piston-filling pocket pen with a stainless steel nib. The P36 is known for its smooth writing experience and excellent value. Features a sleek, modern design with an acrylic body.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Piston",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 29.99, currency: "USD", url: "https://www.amazon.com/s?k=Asvine+P36+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Amazon", price: 15.00, currency: "USD", url: "https://www.amazon.com/s?k=Asvine+P36+fountain+pen+used", inStock: true, condition: "used" },
+        ],
+        msrp: 34.99,
+        yearIntroduced: 2023,
+      },
+    ],
+  },
+  {
+    id: "penbbs",
+    name: "PenBBS",
+    slug: "penbbs",
+    country: "China",
+    description:
+      "PenBBS is a Chinese stationery company that started as an online forum for fountain pen enthusiasts before launching their own line of pens. Known for beautiful acrylic bodies, smooth nibs, and innovative filling systems, PenBBS pens are a favorite among budget-conscious collectors.",
+    website: "https://www.penbbs.com",
+    models: [
+      {
+        id: "penbbs-456",
+        name: "456",
+        slug: "456",
+        description:
+          "A vacuum-filling fountain pen with a #6 steel nib. The 456 features stunning acrylic bodies in dozens of colorways and a unique vacuum filling mechanism that holds a large ink capacity.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1"],
+        fillingSystem: "Vacuum",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 45.00, currency: "USD", url: "https://www.amazon.com/s?k=PenBBS+456+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "PenBBS", price: 39.00, currency: "USD", url: "https://www.penbbs.com/product/penbbs-456", inStock: true, condition: "new" },
+        ],
+        msrp: 45.00,
+        yearIntroduced: 2020,
+      },
+      {
+        id: "penbbs-355",
+        name: "355",
+        slug: "355",
+        description:
+          "A piston-filling fountain pen with a #6 steel nib. The 355 is PenBBS's most popular model, offering smooth piston operation, beautiful acrylic bodies, and a comfortable writing experience at an unbeatable price.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 32.00, currency: "USD", url: "https://www.amazon.com/s?k=PenBBS+355+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "PenBBS", price: 28.00, currency: "USD", url: "https://www.penbbs.com/product/penbbs-355", inStock: true, condition: "new" },
+        ],
+        msrp: 32.00,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "penbbs-323",
+        name: "323",
+        slug: "323",
+        description:
+          "A lever-filling fountain pen with a fine steel nib. The 323 features a compact, retro-inspired design with a metal body and is one of the most affordable entry points into the PenBBS ecosystem.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Lever",
+        material: "Metal / Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 18.00, currency: "USD", url: "https://www.amazon.com/s?k=PenBBS+323+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 20.00,
+        yearIntroduced: 2021,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

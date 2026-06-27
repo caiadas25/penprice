@@ -47,6 +47,8 @@ export const brandVisual: Record<string, BrandVisual> = {
   stipula:       { color: "from-teal-600 to-emerald-700",  emoji: "🏛️", gradient: "hover:border-teal-600/50",    flag: "🇮🇹" },
   "caran-dache":  { color: "from-rose-600 to-red-700",     emoji: "🎨", gradient: "hover:border-rose-600/50",    flag: "🇨🇭" },
   rotring:       { color: "from-red-600 to-stone-700",     emoji: "📐", gradient: "hover:border-red-600/50",     flag: "🇩🇪" },
+  asvine:        { color: "from-emerald-500 to-teal-600",  emoji: "✒️", gradient: "hover:border-emerald-500/50", flag: "🇨🇳" },
+  penbbs:        { color: "from-purple-500 to-indigo-600", emoji: "📝", gradient: "hover:border-purple-500/50",  flag: "🇨🇳" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

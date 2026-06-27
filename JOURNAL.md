@@ -2,6 +2,36 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
+## Sprint A (Round 5) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+
+### What was done
+- Added 2 new brands (5 models total):
+  - **Asvine** (China): C80 ($36), P36 ($30) — cult-favorite budget piston fillers
+  - **PenBBS** (China): 456 ($45), 355 ($32), 323 ($18) — forum-born Chinese pen maker with stunning acrylics
+- Created `/blog/pilot-custom-823-vs-sailor-pro-gear` — comparison post targeting high-volume keyword
+  - 12-feature comparison table
+  - Quick verdict with "choose X if" decision guide
+  - FAQ with 2 questions and FAQPage structured data
+  - Article JSON-LD schema
+  - Internal links to related comparisons
+- Updated visuals.ts with brand colors for Asvine and PenBBS
+- Updated blog index, sitemap, and layout metadata
+
+### Keywords targeted
+- "Pilot Custom 823 vs Sailor Pro Gear" (new blog post — high-volume comparison)
+- "Asvine C80 fountain pen price" (new model page)
+- "PenBBS 456 price" (new model page)
+- "PenBBS 355 review" (new model page)
+- "best budget fountain pen China" (blog content)
+- "vacuum filler fountain pen under $50" (blog content)
+
+### Current stats
+- **Brands:** 41 (was 39)
+- **Models:** 107+ (was 102)
+- **Blog posts:** 20 (was 19)
+
+---
+
 ## Sprint C/D (Round 4) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
 
 ### What was done
