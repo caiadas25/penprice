@@ -1989,6 +1989,111 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "namiki",
+    name: "Namiki",
+    slug: "namiki",
+    country: "Japan",
+    description:
+      "Namiki is Pilot's ultra-luxury brand, featuring hand-applied Maki-e lacquer art. Each pen is a wearable work of art, with prices ranging from hundreds to tens of thousands of dollars. Namiki represents the pinnacle of Japanese pen craftsmanship.",
+    website: "https://www.pilot-namiki.com",
+    models: [
+      {
+        id: "namiki-yukari",
+        name: "Yukari",
+        slug: "yukari",
+        description:
+          "The Yukari is Namiki's most popular luxury pen, featuring intricate Maki-e lacquer artwork depicting seasonal themes like cherry blossoms, Mt. Fuji, and cranes. Made with a 14k gold nib and brass body beneath layers of lacquer.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass with Maki-e lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 250.00, currency: "USD", url: "https://www.amazon.com/s?k=Namiki+Yukari+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 280.00, currency: "USD", url: "https://www.jetpens.com/Namiki-Yukari-Fountain-Pen/ct/4468", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 299.95, currency: "USD", url: "https://www.gouletpens.com/collections/namiki-yukari", inStock: true, condition: "new" },
+        ],
+        msrp: 300,
+        msrpUrl: "https://www.pilot-namiki.com/namiki/yukari",
+        yearIntroduced: 2000,
+      },
+      {
+        id: "namiki-nippon-art",
+        name: "Nippon Art",
+        slug: "nippon-art",
+        description:
+          "The Nippon Art series showcases traditional Japanese Maki-e techniques on a wider pen body. Features distinctive motifs drawn from Japanese mythology, nature, and cultural heritage.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass with Maki-e lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 200.00, currency: "USD", url: "https://www.amazon.com/s?k=Namiki+Nippon+Art+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 220.00, currency: "USD", url: "https://www.jetpens.com/Namiki-Nippon-Art-Fountain-Pen/ct/4470", inStock: true, condition: "new" },
+        ],
+        msrp: 225,
+        yearIntroduced: 2001,
+      },
+      {
+        id: "namiki-emperor",
+        name: "Emperor",
+        slug: "emperor",
+        description:
+          "The Emperor is Namiki's flagship, the largest production fountain pen in the world at 30cm long. Entirely hand-decorated with the finest Maki-e lacquerwork, it is considered one of the most prestigious writing instruments ever made.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Piston (large capacity)",
+        material: "Ebonite with Maki-e lacquer",
+        knownPrices: [
+          { retailer: "Goulet Pens", price: 2500.00, currency: "USD", url: "https://www.gouletpens.com/collections/namiki-emperor", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 2750.00, currency: "USD", url: "https://www.goldspot.com/namiki/emperor/", inStock: true, condition: "new" },
+        ],
+        msrp: 3000,
+        yearIntroduced: 1930,
+      },
+    ],
+  },
+  {
+    id: "stipula",
+    name: "Stipula",
+    slug: "stipula",
+    country: "Italy",
+    description:
+      "Founded in Florence in 1973, Stipula is known for handcrafted Italian fountain pens with distinctive celluloid bodies and titanium nibs. They combine artisanal Italian craftsmanship with innovative filling systems.",
+    website: "https://www.stipula.com",
+    models: [
+      {
+        id: "stipula-ventidue",
+        name: "Ventidue",
+        slug: "ventidue",
+        description:
+          "The Ventidue (meaning 'twenty-two' in Italian) is Stipula's iconic piston-filler made from colorful celluloid. Features a titanium nib and the brand's signature oversized ink window. A cult favorite among Italian pen enthusiasts.",
+        nibOptions: ["Fine", "Medium", "Broad", "Flex"],
+        fillingSystem: "Piston",
+        material: "Celluloid",
+        knownPrices: [
+          { retailer: "Amazon", price: 120.00, currency: "USD", url: "https://www.amazon.com/s?k=Stipula+Ventidue+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 139.00, currency: "USD", url: "https://www.gouletpens.com/collections/stipula-ventidue", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 135.00, currency: "USD", url: "https://www.goldspot.com/stipula/ventidue/", inStock: true, condition: "new" },
+        ],
+        msrp: 149,
+        yearIntroduced: 1995,
+      },
+      {
+        id: "stipula-passione",
+        name: "Passione",
+        slug: "passione",
+        description:
+          "The Passione is Stipula's entry-level fountain pen, made from durable resin with a steel nib. It offers the classic Italian pen feel at an accessible price point with a converter filling system.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 45.00, currency: "USD", url: "https://www.amazon.com/s?k=Stipula+Passione+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 55.00, currency: "USD", url: "https://www.gouletpens.com/collections/stipula-passione", inStock: true, condition: "new" },
+        ],
+        msrp: 59,
+        yearIntroduced: 2010,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

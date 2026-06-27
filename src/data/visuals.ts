@@ -43,6 +43,8 @@ export const brandVisual: Record<string, BrandVisual> = {
   pineider:      { color: "from-rose-400 to-pink-500",     emoji: "🏛️", gradient: "hover:border-rose-400/50",  flag: "🇮🇹" },
   gravitas:      { color: "from-slate-500 to-zinc-600",   emoji: "⚡", gradient: "hover:border-slate-500/50", flag: "🇮🇪" },
   ensso:         { color: "from-indigo-400 to-violet-500", emoji: "✏️", gradient: "hover:border-indigo-400/50", flag: "🇯🇵" },
+  namiki:        { color: "from-yellow-500 to-red-600",    emoji: "🎎", gradient: "hover:border-yellow-500/50",    flag: "🇯🇵" },
+  stipula:       { color: "from-teal-600 to-emerald-700",  emoji: "🏛️", gradient: "hover:border-teal-600/50",    flag: "🇮🇹" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

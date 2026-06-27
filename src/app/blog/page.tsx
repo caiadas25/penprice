@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-under-300",
+    title: "Best Fountain Pens Under $300 in 2026",
+    excerpt:
+      "Gold nibs, piston fillers, and flagship build quality. Compare prices on the Sailor Pro Gear, Lamy 2000, Pilot Custom 823, Pelikan M400, and more.",
+    date: "2026-06-27",
+    category: "Buying Guide",
+  },
+  {
     slug: "best-everyday-fountain-pens",
     title: "Best Everyday Fountain Pens for Writing in 2026",
     excerpt:

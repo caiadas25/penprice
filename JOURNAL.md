@@ -2,6 +2,38 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
+## Sprint A (Round 3) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+
+### What was done
+- Added 2 new brands (5 models total):
+  - **Namiki** (Japan): Yukari ($250-300), Nippon Art ($200-225), Emperor ($2500-3000) — Pilot's ultra-luxury Maki-e lacquer line
+  - **Stipula** (Italy): Ventidue ($120-149), Passione ($45-59) — Florentine artisan fountain pens
+- Created `/blog/best-fountain-pens-under-300` targeting "best fountain pens under 300" keyword
+  - 7 gold-nib pen recommendations with price comparisons
+  - "What to Look for Under $300" section (gold nibs, filling systems, build quality, brand heritage)
+  - 3 FAQ questions with FAQPage schema
+  - JSON-LD Article schema
+  - Internal links to related guides
+- Updated visuals.ts with brand colors for Namiki and Stipula
+- Updated blog index and sitemap
+- Updated layout metadata: 37 brands, 100+ models
+
+### Keywords targeted
+- "best fountain pens under 300" (new blog post — high-volume keyword)
+- "Namiki Yukari price" (new model page)
+- "Namiki Emperor fountain pen price" (new model page — ultra-luxury)
+- "Stipula Ventidue fountain pen" (new model page)
+- "Stipula Passione price" (new model page)
+- "gold nib fountain pen under 300" (blog content)
+- "Pilot Custom 823 price" (blog content)
+- "Sailor Pro Gear price comparison" (blog content)
+- "Lamy 2000 vs Pilot Custom 823" (blog content)
+
+### Current stats
+- **Brands:** 37 (was 35)
+- **Models:** 100+ (was 93+)
+- **Blog posts:** 17 (was 16)
+
 ## Sprint Alpha — June 26, 2026 (Growth Sprint — Full Sprint)
 
 ### What was done
