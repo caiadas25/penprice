@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-under-200",
+    title: "Best Fountain Pens Under $200 in 2026",
+    excerpt:
+      "The $200 sweet spot delivers gold nibs, piston fillers, and flagship build quality. Compare prices on the Lamy 2000, Pilot Custom 823, Sailor Pro Gear, and more.",
+    date: "2026-06-27",
+    category: "Buying Guide",
+  },
+  {
     slug: "fountain-pen-vs-gel-pen",
     title: "Fountain Pen vs Gel Pen: Which Should You Choose?",
     excerpt:
