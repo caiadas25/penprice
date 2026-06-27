@@ -22,6 +22,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogEntries = [
     {
+      url: `${baseUrl}/blog/best-fountain-pens-for-journaling`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/blog/best-fountain-pens-under-300`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,

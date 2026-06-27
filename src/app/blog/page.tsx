@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-journaling",
+    title: "Best Fountain Pens for Journaling in 2026",
+    excerpt:
+      "The best fountain pens for journaling, compared by comfort, ink capacity, and price. Pilot Custom 823, Lamy 2000, TWSBI Eco, and more.",
+    date: "2026-06-27",
+    category: "Buying Guide",
+  },
+  {
     slug: "best-fountain-pens-under-300",
     title: "Best Fountain Pens Under $300 in 2026",
     excerpt:
