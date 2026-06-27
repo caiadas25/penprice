@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-calligraphy",
+    title: "Best Fountain Pens for Calligraphy in 2026",
+    excerpt: "Flex nibs, stub nibs, and italic nibs compared. The best fountain pens for calligraphy from Pilot, Noodler's, Lamy, TWSBI, and Kaweco with price comparisons.",
+    date: "2026-06-27",
+    category: "Calligraphy Guide",
+  },
+  {
     slug: "best-fountain-pens-for-students",
     title: "Best Fountain Pens for Students in 2026",
     excerpt: "Budget-friendly fountain pens for students compared by durability, ink capacity, and price. Pilot Metropolitan, Lamy Safari, TWSBI Eco, and more.",
