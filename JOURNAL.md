@@ -2,6 +2,45 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand → model.
 
+## Sprint A (Round 7) — June 27, 2026 (Daily Strategic Review)
+### What was done
+- Expanded 3 existing brands with new models:
+  - **Waterman** (France): Exception ($195 MSRP) — 18k gold nib executive pen, rectangular barrel design
+  - **Parker** (UK/France): Urban ($36 MSRP) — modern ergonomic steel-nibbed pen with rubberized grip
+  - **Diplomat** (Germany): Esteem ($65 MSRP) — entry-level German-made pen with snap cap and aluminum body
+- Added 1 new brand (2 models):
+  - **Conway Stewart** (United Kingdom): Winston ($325 MSRP, 18k gold nib, piston filler), No. 388 ($165 MSRP, steel nib, cartridge/converter) — historic British pen manufacturer known for hand-turned resin bodies
+- Updated visuals.ts with brand colors for Conway Stewart
+- Updated layout metadata: 44 brands, 116+ models
+- Verified all retailer URLs (Amazon, Goulet Pens, Goldspot) resolve correctly
+
+### Priority list completion
+- ✅ Visconti (Homo Sapiens, Van Gogh, Rembrandt) — already present
+- ✅ Leonardo (Momento Zero, Furore) — already present
+- ✅ Waterman (Hemisphere, Expert, Exception) — Exception added
+- ✅ Parker (Sonnet, Duofold, Urban) — Urban added
+- ✅ Diplomat (Aero, Excellence, Esteem) — Esteem added
+- ✅ Conway Stewart — new brand added
+- ✅ Franklin-Christoph (Model 02, Model 03, Model 20) — already present
+- ✅ Pineider (Avatar, La Grande Bellezza) — already present
+
+### Keywords targeted
+- "Waterman Exception fountain pen price" (new model page)
+- "Parker Urban fountain pen review" (new model page)
+- "Diplomat Esteem price" (new model page)
+- "Conway Stewart Winston price" (new model page)
+- "Conway Stewart 388 fountain pen" (new model page)
+- "best British fountain pens" (blog content via Conway Stewart)
+- "affordable executive fountain pen" (blog content via Waterman Exception)
+- "Parker Urban vs Lamy Safari" (potential comparison keyword)
+
+### Current stats
+- **Brands:** 44 (was 43)
+- **Models:** 116+ (was 111+)
+- **Blog posts:** 21 (unchanged)
+
+---
+
 ## Sprint A (Round 6) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
 ### What was done
 - Added 2 new brands (4 models total):
