@@ -52,6 +52,7 @@ export const brandVisual: Record<string, BrandVisual> = {
   wancher:       { color: "from-amber-500 to-yellow-600", emoji: "🌊", gradient: "hover:border-amber-500/50", flag: "🇯🇵" },
   bexley:        { color: "from-sky-600 to-blue-700",     emoji: "🇺🇸", gradient: "hover:border-sky-600/50",  flag: "🇺🇸" },
   "conway-stewart": { color: "from-blue-800 to-indigo-900", emoji: "🇬🇧", gradient: "hover:border-blue-800/50", flag: "🇬🇧" },
+  "edison":         { color: "from-amber-400 to-yellow-500", emoji: "💡", gradient: "hover:border-amber-400/50", flag: "🇺🇸" },
 };
 
 export function getBrandVisual(slug: string): BrandVisual {

@@ -2469,6 +2469,50 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "edison",
+    name: "Edison",
+    slug: "edison",
+    country: "United States",
+    description:
+      "Edison Pen Company, founded by pen restorer Brian Gray, is known for handcrafted American fountain pens with custom-ground nibs. Each pen is made to order with a wide range of acrylic and ebonite materials.",
+    website: "https://edisonpen.com",
+    models: [
+      {
+        id: "edison-beaumont",
+        name: "Beaumont",
+        slug: "beaumont",
+        description:
+          "A mid-size fountain pen with a classic cigar shape. Available in dozens of acrylic colors, with a steel or 14k gold nib. The Beaumont is Edison's most popular model, offering custom pen making at accessible prices.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1mm"],
+        fillingSystem: "Cartridge / Converter (Standard International)",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Edison Pen Co.", price: 149.00, currency: "USD", url: "https://edisonpen.com/products/beaumont", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 155.00, currency: "USD", url: "https://www.gouletpens.com/collections/edison-beaumont", inStock: true, condition: "new" },
+        ],
+        msrp: 149.00,
+        msrpUrl: "https://edisonpen.com/products/beaumont",
+        yearIntroduced: 2010,
+      },
+      {
+        id: "edison-collier",
+        name: "Collier",
+        slug: "collier",
+        description:
+          "Edison's larger pen with a girthier grip section. The Collier is designed for extended writing sessions. Available in ebonite and acrylic with custom nib grinding options.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1mm"],
+        fillingSystem: "Piston",
+        material: "Ebonite / Acrylic",
+        knownPrices: [
+          { retailer: "Edison Pen Co.", price: 199.00, currency: "USD", url: "https://edisonpen.com/products/collier", inStock: true, condition: "new" },
+        ],
+        msrp: 199.00,
+        msrpUrl: "https://edisonpen.com/products/collier",
+        yearIntroduced: 2012,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
