@@ -1912,6 +1912,83 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "gravitas",
+    name: "Gravitas",
+    slug: "gravitas",
+    country: "Ireland",
+    description: "Gravitas is an Irish fountain pen maker known for precision-machined pens using high-grade materials like titanium, zirconium, and Ultem. Their pens are beloved by EDC enthusiasts for their durability and industrial design.",
+    website: "https://gravitaspens.com",
+    models: [
+      {
+        id: "gravitas-pensky",
+        name: "Pensky",
+        slug: "pensky",
+        description: "Gravitas' flagship pen. A precision-machined titanium pen with a snap cap and a smooth JoWo #6 steel nib. The Pensky features a knurled grip section for comfortable writing and a clean, minimalist design.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Titanium",
+        knownPrices: [
+          { retailer: "Gravitas Pens", price: 185.00, currency: "USD", url: "https://gravitaspens.com/collections/pensky", inStock: true, condition: "new" },
+        ],
+        msrp: 185,
+        yearIntroduced: 2021,
+      },
+      {
+        id: "gravitas-soldier",
+        name: "Soldier",
+        slug: "soldier",
+        description: "A compact, rugged pocket pen made from zirconium or titanium. The Soldier features a unique bolt-action cap mechanism and a smooth steel nib. Perfect for EDC and on-the-go writing.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Zirconium / Titanium",
+        knownPrices: [
+          { retailer: "Gravitas Pens", price: 165.00, currency: "USD", url: "https://gravitaspens.com/collections/soldier", inStock: true, condition: "new" },
+        ],
+        msrp: 165,
+        yearIntroduced: 2022,
+      },
+    ],
+  },
+  {
+    id: "ensso",
+    name: "Ensso",
+    slug: "ensso",
+    country: "Japan",
+    description: "Ensso is a Japanese design studio that makes minimalist fountain pens. Their design philosophy is 'less is more' — clean lines, high-quality materials, and exceptional nibs. Based in Tokyo.",
+    website: "https://ensso.com",
+    models: [
+      {
+        id: "ensso-piuma",
+        name: "Piuma",
+        slug: "piuma",
+        description: "Ensso's flagship pen. The Piuma is a minimalist aluminum fountain pen with a smooth Schmidt steel nib. Its clean, understated design and comfortable weight make it an excellent daily writer.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Anodized aluminum",
+        knownPrices: [
+          { retailer: "Amazon", price: 79.00, currency: "USD", url: "https://www.amazon.com/s?k=Ensso+Piuma+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Ensso", price: 79.00, currency: "USD", url: "https://ensso.com/products/piuma-fountain-pen", inStock: true, condition: "new" },
+        ],
+        msrp: 79,
+        yearIntroduced: 2018,
+      },
+      {
+        id: "ensso-uno",
+        name: "Uno",
+        slug: "uno",
+        description: "A compact, minimalist pen designed for quick notes and on-the-go writing. The Uno is a slim aluminum pen with a satisfying click mechanism and a fine steel nib. Perfect for pocket carry.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge",
+        material: "Anodized aluminum",
+        knownPrices: [
+          { retailer: "Ensso", price: 49.00, currency: "USD", url: "https://ensso.com/products/uno-fountain-pen", inStock: true, condition: "new" },
+        ],
+        msrp: 49,
+        yearIntroduced: 2019,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

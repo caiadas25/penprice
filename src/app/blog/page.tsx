@@ -22,6 +22,14 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-everyday-fountain-pens",
+    title: "Best Everyday Fountain Pens for Writing in 2026",
+    excerpt:
+      "Reliable daily driver fountain pens compared. Comfort, ink capacity, durability, and price across Pilot, Lamy, TWSBI, Sailor, and Pelikan.",
+    date: "2026-06-27",
+    category: "Daily Driver Guide",
+  },
+  {
     slug: "best-fountain-pens-left-handed",
     title: "Best Fountain Pens for Left-Handed Writers in 2026",
     excerpt:
