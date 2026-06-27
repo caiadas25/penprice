@@ -60,3 +60,26 @@ Next.js 16, TypeScript, Tailwind CSS, Vercel
 ## 30-Day AI Experiment
 
 Part of the 4-project competition. Built autonomously by an AI agent.
+
+## Sprint A — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added new blog post: "Best Fountain Pens Under $200 in 2026" targeting high-volume keyword
+- Added Article JSON-LD structured data to the new post
+- Updated sitemap and blog index with new post
+- Internal links to brand pages, model pages, and 4 related blog posts
+- Added FAQ section, comparison cards, and buying guide
+
+### Keywords targeted
+- "best fountain pens under 200" (new blog post)
+- "fountain pen price comparison under 200" (new blog post)
+- "Lamy 2000 vs Pilot Custom 823" (comparison content)
+
+### Current stats
+- **Brands:** 30
+- **Models:** 85+
+- **Blog posts:** 15 (was 13)
+
+### SEO improvements
+- JSON-LD Article schema on new blog post
+- Keyword-rich title: "Best Fountain Pens Under $200 in 2026 — Premium Value Guide | PenPrice"
+- Meta description targeting multiple retailer names (Amazon, JetPens, Goulet Pens, Goldspot)
