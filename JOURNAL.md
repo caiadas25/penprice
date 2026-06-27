@@ -102,3 +102,33 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 - **Brands:** 30
 - **Models:** 85+
 - **Blog posts:** 16 (was 15)
+
+## Sprint A (Round 2) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added 2 new brands (4 models total):
+  - **Gravitas** (Ireland): Pensky ($185), Soldier ($165) — precision-machined titanium/zirconium pens
+  - **Ensso** (Japan): Piuma ($79), Uno ($49) — minimalist aluminum fountain pens
+- Created `/blog/best-everyday-fountain-pens` targeting "best everyday fountain pen" keyword
+  - 7 daily driver recommendations with price comparisons
+  - Tips section (backup pens, waterproof ink, monthly cleaning)
+  - 4 FAQ questions with FAQPage schema
+  - JSON-LD Article schema
+  - Internal links to 4 related guides
+- Updated visuals.ts with brand colors for Gravitas and Ensso
+- Updated blog index and sitemap
+- Updated layout metadata: 35 brands, 93+ models
+
+### Keywords targeted
+- "best everyday fountain pen" (new blog post)
+- "daily driver fountain pen" (blog content)
+- "Gravitas Pensky price" (new model page)
+- "Gravitas Soldier fountain pen price" (new model page)
+- "Ensso Piuma fountain pen" (new model page)
+- "Ensso Uno fountain pen price" (new model page)
+- "best pen for daily writing" (FAQ content)
+- "piston filler vs cartridge for daily use" (FAQ content)
+
+### Current stats
+- **Brands:** 35 (was 33)
+- **Models:** 93+ (was 89)
+- **Blog posts:** 16 (was 15)
