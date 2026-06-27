@@ -974,6 +974,24 @@ export const brands: Brand[] = [
         msrpUrl: "https://www.waterman.com/expert/",
         yearIntroduced: 2003,
       },
+      {
+        id: "waterman-exception",
+        name: "Exception",
+        slug: "exception",
+        description:
+          "Waterman's premium fountain pen featuring an 18k gold nib and a distinctive rectangular barrel design. The Exception sits above the Expert in Waterman's lineup, offering a more luxurious writing experience with gold nib feedback and a refined lacquer finish. A classic executive pen.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Stainless steel / Lacquer / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 130.00, currency: "USD", url: "https://www.amazon.com/s?k=Waterman+Exception+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 195.00, currency: "USD", url: "https://www.gouletpens.com/search?q=waterman+exception", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 175.00, currency: "USD", url: "https://www.goldspot.com/waterman/exception/", inStock: true, condition: "new" },
+        ],
+        msrp: 195,
+        msrpUrl: "https://www.waterman.com/exception/",
+        yearIntroduced: 2005,
+      },
     ],
   },
   {
@@ -1209,6 +1227,24 @@ export const brands: Brand[] = [
         msrpUrl: "https://www.parkerpen.com/us/en/parker-duofold.html",
         yearIntroduced: 1921,
       },
+      {
+        id: "parker-urban",
+        name: "Urban",
+        slug: "urban",
+        description:
+          "Parker's modern, affordable fountain pen with a distinctive curved body and rubberized grip section. The Urban features a steel nib with Parker's signature arrow clip and a comfortable, ergonomic design aimed at everyday writers. Available in a range of bold and classic colors.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter (Quink)",
+        material: "Brass / Lacquer / Rubber grip",
+        knownPrices: [
+          { retailer: "Amazon", price: 32.00, currency: "USD", url: "https://www.amazon.com/s?k=Parker+Urban+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 36.00, currency: "USD", url: "https://www.goldspot.com/parker/urban/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 36.00, currency: "USD", url: "https://www.gouletpens.com/collections/parker-urban", inStock: true, condition: "new" },
+        ],
+        msrp: 36,
+        msrpUrl: "https://www.parkerpen.com/us/en/parker-urban.html",
+        yearIntroduced: 2012,
+      },
     ],
   },
   {
@@ -1297,6 +1333,23 @@ export const brands: Brand[] = [
         ],
         msrp: 110,
         yearIntroduced: 2015,
+      },
+      {
+        id: "diplomat-esteem",
+        name: "Esteem",
+        slug: "esteem",
+        description:
+          "Diplomat's entry-level fountain pen featuring a sleek metal barrel with a snap cap and a smooth steel nib. The Esteem offers Diplomat's signature build quality and German engineering at an accessible price point. A reliable everyday writer with a professional appearance.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Aluminum / Lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 55.00, currency: "USD", url: "https://www.amazon.com/s?k=Diplomat+Esteem+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 65.00, currency: "USD", url: "https://www.goldspot.com/diplomat/esteem/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 65.00, currency: "USD", url: "https://www.gouletpens.com/collections/diplomat-esteem", inStock: true, condition: "new" },
+        ],
+        msrp: 65,
+        yearIntroduced: 2018,
       },
     ],
   },
@@ -2324,6 +2377,49 @@ export const brands: Brand[] = [
         msrp: 90.00,
         msrpUrl: "https://www.wancherpen.com",
         yearIntroduced: 2015,
+      },
+    ],
+  },
+  {
+    id: "conway-stewart",
+    name: "Conway Stewart",
+    slug: "conway-stewart",
+    country: "United Kingdom",
+    description:
+      "Founded in 1905 in Plymouth, England, Conway Stewart is one of Britain's most storied fountain pen manufacturers. Known for their handcrafted ebonite and resin pens with exceptional gold nibs. The brand went into administration in 2018 but their pens remain highly sought after by collectors for their classic British craftsmanship.",
+    website: "https://www.conwaystewartpens.com",
+    models: [
+      {
+        id: "conway-stewart-winston",
+        name: "Winston",
+        slug: "winston",
+        description:
+          "Conway Stewart's flagship model, named after Winston Churchill. A large, beautifully crafted fountain pen featuring a hand-turned resin body and a 18k gold nib. Available in dozens of stunning resin colors. A quintessentially British pen with exceptional build quality and writing performance.",
+        nibOptions: ["Fine", "Medium", "Broad", "Stub"],
+        fillingSystem: "Piston",
+        material: "Hand-turned resin / 18k gold nib / Gold trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 295.00, currency: "USD", url: "https://www.amazon.com/s?k=Conway+Stewart+Winston+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 325.00, currency: "USD", url: "https://www.goldspot.com/conway-stewart/winston/", inStock: true, condition: "new" },
+        ],
+        msrp: 325,
+        yearIntroduced: 2005,
+      },
+      {
+        id: "conway-stewart-no388",
+        name: "No. 388",
+        slug: "no-388",
+        description:
+          "A compact, beautifully proportioned fountain pen with a steel nib and cartridge/converter filling. The No. 388 features the same hand-turned resin bodies as the larger models, offering Conway Stewart quality at a more accessible price. A great introduction to British pen craftsmanship.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Hand-turned resin / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 150.00, currency: "USD", url: "https://www.amazon.com/s?k=Conway+Stewart+388+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 165.00, currency: "USD", url: "https://www.goldspot.com/conway-stewart/no-388/", inStock: true, condition: "new" },
+        ],
+        msrp: 165,
+        yearIntroduced: 2008,
       },
     ],
   },
