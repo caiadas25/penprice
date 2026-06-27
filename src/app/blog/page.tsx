@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "rotring-600-vs-lamy-safari",
+    title: "Rotring 600 vs Lamy Safari — Technical Pen Showdown",
+    excerpt: "Two iconic precision fountain pens compared. Brass vs plastic, knurled metal vs triangular grip. Full feature and price comparison.",
+    date: "2026-06-27",
+    category: "Comparison",
+  },
+  {
     slug: "best-fountain-pens-for-journaling",
     title: "Best Fountain Pens for Journaling in 2026",
     excerpt:
