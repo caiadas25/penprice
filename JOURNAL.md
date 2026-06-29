@@ -1,3 +1,34 @@
+## Sprint A (Round 12) — June 29, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added blog post: "Best Fountain Pen Paper in 2026 — No Feathering, No Bleed"
+  - 8 paper recommendations (Rhodia, Clairefontaine, Tomoe River, Leuchtturm1917, Midori, Maruman, Cosmo Air Light, Hammermill)
+  - Paper properties comparison (weight, surface, feathering, bleed-through, ghosting, dry time)
+  - Paper types explained section (coated vs uncoated, fountain pen friendly vs regular, sheen and shimmer)
+  - Best inks for fountain pen paper section
+  - FAQ with 3 questions and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to inks, maintenance, ink comparison, beginners guides
+- Added Pilot E95S (Japan): compact pocket pen, 14k gold inlaid nib, $72-75
+- Added Lamy Aion (Germany): minimalist aluminum body, steel nib, $67-72
+- Updated blog index, sitemap, and layout metadata
+- Total: 49 brands, 132+ models, 30 blog posts
+
+### Keywords targeted
+- "best fountain pen paper" (new blog post — very high-intent keyword)
+- "fountain pen paper comparison" (blog content)
+- "Rhodia vs Clairefontaine" (blog content)
+- "Tomoe River paper fountain pen" (blog content)
+- "paper that won't feather fountain pen" (blog content)
+- "Pilot E95S fountain pen price" (new model page)
+- "Lamy Aion fountain pen" (new model page)
+
+### Current stats
+- **Brands:** 49 (unchanged)
+- **Models:** 132+ (was 130+)
+- **Blog posts:** 30 (was 29)
+
+---
+
 ## Sprint A (Round 11) — June 29, 2026 (Growth Sprint — PenPrice Deep-Dive)
 ### What was done
 - Added Pilot Kakuno (Japan): smiley-face nib, beginner pen, $12.99
