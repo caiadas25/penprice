@@ -2,6 +2,37 @@
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand -> model.
 
+## Sprint A (Round 9) — June 29, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Created `/blog/best-fountain-pens-for-note-taking` — high-intent keyword target
+  - 8 pen recommendations across budget, mid-range, and premium
+  - Nib size guide for note-taking (Extra Fine, Fine, Medium)
+  - Paper recommendations for note-taking (Rhodia, Clairefontaine, Leuchtturm)
+  - FAQ with 3 questions and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to nib sizes, beginners, inks, and under-50 guides
+- Added Sailor Pro Color (Japan) model: entry-level steel nib pen, $25
+  - Amazon, JetPens, Goulet Pens retailer URLs
+- Updated blog index and sitemap
+- Updated layout metadata
+
+### Keywords targeted
+- "best fountain pen for note-taking" (new blog post — high-intent keyword)
+- "fountain pen note taking" (blog content)
+- "fast drying fountain pen" (blog content)
+- "fountain pen for lectures" (blog content)
+- "best fountain pen for students notes" (blog content)
+- "Sailor Pro Color fountain pen price" (new model page)
+- "Platinum 3776 note-taking" (blog content)
+- "TWSBI Eco note-taking" (blog content)
+
+### Current stats
+- **Brands:** 45
+- **Models:** 120+
+- **Blog posts:** 24 (was 23)
+
+---
+
 ## Sprint A (Round 8) — June 27, 2026 (Growth Sprint — PenPrice Deep-Dive)
 ### What was done
 - Created `/blog/best-fountain-pens-for-calligraphy` — high-intent keyword target
