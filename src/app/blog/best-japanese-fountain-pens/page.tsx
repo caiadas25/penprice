@@ -98,21 +98,21 @@ const japanesePens: JapanesePen[] = [
 export default function BestJapaneseFountainPensPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-400 mb-8">
+        <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <Link href="/blog" className="hover:text-amber-400 transition-colors">Guides</Link>
+        <Link href="/blog" className="hover:text-blue-800 transition-colors">Guides</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">Best Japanese Fountain Pens</span>
+        <span className="text-stone-500">Best Japanese Fountain Pens</span>
       </nav>
 
       <article>
         <header className="mb-10">
-          <p className="text-amber-400 text-sm font-medium mb-2">Buying Guide — Updated June 2026</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <p className="text-blue-800 text-sm font-medium mb-2">Buying Guide — Updated June 2026</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
             Best Japanese Fountain Pens in 2026
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed">
+          <p className="text-lg text-stone-500 leading-relaxed">
             Japanese fountain pens are widely regarded as having the best nibs in the world.
             From the $19 Pilot Metropolitan to the $560 Sailor King of Pens, here are the
             10 best Japanese fountain pens with live price comparisons.
@@ -121,30 +121,30 @@ export default function BestJapaneseFountainPensPage() {
 
         {/* Why Japanese section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Why Japanese Fountain Pens?</h2>
-          <p className="text-slate-400 leading-relaxed mb-4">
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Why Japanese Fountain Pens?</h2>
+          <p className="text-stone-500 leading-relaxed mb-4">
             Japanese pen manufacturers (Pilot, Sailor, Platinum) have been making fountain pens
             for over a century. Their nibs are manufactured with tighter tolerances than Western
             brands, resulting in smoother writing experiences at every price point.
           </p>
-          <div className="bg-slate-800/50 rounded-lg p-6 mb-4">
-            <h3 className="text-lg font-semibold text-amber-400 mb-3">Key advantages:</h3>
-            <ul className="space-y-2 text-slate-400">
+          <div className="bg-stone-100 rounded p-6 mb-4">
+            <h3 className="text-lg font-semibold text-blue-800 mb-3">Key advantages:</h3>
+            <ul className="space-y-2 text-stone-500">
               <li className="flex items-start gap-2">
-                <span className="text-amber-400 mt-1">•</span>
-                <span><strong className="text-slate-200">Nib sizing:</strong> Japanese fine nibs write finer than Western fine. A Pilot Fine ≈ Western Extra Fine.</span>
+                <span className="text-blue-800 mt-1">•</span>
+                <span><strong className="text-stone-800">Nib sizing:</strong> Japanese fine nibs write finer than Western fine. A Pilot Fine ≈ Western Extra Fine.</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-400 mt-1">•</span>
-                <span><strong className="text-slate-200">Gold nibs at lower prices:</strong> Pilot offers 14k gold nibs starting at ~$160 (Custom 74), compared to $200+ for Western equivalents.</span>
+                <span className="text-blue-800 mt-1">•</span>
+                <span><strong className="text-stone-800">Gold nibs at lower prices:</strong> Pilot offers 14k gold nibs starting at ~$160 (Custom 74), compared to $200+ for Western equivalents.</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-400 mt-1">•</span>
-                <span><strong className="text-slate-200">Innovation:</strong> Retractable nibs (Vanishing Point), vacuum fillers (Custom 823), slip-and-seal caps (Platinum 3776).</span>
+                <span className="text-blue-800 mt-1">•</span>
+                <span><strong className="text-stone-800">Innovation:</strong> Retractable nibs (Vanishing Point), vacuum fillers (Custom 823), slip-and-seal caps (Platinum 3776).</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-400 mt-1">•</span>
-                <span><strong className="text-slate-200">Urushi and maki-e:</strong> Japanese artisans produce hand-lacquered pens (Nakaya, Pilot Namiki) that are true works of art.</span>
+                <span className="text-blue-800 mt-1">•</span>
+                <span><strong className="text-stone-800">Urushi and maki-e:</strong> Japanese artisans produce hand-lacquered pens (Nakaya, Pilot Namiki) that are true works of art.</span>
               </li>
             </ul>
           </div>
@@ -152,26 +152,26 @@ export default function BestJapaneseFountainPensPage() {
 
         {/* Quick Comparison Table */}
         <section className="mb-12 overflow-x-auto">
-          <h2 className="text-2xl font-bold text-white mb-4">Quick Comparison</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Quick Comparison</h2>
           <table className="w-full text-sm border-collapse">
             <thead>
-              <tr className="border-b-2 border-slate-700">
-                <th className="text-left py-3 px-4 font-semibold text-slate-300">Pen</th>
-                <th className="text-left py-3 px-4 font-semibold text-slate-300">Nib</th>
-                <th className="text-left py-3 px-4 font-semibold text-slate-300">Filling</th>
-                <th className="text-left py-3 px-4 font-semibold text-slate-300">From</th>
+              <tr className="border-b-2 border-stone-200">
+                <th className="text-left py-3 px-4 font-semibold text-stone-700">Pen</th>
+                <th className="text-left py-3 px-4 font-semibold text-stone-700">Nib</th>
+                <th className="text-left py-3 px-4 font-semibold text-stone-700">Filling</th>
+                <th className="text-left py-3 px-4 font-semibold text-stone-700">From</th>
               </tr>
             </thead>
             <tbody>
               {japanesePens.map((pen) => (
-                <tr key={pen.slug} className="border-b border-slate-700/50 hover:bg-slate-800/30">
+                <tr key={pen.slug} className="border-b border-stone-200/50 hover:bg-white">
                   <td className="py-3 px-4">
-                    <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="text-amber-400 hover:text-amber-300 font-medium">
+                    <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="text-blue-800 hover:text-blue-700 font-medium">
                       {pen.name}
                     </Link>
                   </td>
-                  <td className="py-3 px-4 text-slate-400">Steel / Gold</td>
-                  <td className="py-3 px-4 text-slate-400">Cartridge / Piston</td>
+                  <td className="py-3 px-4 text-stone-500">Steel / Gold</td>
+                  <td className="py-3 px-4 text-stone-500">Cartridge / Piston</td>
                   <td className="py-3 px-4 text-green-400 font-medium">${pen.priceFrom.toFixed(2)}</td>
                 </tr>
               ))}
@@ -181,22 +181,22 @@ export default function BestJapaneseFountainPensPage() {
 
         {/* Detailed Reviews */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">Detailed Reviews</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-6">Detailed Reviews</h2>
           <div className="space-y-8">
             {japanesePens.map((pen, index) => (
-              <div key={pen.slug} className="bg-slate-800/30 rounded-lg p-6 border border-slate-700/50">
+              <div key={pen.slug} className="bg-white rounded p-6 border border-stone-200/50">
                 <div className="flex items-start gap-4">
-                  <span className="text-3xl font-bold text-amber-400/30">{index + 1}</span>
+                  <span className="text-3xl font-bold text-blue-800/30">{index + 1}</span>
                   <div className="flex-1">
-                    <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="text-xl font-bold text-white hover:text-amber-400 transition-colors">
+                    <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="text-xl font-bold text-stone-900 hover:text-blue-800 transition-colors">
                       {pen.name}
                     </Link>
-                    <p className="text-amber-400 text-sm mt-1">From ${pen.priceFrom.toFixed(2)}</p>
-                    <p className="text-slate-400 mt-3 leading-relaxed">{pen.why}</p>
+                    <p className="text-blue-800 text-sm mt-1">From ${pen.priceFrom.toFixed(2)}</p>
+                    <p className="text-stone-500 mt-3 leading-relaxed">{pen.why}</p>
                     <div className="mt-3 flex gap-2">
                       <Link
                         href={`/brands/${pen.brandSlug}/${pen.slug}`}
-                        className="inline-block bg-amber-400/10 text-amber-400 px-3 py-1 rounded text-sm hover:bg-amber-400/20 transition-colors"
+                        className="inline-block bg-amber-400/10 text-blue-800 px-3 py-1 rounded text-sm hover:bg-amber-400/20 transition-colors"
                       >
                         View Prices →
                       </Link>
@@ -210,40 +210,40 @@ export default function BestJapaneseFountainPensPage() {
 
         {/* Japanese Nib Sizes */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Understanding Japanese Nib Sizes</h2>
-          <p className="text-slate-400 leading-relaxed mb-4">
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Understanding Japanese Nib Sizes</h2>
+          <p className="text-stone-500 leading-relaxed mb-4">
             Japanese nibs run finer than their Western equivalents. If you&apos;re used to a Western Fine,
             start with a Japanese Fine for a similar line width. Here&apos;s the conversion:
           </p>
-          <div className="bg-slate-800/50 rounded-lg p-6 overflow-x-auto">
+          <div className="bg-stone-100 rounded p-6 overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="border-b-2 border-slate-700">
-                  <th className="text-left py-3 px-4 font-semibold text-slate-300">Japanese Size</th>
-                  <th className="text-left py-3 px-4 font-semibold text-slate-300">≈ Western Equivalent</th>
-                  <th className="text-left py-3 px-4 font-semibold text-slate-300">Best For</th>
+                <tr className="border-b-2 border-stone-200">
+                  <th className="text-left py-3 px-4 font-semibold text-stone-700">Japanese Size</th>
+                  <th className="text-left py-3 px-4 font-semibold text-stone-700">≈ Western Equivalent</th>
+                  <th className="text-left py-3 px-4 font-semibold text-stone-700">Best For</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-slate-700/50">
-                  <td className="py-3 px-4 text-slate-200">Extra Fine (UEF)</td>
-                  <td className="py-3 px-4 text-slate-400">N/A (finer than anything Western)</td>
-                  <td className="py-3 px-4 text-slate-400">Micro writing, fine details</td>
+                <tr className="border-b border-stone-200/50">
+                  <td className="py-3 px-4 text-stone-800">Extra Fine (UEF)</td>
+                  <td className="py-3 px-4 text-stone-500">N/A (finer than anything Western)</td>
+                  <td className="py-3 px-4 text-stone-500">Micro writing, fine details</td>
                 </tr>
-                <tr className="border-b border-slate-700/50">
-                  <td className="py-3 px-4 text-slate-200">Fine</td>
-                  <td className="py-3 px-4 text-slate-400">≈ Western Extra Fine</td>
-                  <td className="py-3 px-4 text-slate-400">Daily writing, small handwriting</td>
+                <tr className="border-b border-stone-200/50">
+                  <td className="py-3 px-4 text-stone-800">Fine</td>
+                  <td className="py-3 px-4 text-stone-500">≈ Western Extra Fine</td>
+                  <td className="py-3 px-4 text-stone-500">Daily writing, small handwriting</td>
                 </tr>
-                <tr className="border-b border-slate-700/50">
-                  <td className="py-3 px-4 text-slate-200">Medium</td>
-                  <td className="py-3 px-4 text-slate-400">≈ Western Fine to Medium</td>
-                  <td className="py-3 px-4 text-slate-400">General purpose, most popular</td>
+                <tr className="border-b border-stone-200/50">
+                  <td className="py-3 px-4 text-stone-800">Medium</td>
+                  <td className="py-3 px-4 text-stone-500">≈ Western Fine to Medium</td>
+                  <td className="py-3 px-4 text-stone-500">General purpose, most popular</td>
                 </tr>
                 <tr>
-                  <td className="py-3 px-4 text-slate-200">Broad</td>
-                  <td className="py-3 px-4 text-slate-400">≈ Western Medium</td>
-                  <td className="py-3 px-4 text-slate-400">Bold writing, signatures</td>
+                  <td className="py-3 px-4 text-stone-800">Broad</td>
+                  <td className="py-3 px-4 text-stone-500">≈ Western Medium</td>
+                  <td className="py-3 px-4 text-stone-500">Bold writing, signatures</td>
                 </tr>
               </tbody>
             </table>
@@ -252,7 +252,7 @@ export default function BestJapaneseFountainPensPage() {
 
         {/* FAQ */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
             {[
               {
@@ -276,9 +276,9 @@ export default function BestJapaneseFountainPensPage() {
                 a: "JetPens is the best US-based retailer for Japanese fountain pens. Amazon also carries many models at competitive prices. Goulet Pens and Goldspot Pens are good for mainstream models.",
               },
             ].map((faq, i) => (
-              <div key={i} className="bg-slate-800/30 rounded-lg p-6 border border-slate-700/50">
-                <h3 className="text-lg font-semibold text-white mb-2">{faq.q}</h3>
-                <p className="text-slate-400 leading-relaxed">{faq.a}</p>
+              <div key={i} className="bg-white rounded p-6 border border-stone-200/50">
+                <h3 className="text-lg font-semibold text-stone-900 mb-2">{faq.q}</h3>
+                <p className="text-stone-500 leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -286,23 +286,23 @@ export default function BestJapaneseFountainPensPage() {
 
         {/* Related Guides */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Related Guides</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/blog/best-fountain-pens-for-beginners" className="bg-slate-800/30 rounded-lg p-5 border border-slate-700/50 hover:border-amber-400/50 transition-colors">
-              <h3 className="font-semibold text-white hover:text-amber-400 transition-colors">Best Fountain Pens for Beginners</h3>
-              <p className="text-sm text-slate-500 mt-1">New to fountain pens? Start here.</p>
+            <Link href="/blog/best-fountain-pens-for-beginners" className="bg-white rounded p-5 border border-stone-200/50 hover:border-amber-400/50 transition-colors">
+              <h3 className="font-semibold text-stone-900 hover:text-blue-800 transition-colors">Best Fountain Pens for Beginners</h3>
+              <p className="text-sm text-stone-400 mt-1">New to fountain pens? Start here.</p>
             </Link>
-            <Link href="/blog/fountain-pen-nib-sizes-explained" className="bg-slate-800/30 rounded-lg p-5 border border-slate-700/50 hover:border-amber-400/50 transition-colors">
-              <h3 className="font-semibold text-white hover:text-amber-400 transition-colors">Fountain Pen Nib Sizes Explained</h3>
-              <p className="text-sm text-slate-500 mt-1">Japanese vs European sizing, steel vs gold.</p>
+            <Link href="/blog/fountain-pen-nib-sizes-explained" className="bg-white rounded p-5 border border-stone-200/50 hover:border-amber-400/50 transition-colors">
+              <h3 className="font-semibold text-stone-900 hover:text-blue-800 transition-colors">Fountain Pen Nib Sizes Explained</h3>
+              <p className="text-sm text-stone-400 mt-1">Japanese vs European sizing, steel vs gold.</p>
             </Link>
-            <Link href="/blog/fountain-pen-filling-systems-explained" className="bg-slate-800/30 rounded-lg p-5 border border-slate-700/50 hover:border-amber-400/50 transition-colors">
-              <h3 className="font-semibold text-white hover:text-amber-400 transition-colors">Filling Systems Explained</h3>
-              <p className="text-sm text-slate-500 mt-1">Cartridge, piston, vacuum, and more.</p>
+            <Link href="/blog/fountain-pen-filling-systems-explained" className="bg-white rounded p-5 border border-stone-200/50 hover:border-amber-400/50 transition-colors">
+              <h3 className="font-semibold text-stone-900 hover:text-blue-800 transition-colors">Filling Systems Explained</h3>
+              <p className="text-sm text-stone-400 mt-1">Cartridge, piston, vacuum, and more.</p>
             </Link>
-            <Link href="/blog/best-fountain-pen-inks" className="bg-slate-800/30 rounded-lg p-5 border border-slate-700/50 hover:border-amber-400/50 transition-colors">
-              <h3 className="font-semibold text-white hover:text-amber-400 transition-colors">Best Fountain Pen Inks</h3>
-              <p className="text-sm text-slate-500 mt-1">Top 10 inks across 5 brands.</p>
+            <Link href="/blog/best-fountain-pen-inks" className="bg-white rounded p-5 border border-stone-200/50 hover:border-amber-400/50 transition-colors">
+              <h3 className="font-semibold text-stone-900 hover:text-blue-800 transition-colors">Best Fountain Pen Inks</h3>
+              <p className="text-sm text-stone-400 mt-1">Top 10 inks across 5 brands.</p>
             </Link>
           </div>
         </section>

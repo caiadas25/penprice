@@ -144,21 +144,21 @@ const systems: FillingSystem[] = [
 export default function FillingSystemsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-400 mb-8">
+        <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <Link href="/blog" className="hover:text-amber-400 transition-colors">Guides</Link>
+        <Link href="/blog" className="hover:text-blue-800 transition-colors">Guides</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">Filling Systems Explained</span>
+        <span className="text-stone-500">Filling Systems Explained</span>
       </nav>
 
       <article>
         <header className="mb-10">
-          <p className="text-amber-400 text-sm font-medium mb-2">Fountain Pen Guide — Updated June 2026</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <p className="text-blue-800 text-sm font-medium mb-2">Fountain Pen Guide — Updated June 2026</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
             Fountain Pen Filling Systems Explained
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed">
+          <p className="text-lg text-stone-500 leading-relaxed">
             Confused by cartridge vs piston vs vacuum? This guide breaks down every major filling system,
             compares ink capacities, and helps you pick the right one for your writing style.
           </p>
@@ -166,11 +166,11 @@ export default function FillingSystemsPage() {
 
         {/* Quick Comparison Table */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Quick Comparison</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Quick Comparison</h2>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-slate-800 rounded-xl overflow-hidden">
+            <table className="w-full text-sm border border-stone-200 rounded overflow-hidden">
               <thead>
-                <tr className="bg-slate-800 text-slate-300">
+                <tr className="bg-stone-100 text-stone-700">
                   <th className="px-4 py-3 text-left">System</th>
                   <th className="px-4 py-3 text-left">Ink Capacity</th>
                   <th className="px-4 py-3 text-left">Ease of Use</th>
@@ -178,35 +178,35 @@ export default function FillingSystemsPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-800">
-                <tr className="bg-slate-900/50">
-                  <td className="px-4 py-3 text-white font-medium">Cartridge/Converter</td>
-                  <td className="px-4 py-3 text-slate-400">0.4–0.9 mL</td>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-stone-900 font-medium">Cartridge/Converter</td>
+                  <td className="px-4 py-3 text-stone-500">0.4–0.9 mL</td>
                   <td className="px-4 py-3 text-green-400">★★★★★</td>
-                  <td className="px-4 py-3 text-slate-400">$</td>
+                  <td className="px-4 py-3 text-stone-500">$</td>
                 </tr>
-                <tr className="bg-slate-900/50">
-                  <td className="px-4 py-3 text-white font-medium">Piston</td>
-                  <td className="px-4 py-3 text-slate-400">1.0–2.0 mL</td>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-stone-900 font-medium">Piston</td>
+                  <td className="px-4 py-3 text-stone-500">1.0–2.0 mL</td>
                   <td className="px-4 py-3 text-yellow-400">★★★★☆</td>
-                  <td className="px-4 py-3 text-slate-400">$$–$$$$</td>
+                  <td className="px-4 py-3 text-stone-500">$$–$$$$</td>
                 </tr>
-                <tr className="bg-slate-900/50">
-                  <td className="px-4 py-3 text-white font-medium">Vacuum</td>
-                  <td className="px-4 py-3 text-slate-400">1.5–3.0 mL</td>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-stone-900 font-medium">Vacuum</td>
+                  <td className="px-4 py-3 text-stone-500">1.5–3.0 mL</td>
                   <td className="px-4 py-3 text-yellow-400">★★★☆☆</td>
-                  <td className="px-4 py-3 text-slate-400">$$$–$$$$</td>
+                  <td className="px-4 py-3 text-stone-500">$$$–$$$$</td>
                 </tr>
-                <tr className="bg-slate-900/50">
-                  <td className="px-4 py-3 text-white font-medium">Eyedropper</td>
-                  <td className="px-4 py-3 text-slate-400">2.0–4.0 mL</td>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-stone-900 font-medium">Eyedropper</td>
+                  <td className="px-4 py-3 text-stone-500">2.0–4.0 mL</td>
                   <td className="px-4 py-3 text-orange-400">★★☆☆☆</td>
-                  <td className="px-4 py-3 text-slate-400">$</td>
+                  <td className="px-4 py-3 text-stone-500">$</td>
                 </tr>
-                <tr className="bg-slate-900/50">
-                  <td className="px-4 py-3 text-white font-medium">Lever</td>
-                  <td className="px-4 py-3 text-slate-400">0.7–1.2 mL</td>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-stone-900 font-medium">Lever</td>
+                  <td className="px-4 py-3 text-stone-500">0.7–1.2 mL</td>
                   <td className="px-4 py-3 text-green-400">★★★★☆</td>
-                  <td className="px-4 py-3 text-slate-400">$$–$$$</td>
+                  <td className="px-4 py-3 text-stone-500">$$–$$$</td>
                 </tr>
               </tbody>
             </table>
@@ -215,17 +215,17 @@ export default function FillingSystemsPage() {
 
         {/* Detailed Sections */}
         {systems.map((system) => (
-          <section key={system.name} className="mb-12 p-6 rounded-xl border border-slate-800 bg-slate-900/50">
-            <h2 className="text-2xl font-bold text-white mb-2 flex items-center gap-2">
+          <section key={system.name} className="mb-12 p-6 rounded border border-stone-200 bg-white">
+            <h2 className="text-2xl font-bold text-stone-900 mb-2 flex items-center gap-2">
               <span>{system.icon}</span> {system.name}
             </h2>
-            <p className="text-slate-400 mb-4">{system.description}</p>
-            <p className="text-sm text-amber-400/80 mb-4">Capacity: {system.capacity}</p>
+            <p className="text-stone-500 mb-4">{system.description}</p>
+            <p className="text-sm text-blue-800/80 mb-4">Capacity: {system.capacity}</p>
             
             <div className="grid md:grid-cols-2 gap-4 mb-4">
               <div>
                 <h3 className="text-sm font-bold text-green-400 mb-2">✅ PROS</h3>
-                <ul className="space-y-1 text-sm text-slate-400">
+                <ul className="space-y-1 text-sm text-stone-500">
                   {system.pros.map((p) => (
                     <li key={p}>• {p}</li>
                   ))}
@@ -233,7 +233,7 @@ export default function FillingSystemsPage() {
               </div>
               <div>
                 <h3 className="text-sm font-bold text-red-400 mb-2">❌ CONS</h3>
-                <ul className="space-y-1 text-sm text-slate-400">
+                <ul className="space-y-1 text-sm text-stone-500">
                   {system.cons.map((c) => (
                     <li key={c}>• {c}</li>
                   ))}
@@ -241,13 +241,13 @@ export default function FillingSystemsPage() {
               </div>
             </div>
 
-            <h3 className="text-sm font-bold text-slate-300 mb-2">Popular Pens with This System</h3>
+            <h3 className="text-sm font-bold text-stone-700 mb-2">Popular Pens with This System</h3>
             <div className="flex flex-wrap gap-2">
               {system.pens.map((pen) => (
                 <Link
                   key={pen.slug}
                   href={`/brands/${pen.brandSlug}/${pen.slug}`}
-                  className="px-3 py-1 rounded-full bg-slate-800 text-sm text-slate-300 hover:bg-amber-900/30 hover:text-amber-400 transition-all"
+                  className="px-3 py-1 rounded bg-stone-100 text-sm text-stone-700 hover:bg-blue-50 hover:text-blue-800 transition-all"
                 >
                   {pen.name} — from ${pen.price}
                 </Link>
@@ -257,24 +257,24 @@ export default function FillingSystemsPage() {
         ))}
 
         {/* Internal Links */}
-        <section className="border-t border-slate-800 pt-8">
-          <h2 className="text-lg font-bold text-white mb-4">Related Guides</h2>
+        <section className="border-t border-stone-200 pt-8">
+          <h2 className="text-lg font-bold text-stone-900 mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Fountain Pens for Beginners →</span>
-              <span className="block text-slate-500 mt-1">Top 10 pens to start your journey</span>
+            <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Fountain Pens for Beginners →</span>
+              <span className="block text-stone-400 mt-1">Top 10 pens to start your journey</span>
             </Link>
-            <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Fountain Pens Under $50 →</span>
-              <span className="block text-slate-500 mt-1">Great pens at every price point</span>
+            <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Fountain Pens Under $50 →</span>
+              <span className="block text-stone-400 mt-1">Great pens at every price point</span>
             </Link>
-            <Link href="/faq" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Fountain Pen FAQ →</span>
-              <span className="block text-slate-500 mt-1">Answers to common questions</span>
+            <Link href="/faq" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Fountain Pen FAQ →</span>
+              <span className="block text-stone-400 mt-1">Answers to common questions</span>
             </Link>
-            <Link href="/brands/twsbi/eco" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">TWSBI ECO Price Comparison →</span>
-              <span className="block text-slate-500 mt-1">Best value piston filler</span>
+            <Link href="/brands/twsbi/eco" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">TWSBI ECO Price Comparison →</span>
+              <span className="block text-stone-400 mt-1">Best value piston filler</span>
             </Link>
           </div>
         </section>

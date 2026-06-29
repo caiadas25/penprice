@@ -161,26 +161,26 @@ export default function BestUnder300Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-400 mb-8">
+        <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <Link href="/blog" className="hover:text-amber-400 transition-colors">Blog</Link>
+        <Link href="/blog" className="hover:text-blue-800 transition-colors">Blog</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">Best Fountain Pens Under $300</span>
+        <span className="text-stone-500">Best Fountain Pens Under $300</span>
       </nav>
 
       <article>
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-900/30 text-amber-400">
+            <span className="text-xs px-2.5 py-0.5 rounded bg-blue-50 text-blue-800">
               Buying Guide
             </span>
-            <span className="text-xs text-slate-500">June 27, 2026</span>
+            <span className="text-xs text-stone-400">June 27, 2026</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
             Best Fountain Pens Under $300 in 2026
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed">
+          <p className="text-lg text-stone-500 leading-relaxed">
             The $300 tier is where fountain pens become truly exceptional. Gold nibs, piston fillers, premium materials, and flagship build quality are all within reach. Here are the best options with live price comparisons.
           </p>
         </header>
@@ -189,32 +189,32 @@ export default function BestUnder300Page() {
           {pens.map((pen, i) => (
             <div
               key={i}
-              className="group block p-6 rounded-xl border border-slate-700 bg-slate-800/30 hover:border-amber-600/50 hover:bg-slate-800/50 transition-all"
+              className="group block p-6 rounded border border-stone-200 bg-white hover:border-blue-300 hover:bg-stone-100 transition-all"
             >
               <div className="flex flex-col md:flex-row md:items-center gap-4">
                 <div className="flex-1">
                   <Link
                     href={`/brands/${pen.brand.toLowerCase()}/${pen.slug}`}
-                    className="text-xl font-bold text-white hover:text-amber-400 transition-colors"
+                    className="text-xl font-bold text-stone-900 hover:text-blue-800 transition-colors"
                   >
                     {pen.name}
                   </Link>
-                  <p className="text-sm text-slate-400 mt-1">{pen.highlight}</p>
+                  <p className="text-sm text-stone-500 mt-1">{pen.highlight}</p>
                   <div className="flex flex-wrap gap-2 mt-3">
-                    <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-full text-slate-400">
+                    <span className="text-xs px-2.5 py-1 bg-stone-100 rounded text-stone-500">
                       {pen.nib}
                     </span>
-                    <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-full text-slate-400">
+                    <span className="text-xs px-2.5 py-1 bg-stone-100 rounded text-stone-500">
                       {pen.filling}
                     </span>
                   </div>
                 </div>
                 <div className="flex flex-col items-end gap-1">
-                  <div className="text-2xl font-bold text-amber-400">
+                  <div className="text-2xl font-bold text-blue-800">
                     ${pen.price}
                   </div>
                   {pen.msrp > pen.price && (
-                    <div className="text-xs text-slate-500">
+                    <div className="text-xs text-stone-400">
                       MSRP <span className="line-through">${pen.msrp}</span>
                       {" "}
                       <span className="text-green-400">
@@ -226,7 +226,7 @@ export default function BestUnder300Page() {
                     href={pen.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-amber-400/70 hover:text-amber-400 transition-colors mt-1"
+                    className="text-xs text-blue-800/70 hover:text-blue-800 transition-colors mt-1"
                   >
                     Compare at {pen.retailer} ↗
                   </a>
@@ -237,31 +237,31 @@ export default function BestUnder300Page() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">
             What to Look for Under $300
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="p-5 rounded-xl bg-slate-800/40 border border-slate-800/50">
-              <h3 className="font-bold text-white mb-2">Gold Nibs</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded bg-white border border-stone-200/50">
+              <h3 className="font-bold text-stone-900 mb-2">Gold Nibs</h3>
+              <p className="text-sm text-stone-500">
                 At this price, expect 14k or 21k gold nibs. Gold is softer than steel, providing a smoother writing experience with subtle flex that adapts to your writing pressure.
               </p>
             </div>
-            <div className="p-5 rounded-xl bg-slate-800/40 border border-slate-800/50">
-              <h3 className="font-bold text-white mb-2">Filling Systems</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded bg-white border border-stone-200/50">
+              <h3 className="font-bold text-stone-900 mb-2">Filling Systems</h3>
+              <p className="text-sm text-stone-500">
                 Piston and vacuum fillers dominate this tier. They hold more ink than cartridges and give you access to the entire world of bottled fountain pen inks.
               </p>
             </div>
-            <div className="p-5 rounded-xl bg-slate-800/40 border border-slate-800/50">
-              <h3 className="font-bold text-white mb-2">Build Quality</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded bg-white border border-stone-200/50">
+              <h3 className="font-bold text-stone-900 mb-2">Build Quality</h3>
+              <p className="text-sm text-stone-500">
                 Premium resins, celluloid, Makrolon, and aluminum bodies. These pens are built to last decades and often appreciate in value.
               </p>
             </div>
-            <div className="p-5 rounded-xl bg-slate-800/40 border border-slate-800/50">
-              <h3 className="font-bold text-white mb-2">Brand Heritage</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded bg-white border border-stone-200/50">
+              <h3 className="font-bold text-stone-900 mb-2">Brand Heritage</h3>
+              <p className="text-sm text-stone-500">
                 Pilot, Sailor, Pelikan, and Lamy have decades of nib-making expertise. At $300, you are buying into a lineage of craftsmanship.
               </p>
             </div>
@@ -269,28 +269,28 @@ export default function BestUnder300Page() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqJsonLd.mainEntity.map((item, i) => (
-              <div key={i} className="p-5 rounded-xl bg-slate-800/40 border border-slate-800/50">
-                <h3 className="font-bold text-white mb-2">{item.name}</h3>
-                <p className="text-sm text-slate-400">{item.acceptedAnswer.text}</p>
+              <div key={i} className="p-5 rounded bg-white border border-stone-200/50">
+                <h3 className="font-bold text-stone-900 mb-2">{item.name}</h3>
+                <p className="text-sm text-stone-500">{item.acceptedAnswer.text}</p>
               </div>
             ))}
           </div>
         </section>
 
         <div className="flex flex-wrap gap-4 text-sm">
-          <Link href="/blog/best-fountain-pens-under-200" className="text-amber-400 hover:text-amber-300">
+          <Link href="/blog/best-fountain-pens-under-200" className="text-blue-800 hover:text-blue-700">
             ← Under $200
           </Link>
-          <Link href="/blog/best-japanese-fountain-pens" className="text-amber-400 hover:text-amber-300">
+          <Link href="/blog/best-japanese-fountain-pens" className="text-blue-800 hover:text-blue-700">
             Japanese Pens Guide →
           </Link>
-          <Link href="/blog/best-everyday-fountain-pens" className="text-amber-400 hover:text-amber-300">
+          <Link href="/blog/best-everyday-fountain-pens" className="text-blue-800 hover:text-blue-700">
             Everyday Pens Guide →
           </Link>
-          <Link href="/blog/best-fountain-pens-for-beginners" className="text-amber-400 hover:text-amber-300">
+          <Link href="/blog/best-fountain-pens-for-beginners" className="text-blue-800 hover:text-blue-700">
             Beginner Guide →
           </Link>
         </div>

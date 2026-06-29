@@ -25,49 +25,49 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Breadcrumb */}
-      <div className="text-sm text-slate-500 mb-8 animate-fade-in-up">
-        <Link href="/" className="hover:text-amber-400 transition-colors">
+      <div className="text-sm text-stone-500 mb-8 animate-fade-in-up">
+        <Link href="/" className="hover:text-blue-900 transition-colors">
           Brands
         </Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-300">{brand.name}</span>
+        <span className="text-stone-700">{brand.name}</span>
       </div>
 
       {/* Brand Header */}
       <div className="mb-12 animate-fade-in-up">
         <div className="relative">
           {/* Brand color accent */}
-          <div className={`absolute -top-6 left-0 w-24 h-1 rounded-full bg-gradient-to-r ${v.color} opacity-50`} />
+          <div className={`absolute -top-6 left-0 w-24 h-0.5 bg-gradient-to-r ${v.color} opacity-60`} />
 
           <div className="flex items-center gap-5 mb-4">
             <span className="text-5xl">{v.emoji}</span>
             <div>
               <div className="flex items-center gap-3 flex-wrap">
-                <h1 className="text-4xl md:text-5xl font-bold text-white">{brand.name}</h1>
-                <span className="text-sm px-3 py-1 bg-slate-800 rounded-full text-slate-400">
+                <h1 className="text-4xl md:text-5xl font-bold text-stone-900">{brand.name}</h1>
+                <span className="text-sm px-3 py-1 bg-stone-100 rounded text-stone-500">
                   {v.flag} {brand.country}
                 </span>
               </div>
-              <p className="mt-1 text-sm text-slate-500">
+              <p className="mt-1 text-sm text-stone-400">
                 {brand.models.length} models · ${minPrice.toFixed(0)} – ${maxPrice.toFixed(0)} price range
               </p>
             </div>
           </div>
         </div>
 
-        <p className="text-slate-400 max-w-3xl leading-relaxed">{brand.description}</p>
+        <p className="text-stone-500 max-w-3xl leading-relaxed">{brand.description}</p>
         <a
           href={brand.website}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-4 text-sm text-amber-400/70 hover:text-amber-400 transition-colors"
+          className="inline-flex items-center gap-2 mt-4 text-sm text-blue-800/70 hover:text-blue-900 transition-colors"
         >
           Official website ↗
         </a>
       </div>
 
       {/* Models Grid */}
-      <div className="space-y-4">
+      <div className="space-y-3">
         {brand.models.map((model, i) => {
           const lowest = getLowestPrice(model);
           const sellerCount = model.knownPrices.length;
@@ -77,31 +77,31 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
             <Link
               key={model.id}
               href={`/brands/${brand.slug}/${model.slug}`}
-              className="group block p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800/50 transition-all duration-300 animate-fade-in-up"
-              style={{ animationDelay: `${i * 0.05}s` }}
+              className="group block p-5 rounded border border-stone-200 bg-white hover:border-stone-300 hover:shadow-md transition-all duration-200 animate-fade-in-up"
+              style={{ animationDelay: `${i * 0.04}s` }}
             >
               <div className="flex flex-col md:flex-row md:items-center gap-4">
                 <div className="flex-1">
-                  <h2 className="text-xl font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
+                  <h2 className="text-lg font-semibold text-stone-900 group-hover:text-blue-900 transition-colors duration-200">
                     {brand.name} {model.name}
                   </h2>
-                  <p className="text-sm text-slate-400 mt-1 line-clamp-2 leading-relaxed">
+                  <p className="text-sm text-stone-500 mt-1 line-clamp-2 leading-relaxed">
                     {model.description}
                   </p>
                   <div className="flex flex-wrap gap-2 mt-3">
-                    <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-full text-slate-400">
+                    <span className="text-xs px-2 py-0.5 bg-stone-100 rounded text-stone-500">
                       {model.fillingSystem}
                     </span>
-                    <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-full text-slate-400">
+                    <span className="text-xs px-2 py-0.5 bg-stone-100 rounded text-stone-500">
                       {model.material}
                     </span>
                     {model.yearIntroduced && (
-                      <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-full text-slate-400">
+                      <span className="text-xs px-2 py-0.5 bg-stone-100 rounded text-stone-500">
                         Est. {model.yearIntroduced}
                       </span>
                     )}
                     {savings > 0 && (
-                      <span className="text-xs px-2.5 py-1 bg-green-900/30 text-green-400 rounded-full">
+                      <span className="text-xs px-2 py-0.5 bg-emerald-50 text-emerald-700 rounded">
                         Save {savings}%
                       </span>
                     )}
@@ -111,15 +111,15 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
                 <div className="flex flex-row md:flex-col items-center md:items-end gap-4 md:gap-1">
                   {lowest !== null && (
                     <div className="text-right">
-                      <div className="text-xs text-slate-500">from</div>
-                      <div className="text-2xl font-bold text-amber-400">
+                      <div className="text-xs text-stone-400">from</div>
+                      <div className="text-2xl font-bold text-blue-800">
                         ${lowest.toFixed(0)}
                       </div>
                       {model.msrp && model.msrp > lowest && (
-                        <div className="text-xs text-slate-600 line-through">
+                        <div className="text-xs text-stone-400 line-through">
                           MSRP ${model.msrp.toFixed(0)}
                           {model.msrpUrl && (
-                            <a href={model.msrpUrl} target="_blank" rel="noopener noreferrer" className="ml-1 text-amber-400/50 hover:text-amber-400 transition-colors no-underline" title="Manufacturer's suggested retail price">
+                            <a href={model.msrpUrl} target="_blank" rel="noopener noreferrer" className="ml-1 text-blue-800/50 hover:text-blue-800 transition-colors no-underline" title="Manufacturer's suggested retail price">
                               [source]
                             </a>
                           )}
@@ -127,9 +127,9 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
                       )}
                     </div>
                   )}
-                  <div className="text-xs text-slate-500 text-right">
+                  <div className="text-xs text-stone-400 text-right">
                     {sellerCount} retailer{sellerCount !== 1 ? "s" : ""}
-                    <span className="block text-slate-600 group-hover:text-amber-400 transition-colors mt-1 text-xs">
+                    <span className="block text-stone-400 group-hover:text-blue-800 transition-colors mt-1 text-xs">
                       Compare →
                     </span>
                   </div>
@@ -142,17 +142,17 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
 
       {/* Price Range Overview */}
       {allLowest.length > 1 && (
-        <div className="mt-12 p-6 rounded-xl border border-slate-800 bg-slate-900/40">
-          <h3 className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-4">
+        <div className="mt-12 p-5 rounded border border-stone-200 bg-white">
+          <h3 className="text-sm font-medium text-stone-400 uppercase tracking-wider mb-4">
             {brand.name} Price Overview
           </h3>
-          <div className="relative h-8 bg-slate-800 rounded-full overflow-hidden">
+          <div className="relative h-8 bg-stone-100 rounded overflow-hidden">
             <div
-              className={`absolute top-0 left-0 h-full rounded-full bg-gradient-to-r ${v.color} opacity-60`}
+              className={`absolute top-0 left-0 h-full rounded bg-gradient-to-r ${v.color} opacity-50`}
               style={{ width: `${Math.min(100, ((maxPrice - minPrice) / maxPrice) * 100 + 10)}%` }}
             />
           </div>
-          <div className="flex justify-between text-xs text-slate-500 mt-2">
+          <div className="flex justify-between text-xs text-stone-400 mt-2">
             <span>${minPrice.toFixed(0)}</span>
             <span>${maxPrice.toFixed(0)}</span>
           </div>
@@ -160,8 +160,8 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
       )}
 
       {/* Other Brands */}
-      <div className="mt-12 pt-8 border-t border-slate-800">
-        <h2 className="text-lg font-bold text-white mb-4">Other Brands</h2>
+      <div className="mt-12 pt-8 border-t border-stone-200">
+        <h2 className="text-lg font-semibold text-stone-900 mb-4">Other Brands</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {brands
             .filter((b) => b.slug !== brand.slug)
@@ -172,13 +172,13 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
                 <Link
                   key={b.id}
                   href={`/brands/${b.slug}`}
-                  className={`group p-3 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm ${bv.gradient}`}
+                  className="group p-3 rounded border border-stone-200 bg-white hover:border-stone-300 hover:shadow-sm transition-all text-sm"
                 >
                   <div className="flex items-center gap-2">
                     <span>{bv.emoji}</span>
-                    <span className="text-white font-semibold">{b.name}</span>
+                    <span className="text-stone-900 font-semibold">{b.name}</span>
                   </div>
-                  <span className="block text-slate-500 text-xs mt-1">{bv.flag} {b.country}</span>
+                  <span className="block text-stone-400 text-xs mt-1">{bv.flag} {b.country}</span>
                 </Link>
               );
             })}
@@ -189,7 +189,7 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
       <div className="mt-12">
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-amber-400 transition-colors"
+          className="inline-flex items-center gap-1 text-sm text-stone-500 hover:text-blue-900 transition-colors"
         >
           ← All brands
         </Link>

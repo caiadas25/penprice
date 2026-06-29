@@ -100,25 +100,25 @@ const calligraphyPens: CalligraphyPen[] = [
 
 function CalligraphyPenCard({ pen }: { pen: CalligraphyPen }) {
   return (
-    <div className="p-5 rounded-xl border border-slate-700 bg-slate-800/40 hover:border-amber-600/50 transition-all">
+    <div className="p-5 rounded border border-stone-200 bg-white hover:border-blue-300 transition-all">
       <div className="flex items-start justify-between gap-4">
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-xs font-medium text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded-full">
+            <span className="text-xs font-medium text-blue-800 bg-amber-400/10 px-2 py-0.5 rounded">
               {pen.category}
             </span>
-            <span className="text-xs text-slate-500">{pen.nibType}</span>
+            <span className="text-xs text-stone-400">{pen.nibType}</span>
           </div>
           <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="block">
-            <h3 className="text-lg font-bold text-white hover:text-amber-400 transition-colors">
+            <h3 className="text-lg font-bold text-stone-900 hover:text-blue-800 transition-colors">
               {pen.name}
             </h3>
           </Link>
-          <p className="text-sm text-slate-400 mt-2 leading-relaxed">{pen.why}</p>
+          <p className="text-sm text-stone-500 mt-2 leading-relaxed">{pen.why}</p>
         </div>
         <div className="text-right shrink-0">
-          <p className="text-lg font-bold text-amber-400">${pen.priceFrom.toFixed(2)}</p>
-          <p className="text-xs text-slate-500">from</p>
+          <p className="text-lg font-bold text-blue-800">${pen.priceFrom.toFixed(2)}</p>
+          <p className="text-xs text-stone-400">from</p>
         </div>
       </div>
     </div>
@@ -128,21 +128,21 @@ function CalligraphyPenCard({ pen }: { pen: CalligraphyPen }) {
 export default function BestFountainPensForCalligraphy() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-400 mb-8">
+        <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <Link href="/blog" className="hover:text-amber-400 transition-colors">Blog</Link>
+        <Link href="/blog" className="hover:text-blue-800 transition-colors">Blog</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">Best Fountain Pens for Calligraphy</span>
+        <span className="text-stone-500">Best Fountain Pens for Calligraphy</span>
       </nav>
 
       <article>
         <header className="mb-10">
-          <p className="text-amber-400 text-sm font-medium mb-2">Calligraphy Guide — Updated June 2026</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <p className="text-blue-800 text-sm font-medium mb-2">Calligraphy Guide — Updated June 2026</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
             Best Fountain Pens for Calligraphy in 2026
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed">
+          <p className="text-lg text-stone-500 leading-relaxed">
             Fountain pens are one of the best tools for calligraphy, but not all nibs are created equal.
             This guide covers flex nibs, italic nibs, and stub nibs — the three types that produce
             the line variation calligraphers need — with price comparisons across major retailers.
@@ -150,28 +150,28 @@ export default function BestFountainPensForCalligraphy() {
         </header>
 
         {/* Nib Types */}
-        <div className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 mb-10">
-          <h2 className="text-lg font-bold text-white mb-3">3 Types of Calligraphy Nibs</h2>
+        <div className="bg-white border border-stone-200 rounded p-6 mb-10">
+          <h2 className="text-lg font-bold text-stone-900 mb-3">3 Types of Calligraphy Nibs</h2>
           <div className="grid gap-4 text-sm">
             <div>
-              <h3 className="font-bold text-amber-400 mb-1">Flex Nibs</h3>
-              <p className="text-slate-400">
+              <h3 className="font-bold text-blue-800 mb-1">Flex Nibs</h3>
+              <p className="text-stone-500">
                 Soft, springy nibs that spread under pressure, creating thick downstrokes and thin
                 upstrokes. True flex nibs (Noodler&apos;s Ahab, Konrad) use steel. Soft gold nibs
                 (Pilot Falcon) produce subtler variation. Best for Copperplate and Spencerian scripts.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-amber-400 mb-1">Stub/Italic Nibs</h3>
-              <p className="text-slate-400">
+              <h3 className="font-bold text-blue-800 mb-1">Stub/Italic Nibs</h3>
+              <p className="text-stone-500">
                 Flat, chisel-shaped nibs that naturally produce thick vertical strokes and thin
                 horizontal strokes without any pressure change. Available in widths from 1.1mm to
                 2.3mm. Best for italic calligraphy and everyday cursive with flair.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-amber-400 mb-1">Soft Nibs</h3>
-              <p className="text-slate-400">
+              <h3 className="font-bold text-blue-800 mb-1">Soft Nibs</h3>
+              <p className="text-stone-500">
                 Gold nibs designed to be slightly springy. Not true flex nibs, but they produce
                 expressive line variation with a lighter touch. A good middle ground between
                 stub nibs and full flex.
@@ -182,7 +182,7 @@ export default function BestFountainPensForCalligraphy() {
 
         {/* Top Picks */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">Top Fountain Pens for Calligraphy</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-6">Top Fountain Pens for Calligraphy</h2>
           <div className="grid gap-4">
             {calligraphyPens.map((pen) => (
               <CalligraphyPenCard key={pen.slug} pen={pen} />
@@ -192,25 +192,25 @@ export default function BestFountainPensForCalligraphy() {
 
         {/* Inks for Calligraphy */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Best Inks for Calligraphy</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Best Inks for Calligraphy</h2>
           <div className="grid gap-3 text-sm">
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">Noodler&apos;s Baystate Blue</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">Noodler&apos;s Baystate Blue</h3>
+              <p className="text-stone-500">
                 Vibrant blue with excellent flow for flex nibs. Water-resistant once dry. The go-to
                 ink for calligraphers who want bold, saturated color with great feathering resistance.
               </p>
             </div>
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">Iroshizuku Take-sumi (Bamboo Charcoal)</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">Iroshizuku Take-sumi (Bamboo Charcoal)</h3>
+              <p className="text-stone-500">
                 A smooth, well-lubricated black ink that flows beautifully in flex nibs. Low
                 feathering and great shading on quality paper. Premium ink for serious calligraphy.
               </p>
             </div>
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">Diamine Oxblood</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">Diamine Oxblood</h3>
+              <p className="text-stone-500">
                 A deep, dark red that looks like real blood on paper. Excellent shading properties
                 that highlight line variation in flex and stub nibs. A calligraphy favorite.
               </p>
@@ -220,36 +220,36 @@ export default function BestFountainPensForCalligraphy() {
 
         {/* Paper */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Best Paper for Calligraphy</h2>
-          <p className="text-sm text-slate-400 leading-relaxed mb-4">
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Best Paper for Calligraphy</h2>
+          <p className="text-sm text-stone-500 leading-relaxed mb-4">
             Paper matters enormously for calligraphy. Cheap copy paper causes feathering, bleeding,
             and bleed-through that ruins your work. Here are the best papers:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">Rhodia Dot Pad</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">Rhodia Dot Pad</h3>
+              <p className="text-stone-500">
                 80gsm Clairefontaine paper. Ultra-smooth, no feathering. The dot grid is perfect for
                 calligraphy practice. Available in A4, A5, and pocket sizes.
               </p>
             </div>
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">Clairefontaine Triomphe</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">Clairefontaine Triomphe</h3>
+              <p className="text-stone-500">
                 90gsm premium writing paper. The smoothest paper you can buy. Ink sits on the surface
                 with zero feathering. Best for final pieces, not practice.
               </p>
             </div>
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">Tomoe River 68gsm</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">Tomoe River 68gsm</h3>
+              <p className="text-stone-500">
                 Thin but bleed-proof. Famous for showing ink sheen and shading. The best paper for
                 showing off flex nib line variation. Sold in loose sheets and notebooks.
               </p>
             </div>
-            <div className="p-4 rounded-lg border border-slate-700 bg-slate-800/30">
-              <h3 className="font-bold text-white mb-1">HP Premium Laser Paper (32lb)</h3>
-              <p className="text-slate-400">
+            <div className="p-4 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-1">HP Premium Laser Paper (32lb)</h3>
+              <p className="text-stone-500">
                 The budget calligraphy paper. At under $10 for 250 sheets, it&apos;s the best
                 value for practice. Smooth enough for flex nibs without the premium price tag.
               </p>
@@ -258,24 +258,24 @@ export default function BestFountainPensForCalligraphy() {
         </section>
 
         {/* Internal Links */}
-        <section className="border-t border-slate-700 pt-8">
-          <h2 className="text-lg font-bold text-white mb-4">Explore More</h2>
+        <section className="border-t border-stone-200 pt-8">
+          <h2 className="text-lg font-bold text-stone-900 mb-4">Explore More</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/blog/fountain-pen-nib-sizes-explained" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">Nib Sizes Explained →</span>
-              <span className="block text-slate-500 mt-1">Every nib size from EF to Broad, compared</span>
+            <Link href="/blog/fountain-pen-nib-sizes-explained" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Nib Sizes Explained →</span>
+              <span className="block text-stone-400 mt-1">Every nib size from EF to Broad, compared</span>
             </Link>
-            <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Pens for Beginners →</span>
-              <span className="block text-slate-500 mt-1">Start with the right pen and nib</span>
+            <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Pens for Beginners →</span>
+              <span className="block text-stone-400 mt-1">Start with the right pen and nib</span>
             </Link>
-            <Link href="/blog/best-fountain-pen-inks" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Fountain Pen Inks →</span>
-              <span className="block text-slate-500 mt-1">Top inks for every writing style</span>
+            <Link href="/blog/best-fountain-pen-inks" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Fountain Pen Inks →</span>
+              <span className="block text-stone-400 mt-1">Top inks for every writing style</span>
             </Link>
-            <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Pens Under $50 →</span>
-              <span className="block text-slate-500 mt-1">Budget-friendly options with price comparisons</span>
+            <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Pens Under $50 →</span>
+              <span className="block text-stone-400 mt-1">Budget-friendly options with price comparisons</span>
             </Link>
           </div>
         </section>

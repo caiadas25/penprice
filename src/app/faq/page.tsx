@@ -66,17 +66,17 @@ const faqs = [
 export default function FAQPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-500 mb-8">
+        <Link href="/" className="hover:text-blue-900 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">FAQ</span>
+        <span className="text-stone-400">FAQ</span>
       </nav>
 
       <header className="mb-10">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
           Fountain Pen FAQ
         </h1>
-        <p className="text-lg text-slate-400 leading-relaxed">
+        <p className="text-base text-stone-500 leading-relaxed">
           Answers to the most common questions about fountain pens. Whether you&apos;re a
           complete beginner or looking to upgrade, we&apos;ve got you covered.
         </p>
@@ -84,32 +84,32 @@ export default function FAQPage() {
 
       <div className="space-y-6">
         {faqs.map((faq) => (
-          <div key={faq.question} className="border-b border-slate-700 pb-6 last:border-0">
-            <h2 className="text-lg font-bold text-white mb-2">{faq.question}</h2>
-            <p className="text-slate-400 text-sm leading-relaxed">{faq.answer}</p>
+          <div key={faq.question} className="border-b border-stone-200 pb-6 last:border-0">
+            <h2 className="text-lg font-semibold text-stone-900 mb-2">{faq.question}</h2>
+            <p className="text-stone-500 text-sm leading-relaxed">{faq.answer}</p>
           </div>
         ))}
       </div>
 
       {/* Internal Links */}
-      <section className="mt-12 border-t border-slate-700 pt-8">
-        <h2 className="text-lg font-bold text-white mb-4">Ready to Buy?</h2>
+      <section className="mt-12 border-t border-stone-200 pt-8">
+        <h2 className="text-lg font-semibold text-stone-900 mb-4">Ready to Buy?</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-            <span className="text-white font-semibold">Beginner&apos;s Guide →</span>
-            <span className="block text-slate-500 mt-1">Our top 10 picks for first-time buyers</span>
+          <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm bg-white">
+            <span className="text-stone-900 font-semibold">Beginner&apos;s Guide →</span>
+            <span className="block text-stone-400 mt-1">Our top 10 picks for first-time buyers</span>
           </Link>
-          <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-            <span className="text-white font-semibold">Best Pens Under $50 →</span>
-            <span className="block text-slate-500 mt-1">Budget-friendly options with price comparisons</span>
+          <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm bg-white">
+            <span className="text-stone-900 font-semibold">Best Pens Under $50 →</span>
+            <span className="block text-stone-400 mt-1">Budget-friendly options with price comparisons</span>
           </Link>
-          <Link href="/brands/pilot" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-            <span className="text-white font-semibold">Browse Pilot Pens →</span>
-            <span className="block text-slate-500 mt-1">Metropolitan, Custom 823, Vanishing Point</span>
+          <Link href="/brands/pilot" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm bg-white">
+            <span className="text-stone-900 font-semibold">Browse Pilot Pens →</span>
+            <span className="block text-stone-400 mt-1">Metropolitan, Custom 823, Vanishing Point</span>
           </Link>
-          <Link href="/" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-            <span className="text-white font-semibold">Compare All Prices →</span>
-            <span className="block text-slate-500 mt-1">11 brands, 39+ models tracked</span>
+          <Link href="/" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm bg-white">
+            <span className="text-stone-900 font-semibold">Compare All Prices →</span>
+            <span className="block text-stone-400 mt-1">11 brands, 39+ models tracked</span>
           </Link>
         </div>
       </section>

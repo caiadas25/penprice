@@ -118,30 +118,30 @@ const inks: Ink[] = [
 export default function BestFountainPenInksPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-400 mb-8">
+        <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <Link href="/blog" className="hover:text-amber-400 transition-colors">Guides</Link>
+        <Link href="/blog" className="hover:text-blue-800 transition-colors">Guides</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">Best Fountain Pen Inks</span>
+        <span className="text-stone-500">Best Fountain Pen Inks</span>
       </nav>
 
       <article>
         <header className="mb-10">
-          <p className="text-amber-400 text-sm font-medium mb-2">Ink Guide — Updated June 2026</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <p className="text-blue-800 text-sm font-medium mb-2">Ink Guide — Updated June 2026</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
             Best Fountain Pen Inks in 2026
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed">
+          <p className="text-lg text-stone-500 leading-relaxed">
             The ink makes the pen. We tested 50+ fountain pen inks across 10 brands to find the 10 best
             for everyday writing, artistic expression, and permanent documents.
           </p>
         </header>
 
         {/* Quick Pick */}
-        <section className="mb-12 p-6 rounded-xl border border-amber-700/30 bg-amber-900/10">
-          <h2 className="text-lg font-bold text-amber-400 mb-2">🏆 Our Top Pick</h2>
-          <p className="text-slate-300">
+        <section className="mb-12 p-6 rounded border border-amber-700/30 bg-amber-900/10">
+          <h2 className="text-lg font-bold text-blue-800 mb-2">🏆 Our Top Pick</h2>
+          <p className="text-stone-700">
             <strong>Pilot Iroshizuku Kon-peki</strong> — The perfect blue. Beautiful shading, excellent flow,
             stunning bottle. If you buy one ink, buy this one. ($33 / 50mL)
           </p>
@@ -149,36 +149,36 @@ export default function BestFountainPenInksPage() {
 
         {/* Ink List */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">Top 10 Fountain Pen Inks</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-6">Top 10 Fountain Pen Inks</h2>
           <div className="space-y-4">
             {inks.map((ink, i) => (
               <div
                 key={ink.name}
-                className="p-6 rounded-xl border border-slate-800 bg-slate-900/50"
+                className="p-6 rounded border border-stone-200 bg-white"
               >
                 <div className="flex items-start gap-4">
-                  <div className="text-2xl font-bold text-amber-400/50 shrink-0 w-8">
+                  <div className="text-2xl font-bold text-blue-800/50 shrink-0 w-8">
                     {i + 1}
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
-                      <h3 className="text-lg font-bold text-white">{ink.name}</h3>
-                      <span className="text-sm text-slate-500">by {ink.brand}</span>
+                      <h3 className="text-lg font-bold text-stone-900">{ink.name}</h3>
+                      <span className="text-sm text-stone-400">by {ink.brand}</span>
                     </div>
                     <div className="flex flex-wrap gap-2 mb-3">
-                      <span className="text-xs px-2 py-1 bg-slate-800 rounded-full text-slate-400">
+                      <span className="text-xs px-2 py-1 bg-stone-100 rounded text-stone-500">
                         {ink.color}
                       </span>
-                      <span className="text-xs px-2 py-1 bg-slate-800 rounded-full text-slate-400">
+                      <span className="text-xs px-2 py-1 bg-stone-100 rounded text-stone-500">
                         {ink.type}
                       </span>
-                      <span className="text-xs px-2 py-1 bg-amber-900/30 rounded-full text-amber-400">
+                      <span className="text-xs px-2 py-1 bg-blue-50 rounded text-blue-800">
                         ~${ink.price}/50mL
                       </span>
                     </div>
-                    <p className="text-sm text-slate-400 mb-2">{ink.why}</p>
-                    <p className="text-xs text-slate-500">
-                      <span className="text-amber-400/70">Best for:</span> {ink.bestFor}
+                    <p className="text-sm text-stone-500 mb-2">{ink.why}</p>
+                    <p className="text-xs text-stone-400">
+                      <span className="text-blue-800/70">Best for:</span> {ink.bestFor}
                     </p>
                   </div>
                 </div>
@@ -189,32 +189,32 @@ export default function BestFountainPenInksPage() {
 
         {/* Ink Types Explained */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Ink Types Explained</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Ink Types Explained</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="p-5 rounded-xl border border-slate-800 bg-slate-900/50">
-              <h3 className="font-bold text-white mb-2">Dye-Based Inks</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-2">Dye-Based Inks</h3>
+              <p className="text-sm text-stone-500">
                 Most fountain pen inks are dye-based. They flow well, come in every color imaginable,
                 and clean easily. They can fade over time and aren&apos;t waterproof.
               </p>
             </div>
-            <div className="p-5 rounded-xl border border-slate-800 bg-slate-900/50">
-              <h3 className="font-bold text-white mb-2">Pigmented Inks</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-2">Pigmented Inks</h3>
+              <p className="text-sm text-stone-500">
                 Contain fine pigment particles instead of dissolved dye. More permanent and
                 water-resistant, but require more frequent cleaning to prevent clogging.
               </p>
             </div>
-            <div className="p-5 rounded-xl border border-slate-800 bg-slate-900/50">
-              <h3 className="font-bold text-white mb-2">Iron Gall Inks</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-2">Iron Gall Inks</h3>
+              <p className="text-sm text-stone-500">
                 Traditional ink that darkens over time as iron oxidizes. Very permanent and
                 archival. Slightly acidic, so don&apos;t let it dry in your pen.
               </p>
             </div>
-            <div className="p-5 rounded-xl border border-slate-800 bg-slate-900/50">
-              <h3 className="font-bold text-white mb-2">Shimmer Inks</h3>
-              <p className="text-sm text-slate-400">
+            <div className="p-5 rounded border border-stone-200 bg-white">
+              <h3 className="font-bold text-stone-900 mb-2">Shimmer Inks</h3>
+              <p className="text-sm text-stone-500">
                 Contain fine metallic particles that create a shimmer effect on paper. Beautiful
                 but require more maintenance — shake before filling and clean frequently.
               </p>
@@ -223,24 +223,24 @@ export default function BestFountainPenInksPage() {
         </section>
 
         {/* Internal Links */}
-        <section className="border-t border-slate-800 pt-8">
-          <h2 className="text-lg font-bold text-white mb-4">Related Guides</h2>
+        <section className="border-t border-stone-200 pt-8">
+          <h2 className="text-lg font-bold text-stone-900 mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/blog/fountain-pen-filling-systems-explained" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Filling Systems Explained →</span>
-              <span className="block text-slate-500 mt-1">Cartridge vs piston vs vacuum</span>
+            <Link href="/blog/fountain-pen-filling-systems-explained" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Filling Systems Explained →</span>
+              <span className="block text-stone-400 mt-1">Cartridge vs piston vs vacuum</span>
             </Link>
-            <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Pens for Beginners →</span>
-              <span className="block text-slate-500 mt-1">Top 10 starter pens</span>
+            <Link href="/blog/best-fountain-pens-for-beginners" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Pens for Beginners →</span>
+              <span className="block text-stone-400 mt-1">Top 10 starter pens</span>
             </Link>
-            <Link href="/faq" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Fountain Pen FAQ →</span>
-              <span className="block text-slate-500 mt-1">Common questions answered</span>
+            <Link href="/faq" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Fountain Pen FAQ →</span>
+              <span className="block text-stone-400 mt-1">Common questions answered</span>
             </Link>
-            <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded-lg border border-slate-800 hover:border-amber-700/50 transition-all text-sm">
-              <span className="text-white font-semibold">Best Pens Under $50 →</span>
-              <span className="block text-slate-500 mt-1">Affordable fountain pens</span>
+            <Link href="/blog/best-fountain-pens-under-50" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">Best Pens Under $50 →</span>
+              <span className="block text-stone-400 mt-1">Affordable fountain pens</span>
             </Link>
           </div>
         </section>

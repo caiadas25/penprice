@@ -107,29 +107,29 @@ export default function LeftHandedFountainPensPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <nav className="text-sm text-slate-500 mb-8">
-          <Link href="/" className="hover:text-amber-400 transition-colors">
+        <nav className="text-sm text-stone-400 mb-8">
+          <Link href="/" className="hover:text-blue-800 transition-colors">
             Home
           </Link>
           <span className="mx-2">/</span>
-          <Link href="/blog" className="hover:text-amber-400 transition-colors">
+          <Link href="/blog" className="hover:text-blue-800 transition-colors">
             Blog
           </Link>
           <span className="mx-2">/</span>
-          <span className="text-slate-400">
+          <span className="text-stone-500">
             Best Fountain Pens for Left-Handed Writers
           </span>
         </nav>
 
         <article>
           <header className="mb-10">
-            <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-900/30 text-amber-400 mb-3 inline-block">
+            <span className="text-xs px-2.5 py-0.5 rounded bg-blue-50 text-blue-800 mb-3 inline-block">
               Buying Guide
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
               Best Fountain Pens for Left-Handed Writers in 2026
             </h1>
-            <p className="text-lg text-slate-400">
+            <p className="text-lg text-stone-500">
               Being left-handed doesn&apos;t mean you can&apos;t enjoy fountain pens.
               The right pen, nib size, and grip angle make all the difference. Here are
               the best fountain pens that won&apos;t smudge, skip, or cause hand fatigue.
@@ -137,29 +137,29 @@ export default function LeftHandedFountainPensPage() {
           </header>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-stone-900 mb-6">
               What Lefties Need in a Fountain Pen
             </h2>
             <div className="grid md:grid-cols-3 gap-4">
-              <div className="p-5 rounded-xl border border-slate-700 bg-slate-800/30">
-                <h3 className="font-bold text-white mb-2">Fine Nibs</h3>
-                <p className="text-slate-400 text-sm">
+              <div className="p-5 rounded border border-stone-200 bg-white">
+                <h3 className="font-bold text-stone-900 mb-2">Fine Nibs</h3>
+                <p className="text-stone-500 text-sm">
                   Fine and Extra Fine nibs lay down less ink, which dries faster.
                   Japanese Fine nibs (Pilot, Platinum) are finer than Western Fine
                   nibs (Lamy, Pelikan), making them ideal for lefties.
                 </p>
               </div>
-              <div className="p-5 rounded-xl border border-slate-700 bg-slate-800/30">
-                <h3 className="font-bold text-white mb-2">Quick-Drying Ink</h3>
-                <p className="text-slate-400 text-sm">
+              <div className="p-5 rounded border border-stone-200 bg-white">
+                <h3 className="font-bold text-stone-900 mb-2">Quick-Drying Ink</h3>
+                <p className="text-stone-500 text-sm">
                   Use inks that dry quickly on paper. Pilot Iroshizuku, Platinum
                   Carbon Black, and Sailor Sei-boku are known for fast drying times.
                   Avoid saturated, slow-drying inks.
                 </p>
               </div>
-              <div className="p-5 rounded-xl border border-slate-700 bg-slate-800/30">
-                <h3 className="font-bold text-white mb-2">Comfortable Grip</h3>
-                <p className="text-slate-400 text-sm">
+              <div className="p-5 rounded border border-stone-200 bg-white">
+                <h3 className="font-bold text-stone-900 mb-2">Comfortable Grip</h3>
+                <p className="text-stone-500 text-sm">
                   Triangular grip sections (Lamy Safari) or lightweight bodies
                   (Platinum Preppy) reduce the grip pressure that causes fatigue
                   and smudging. Avoid heavy brass pens for long writing sessions.
@@ -169,33 +169,33 @@ export default function LeftHandedFountainPensPage() {
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-stone-900 mb-6">
               The Best Pens for Lefties
             </h2>
             <div className="space-y-6">
               {leftyPens.map((pen) => (
                 <div
                   key={pen.slug}
-                  className="p-6 rounded-xl border border-slate-700 bg-slate-800/30"
+                  className="p-6 rounded border border-stone-200 bg-white"
                 >
                   <div className="flex items-start justify-between mb-3">
                     <Link
                       href={`/brands/${pen.brandSlug}/${pen.slug}`}
-                      className="text-xl font-bold text-white hover:text-amber-400 transition-colors"
+                      className="text-xl font-bold text-stone-900 hover:text-blue-800 transition-colors"
                     >
                       {pen.name}
                     </Link>
-                    <span className="text-lg font-bold text-amber-400">
+                    <span className="text-lg font-bold text-blue-800">
                       From ${pen.priceFrom.toFixed(2)}
                     </span>
                   </div>
-                  <p className="text-slate-400 text-sm leading-relaxed">
+                  <p className="text-stone-500 text-sm leading-relaxed">
                     {pen.why}
                   </p>
                   <div className="mt-3">
                     <Link
                       href={`/brands/${pen.brandSlug}/${pen.slug}`}
-                      className="text-sm px-3 py-1.5 rounded-lg bg-amber-600 text-white hover:bg-amber-500 transition-colors"
+                      className="text-sm px-3 py-1.5 rounded bg-amber-600 text-stone-900 hover:bg-amber-500 transition-colors"
                     >
                       Compare Prices
                     </Link>
@@ -206,25 +206,25 @@ export default function LeftHandedFountainPensPage() {
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-stone-900 mb-6">
               Writing Tips for Left-Handed Fountain Pen Users
             </h2>
-            <div className="prose prose-invert max-w-none text-slate-300 space-y-4">
+            <div className="prose prose-invert max-w-none text-stone-700 space-y-4">
               <p>
-                <strong className="text-white">Underwriting vs Overwriting:</strong>{" "}
+                <strong className="text-stone-900">Underwriting vs Overwriting:</strong>{" "}
                 Left-handed writers generally fall into two camps. Underwriters write below
                 the line with an upward stroke. Overwriters write above the line with a
                 downward stroke. Underwriters tend to have less smudging because their hand
                 follows the pen rather than dragging through wet ink.
               </p>
               <p>
-                <strong className="text-white">Rotate your paper:</strong>{" "}
+                <strong className="text-stone-900">Rotate your paper:</strong>{" "}
                 Tilt your paper 30-45 degrees clockwise (to the right). This positions the
                 nib to write with the grain of the paper rather than against it, reducing
                 scratchiness and improving ink flow.
               </p>
               <p>
-                <strong className="text-white">Don&apos;t press hard:</strong>{" "}
+                <strong className="text-stone-900">Don&apos;t press hard:</strong>{" "}
                 Fountain pens are designed to write under their own weight. Let the nib do
                 the work. Pressing harder makes the tines spread, increases ink flow, and
                 makes smudging worse.
@@ -232,30 +232,30 @@ export default function LeftHandedFountainPensPage() {
             </div>
           </section>
 
-          <section className="mb-12 p-6 rounded-xl border border-slate-700 bg-slate-800/30">
-            <h2 className="text-2xl font-bold text-white mb-4">
+          <section className="mb-12 p-6 rounded border border-stone-200 bg-white">
+            <h2 className="text-2xl font-bold text-stone-900 mb-4">
               Related Guides
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <Link
                 href="/blog/best-fountain-pens-for-beginners"
-                className="p-4 rounded-lg border border-slate-600 hover:border-amber-500 transition-colors"
+                className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-colors"
               >
-                <h3 className="font-bold text-white hover:text-amber-400 transition-colors">
+                <h3 className="font-bold text-stone-900 hover:text-blue-800 transition-colors">
                   Best Fountain Pens for Beginners
                 </h3>
-                <p className="text-sm text-slate-400 mt-1">
+                <p className="text-sm text-stone-500 mt-1">
                   New to fountain pens? Start here.
                 </p>
               </Link>
               <Link
                 href="/blog/fountain-pen-nib-sizes-explained"
-                className="p-4 rounded-lg border border-slate-600 hover:border-amber-500 transition-colors"
+                className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-colors"
               >
-                <h3 className="font-bold text-white hover:text-amber-400 transition-colors">
+                <h3 className="font-bold text-stone-900 hover:text-blue-800 transition-colors">
                   Nib Sizes Explained
                 </h3>
-                <p className="text-sm text-slate-400 mt-1">
+                <p className="text-sm text-stone-500 mt-1">
                   Extra Fine to Broad — what each size writes like.
                 </p>
               </Link>

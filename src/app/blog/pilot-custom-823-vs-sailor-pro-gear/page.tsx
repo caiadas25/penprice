@@ -71,30 +71,30 @@ export default function Pilot823VsSailorProGearPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <nav className="text-sm text-slate-500 mb-8">
-          <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+        <nav className="text-sm text-stone-400 mb-8">
+          <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
           <span className="mx-2">/</span>
-          <Link href="/blog" className="hover:text-amber-400 transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-blue-800 transition-colors">Blog</Link>
           <span className="mx-2">/</span>
-          <span className="text-slate-400">Pilot Custom 823 vs Sailor Pro Gear</span>
+          <span className="text-stone-500">Pilot Custom 823 vs Sailor Pro Gear</span>
         </nav>
 
         <article>
           <header className="mb-10">
-            <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-900/30 text-amber-400 mb-3 inline-block">Comparison</span>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <span className="text-xs px-2.5 py-0.5 rounded bg-blue-50 text-blue-800 mb-3 inline-block">Comparison</span>
+            <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
               Pilot Custom 823 vs Sailor Pro Gear
             </h1>
-            <p className="text-lg text-slate-400">
+            <p className="text-lg text-stone-500">
               Two Japanese gold nib icons. The Pilot Custom 823 is a vacuum-filling powerhouse with huge ink capacity. The Sailor Pro Gear is a 21k gold nib classic with distinctive pencil-like feedback. Both are staples of the fountain pen community.
             </p>
           </header>
 
-          <div className="bg-amber-950/30 border border-amber-900/50 rounded-lg p-6 mb-10">
-            <h2 className="text-lg font-bold text-amber-400 mb-3">Quick Verdict</h2>
-            <div className="grid sm:grid-cols-2 gap-4 text-slate-300 text-sm">
+          <div className="bg-amber-950/30 border border-amber-900/50 rounded p-6 mb-10">
+            <h2 className="text-lg font-bold text-blue-800 mb-3">Quick Verdict</h2>
+            <div className="grid sm:grid-cols-2 gap-4 text-stone-700 text-sm">
               <div>
-                <strong className="text-white">Choose the Pilot Custom 823 if:</strong>
+                <strong className="text-stone-900">Choose the Pilot Custom 823 if:</strong>
                 <ul className="mt-2 space-y-1 list-disc list-inside">
                   <li>You write for long sessions and hate refilling</li>
                   <li>You prefer a smooth, wet writer</li>
@@ -103,7 +103,7 @@ export default function Pilot823VsSailorProGearPage() {
                 </ul>
               </div>
               <div>
-                <strong className="text-white">Choose the Sailor Pro Gear if:</strong>
+                <strong className="text-stone-900">Choose the Sailor Pro Gear if:</strong>
                 <ul className="mt-2 space-y-1 list-disc list-inside">
                   <li>You love unique nib feedback (pencil-on-paper feel)</li>
                   <li>You want a wider range of nib sizes (including Zoom)</li>
@@ -116,20 +116,20 @@ export default function Pilot823VsSailorProGearPage() {
         </article>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-white mb-4">Feature Comparison</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Feature Comparison</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
-                <tr className="border-b border-slate-700">
-                  <th className="text-left py-3 px-4 text-slate-400 font-medium">Feature</th>
-                  <th className="text-left py-3 px-4 text-amber-400 font-medium">Pilot Custom 823</th>
-                  <th className="text-left py-3 px-4 text-amber-400 font-medium">Sailor Pro Gear</th>
+                <tr className="border-b border-stone-200">
+                  <th className="text-left py-3 px-4 text-stone-500 font-medium">Feature</th>
+                  <th className="text-left py-3 px-4 text-blue-800 font-medium">Pilot Custom 823</th>
+                  <th className="text-left py-3 px-4 text-blue-800 font-medium">Sailor Pro Gear</th>
                 </tr>
               </thead>
-              <tbody className="text-slate-300">
+              <tbody className="text-stone-700">
                 {comparisonData.map((row) => (
-                  <tr key={row.feature} className="border-b border-slate-800">
-                    <td className="py-3 px-4 font-medium text-white">{row.feature}</td>
+                  <tr key={row.feature} className="border-b border-stone-200">
+                    <td className="py-3 px-4 font-medium text-stone-900">{row.feature}</td>
                     <td className="py-3 px-4">{row.pilot}</td>
                     <td className="py-3 px-4">{row.sailor}</td>
                   </tr>
@@ -140,37 +140,37 @@ export default function Pilot823VsSailorProGearPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-white mb-4">FAQ</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">FAQ</h2>
           <div className="space-y-4">
-            <details className="bg-slate-900/50 border border-slate-800 rounded-lg">
-              <summary className="p-4 font-medium text-slate-200 cursor-pointer hover:text-amber-400 transition-colors">
+            <details className="bg-white border border-stone-200 rounded">
+              <summary className="p-4 font-medium text-stone-800 cursor-pointer hover:text-blue-800 transition-colors">
                 Is the Pilot Custom 823 worth the extra money over the Sailor Pro Gear?
               </summary>
-              <div className="px-4 pb-4 text-slate-300 text-sm">
+              <div className="px-4 pb-4 text-stone-700 text-sm">
                 If you value enormous ink capacity and a smooth, wet writing experience, the Custom 823 is worth it. The Sailor Pro Gear offers a gold nib with unique pencil-like feedback at a similar price point. Both are excellent.
               </div>
             </details>
-            <details className="bg-slate-900/50 border border-slate-800 rounded-lg">
-              <summary className="p-4 font-medium text-slate-200 cursor-pointer hover:text-amber-400 transition-colors">
+            <details className="bg-white border border-stone-200 rounded">
+              <summary className="p-4 font-medium text-stone-800 cursor-pointer hover:text-blue-800 transition-colors">
                 Which pen has a better gold nib?
               </summary>
-              <div className="px-4 pb-4 text-slate-300 text-sm">
+              <div className="px-4 pb-4 text-stone-700 text-sm">
                 The Sailor Pro Gear has a 21k gold nib versus the Pilot&apos;s 14k. However, nib material alone doesn&apos;t determine quality. Pilot&apos;s 14k nibs are exceptionally smooth, while Sailor&apos;s 21k nibs offer distinctive feedback.
               </div>
             </details>
           </div>
         </section>
 
-        <section className="border-t border-slate-800 pt-8">
-          <h2 className="text-lg font-bold text-slate-300 mb-4">Related Comparisons</h2>
+        <section className="border-t border-stone-200 pt-8">
+          <h2 className="text-lg font-bold text-stone-700 mb-4">Related Comparisons</h2>
           <div className="grid sm:grid-cols-2 gap-3">
-            <Link href="/blog/lamy-safari-vs-pilot-metropolitan" className="block bg-slate-900/50 border border-slate-800 rounded-lg p-4 hover:border-amber-900/50 transition-colors">
-              <span className="text-sm font-medium text-white">Lamy Safari vs Pilot Metropolitan</span>
-              <span className="block text-xs text-slate-400 mt-1">The two best beginner pens</span>
+            <Link href="/blog/lamy-safari-vs-pilot-metropolitan" className="block bg-white border border-stone-200 rounded p-4 hover:border-amber-900/50 transition-colors">
+              <span className="text-sm font-medium text-stone-900">Lamy Safari vs Pilot Metropolitan</span>
+              <span className="block text-xs text-stone-500 mt-1">The two best beginner pens</span>
             </Link>
-            <Link href="/blog/twsbi-eco-vs-pilot-metropolitan" className="block bg-slate-900/50 border border-slate-800 rounded-lg p-4 hover:border-amber-900/50 transition-colors">
-              <span className="text-sm font-medium text-white">TWSBI Eco vs Pilot Metropolitan</span>
-              <span className="block text-xs text-slate-400 mt-1">Piston filler vs cartridge</span>
+            <Link href="/blog/twsbi-eco-vs-pilot-metropolitan" className="block bg-white border border-stone-200 rounded p-4 hover:border-amber-900/50 transition-colors">
+              <span className="text-sm font-medium text-stone-900">TWSBI Eco vs Pilot Metropolitan</span>
+              <span className="block text-xs text-stone-500 mt-1">Piston filler vs cartridge</span>
             </Link>
           </div>
         </section>

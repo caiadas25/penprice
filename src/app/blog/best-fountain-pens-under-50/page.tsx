@@ -84,30 +84,30 @@ const recommendations: PenRecommendation[] = [
 function PenCard({ pen }: { pen: PenRecommendation }) {
   const brand = brands.find((b) => b.slug === pen.brandSlug);
   return (
-    <div className="border border-slate-700 rounded-xl p-6 bg-slate-800/30 hover:border-amber-600/50 transition-all">
+    <div className="border border-stone-200 rounded p-6 bg-white hover:border-blue-300 transition-all">
       <div className="flex items-start justify-between mb-3">
         <div>
-          <p className="text-xs text-slate-500 uppercase tracking-wide">{brand?.name}</p>
-          <h3 className="text-lg font-bold text-white">
-            <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="hover:text-amber-400 transition-colors">
+          <p className="text-xs text-stone-400 uppercase tracking-wide">{brand?.name}</p>
+          <h3 className="text-lg font-bold text-stone-900">
+            <Link href={`/brands/${pen.brandSlug}/${pen.slug}`} className="hover:text-blue-800 transition-colors">
               {pen.name}
             </Link>
           </h3>
         </div>
-        <span className="text-amber-400 font-mono text-lg font-bold">from ${pen.priceFrom}</span>
+        <span className="text-blue-800 font-mono text-lg font-bold">from ${pen.priceFrom}</span>
       </div>
-      <p className="text-slate-400 text-sm leading-relaxed">{pen.why}</p>
+      <p className="text-stone-500 text-sm leading-relaxed">{pen.why}</p>
       <div className="mt-4 flex gap-2">
         <Link
           href={`/brands/${pen.brandSlug}/${pen.slug}`}
-          className="text-xs px-3 py-1.5 rounded-full bg-amber-900/30 text-amber-400 hover:bg-amber-900/50 transition-colors"
+          className="text-xs px-3 py-1.5 rounded bg-blue-50 text-blue-800 hover:bg-amber-900/50 transition-colors"
         >
           Compare Prices →
         </Link>
         {brand && (
           <Link
             href={`/brands/${pen.brandSlug}`}
-            className="text-xs px-3 py-1.5 rounded-full bg-slate-700 text-slate-400 hover:bg-slate-600 transition-colors"
+            className="text-xs px-3 py-1.5 rounded bg-stone-100 text-stone-500 hover:bg-stone-200 transition-colors"
           >
             {brand.name} All Models
           </Link>
@@ -120,21 +120,21 @@ function PenCard({ pen }: { pen: PenRecommendation }) {
 export default function BestUnder50Page() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="text-sm text-slate-500 mb-8">
-        <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+      <nav className="text-sm text-stone-400 mb-8">
+        <Link href="/" className="hover:text-blue-800 transition-colors">Home</Link>
         <span className="mx-2">/</span>
-        <Link href="/blog" className="hover:text-amber-400 transition-colors">Blog</Link>
+        <Link href="/blog" className="hover:text-blue-800 transition-colors">Blog</Link>
         <span className="mx-2">/</span>
-        <span className="text-slate-400">Best Fountain Pens Under $50</span>
+        <span className="text-stone-500">Best Fountain Pens Under $50</span>
       </nav>
 
       <article>
         <header className="mb-10">
-          <p className="text-amber-400 text-sm font-medium mb-2">Price Comparison Guide — Updated June 2026</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <p className="text-blue-800 text-sm font-medium mb-2">Price Comparison Guide — Updated June 2026</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
             Best Fountain Pens Under $50 in 2026
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed">
+          <p className="text-lg text-stone-500 leading-relaxed">
             You don&apos;t need to spend hundreds of dollars to get a great fountain pen. Here are 8 pens
             under $50 that write beautifully, with live price comparisons from Amazon, JetPens,
             Goulet Pens, and more.
@@ -142,20 +142,20 @@ export default function BestUnder50Page() {
         </header>
 
         {/* TL;DR */}
-        <div className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 mb-10">
-          <h2 className="text-lg font-bold text-white mb-3">TL;DR — Quick Picks</h2>
-          <ul className="space-y-2 text-sm text-slate-300">
-            <li><span className="text-amber-400 font-semibold">Best overall under $30:</span> Pilot Metropolitan — smooth, metal body, converter included</li>
-            <li><span className="text-amber-400 font-semibold">Best piston filler under $35:</span> TWSBI Eco — massive ink capacity, demonstrator body</li>
-            <li><span className="text-amber-400 font-semibold">Best pocket pen:</span> Kaweco Sport — compact, posts to full size, classic design</li>
-            <li><span className="text-amber-400 font-semibold">Cheapest good pen:</span> Platinum Preppy — under $6, writes smoother than pens 5x its price</li>
-            <li><span className="text-amber-400 font-semibold">Best flex nib under $25:</span> Noodler&apos;s Ahab — line variation for calligraphy on a budget</li>
+        <div className="bg-white border border-stone-200 rounded p-6 mb-10">
+          <h2 className="text-lg font-bold text-stone-900 mb-3">TL;DR — Quick Picks</h2>
+          <ul className="space-y-2 text-sm text-stone-700">
+            <li><span className="text-blue-800 font-semibold">Best overall under $30:</span> Pilot Metropolitan — smooth, metal body, converter included</li>
+            <li><span className="text-blue-800 font-semibold">Best piston filler under $35:</span> TWSBI Eco — massive ink capacity, demonstrator body</li>
+            <li><span className="text-blue-800 font-semibold">Best pocket pen:</span> Kaweco Sport — compact, posts to full size, classic design</li>
+            <li><span className="text-blue-800 font-semibold">Cheapest good pen:</span> Platinum Preppy — under $6, writes smoother than pens 5x its price</li>
+            <li><span className="text-blue-800 font-semibold">Best flex nib under $25:</span> Noodler&apos;s Ahab — line variation for calligraphy on a budget</li>
           </ul>
         </div>
 
         {/* Pens */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">The Full List</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-6">The Full List</h2>
           <div className="grid gap-4">
             {recommendations.map((pen) => (
               <PenCard key={pen.slug} pen={pen} />
@@ -165,26 +165,26 @@ export default function BestUnder50Page() {
 
         {/* Buyer's Guide */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">Buying Guide: What to Look For</h2>
-          <div className="prose prose-invert max-w-none space-y-4 text-slate-300 text-sm leading-relaxed">
+          <h2 className="text-2xl font-bold text-stone-900 mb-4">Buying Guide: What to Look For</h2>
+          <div className="prose prose-invert max-w-none space-y-4 text-stone-700 text-sm leading-relaxed">
             <p>
-              <strong className="text-white">Nib size matters more than you think.</strong> Japanese nibs
+              <strong className="text-stone-900">Nib size matters more than you think.</strong> Japanese nibs
               (Pilot, Sailor, Platinum) run finer than Western nibs (Lamy, Pelikan, Kaweco). A Pilot
               Fine is roughly equivalent to a Lamy Extra Fine. If you have small handwriting or write on
               cheap paper, go Japanese Fine.
             </p>
             <p>
-              <strong className="text-white">Filling system determines your workflow.</strong> Cartridge pens
+              <strong className="text-stone-900">Filling system determines your workflow.</strong> Cartridge pens
               are easiest for beginners (snap in a cartridge and go). Piston fillers hold more ink but
               require bottled ink. Converters give you the flexibility of bottled ink with a cartridge pen.
             </p>
             <p>
-              <strong className="text-white">Paper matters as much as the pen.</strong> Even a $500 pen will
+              <strong className="text-stone-900">Paper matters as much as the pen.</strong> Even a $500 pen will
               feather and bleed on cheap copy paper. Use fountain-pen-friendly paper like Rhodia,
               Clairefontaine, or Midori MD for the best experience.
             </p>
             <p>
-              <strong className="text-white">Always check prices across retailers.</strong> The same pen can
+              <strong className="text-stone-900">Always check prices across retailers.</strong> The same pen can
               have a $10+ price difference between Amazon, JetPens, and Goulet Pens. Our price comparison
               pages show you live prices so you never overpay.
             </p>
@@ -192,24 +192,24 @@ export default function BestUnder50Page() {
         </section>
 
         {/* Internal links */}
-        <section className="border-t border-slate-700 pt-8">
-          <h2 className="text-lg font-bold text-white mb-4">Explore More</h2>
+        <section className="border-t border-stone-200 pt-8">
+          <h2 className="text-lg font-bold text-stone-900 mb-4">Explore More</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/brands/pilot" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">All Pilot Pens →</span>
-              <span className="block text-slate-500 mt-1">Metropolitan, Custom 823, Vanishing Point, and more</span>
+            <Link href="/brands/pilot" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">All Pilot Pens →</span>
+              <span className="block text-stone-400 mt-1">Metropolitan, Custom 823, Vanishing Point, and more</span>
             </Link>
-            <Link href="/brands/lamy" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">All Lamy Pens →</span>
-              <span className="block text-slate-500 mt-1">Safari, AL-Star, 2000, Studio, and more</span>
+            <Link href="/brands/lamy" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">All Lamy Pens →</span>
+              <span className="block text-stone-400 mt-1">Safari, AL-Star, 2000, Studio, and more</span>
             </Link>
-            <Link href="/brands/twsbi" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">All TWSBI Pens →</span>
-              <span className="block text-slate-500 mt-1">Eco, Diamond 580, Classic, and more</span>
+            <Link href="/brands/twsbi" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">All TWSBI Pens →</span>
+              <span className="block text-stone-400 mt-1">Eco, Diamond 580, Classic, and more</span>
             </Link>
-            <Link href="/brands/noodlers" className="p-4 rounded-lg border border-slate-700 hover:border-amber-600/50 transition-all text-sm">
-              <span className="text-white font-semibold">All Noodler&apos;s Pens →</span>
-              <span className="block text-slate-500 mt-1">Ahab, Konrad, Creaper, and more</span>
+            <Link href="/brands/noodlers" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm">
+              <span className="text-stone-900 font-semibold">All Noodler&apos;s Pens →</span>
+              <span className="block text-stone-400 mt-1">Ahab, Konrad, Creaper, and more</span>
             </Link>
           </div>
         </section>

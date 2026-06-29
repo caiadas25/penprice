@@ -42,23 +42,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      <body className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-200">
-        <nav className="border-b border-slate-800/50 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
+      <body className="min-h-screen bg-stone-50 text-stone-800">
+        <nav className="border-b border-stone-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center gap-4">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <span className="text-2xl">🖊️</span>
-              <span className="text-xl font-bold">
-                Pen<span className="text-amber-400">Price</span>
+              <span className="text-xl font-bold text-stone-900">
+                Pen<span className="text-blue-900">Price</span>
               </span>
             </Link>
           <nav className="ml-auto flex items-center gap-6 text-sm">
-              <Link href="/" className="text-slate-400 hover:text-amber-400 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+              <Link href="/" className="text-stone-500 hover:text-blue-900 transition-colors">
                 Brands
               </Link>
-              <Link href="/blog" className="text-slate-400 hover:text-amber-400 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+              <Link href="/blog" className="text-stone-500 hover:text-blue-900 transition-colors">
                 Guides
               </Link>
-              <Link href="/faq" className="text-slate-400 hover:text-amber-400 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+              <Link href="/faq" className="text-stone-500 hover:text-blue-900 transition-colors">
                 FAQ
               </Link>
             </nav>

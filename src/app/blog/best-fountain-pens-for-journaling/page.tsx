@@ -150,29 +150,29 @@ export default function BestFountainPensForJournalingPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <nav className="text-sm text-slate-500 mb-8">
-          <Link href="/" className="hover:text-amber-400 transition-colors">
+        <nav className="text-sm text-stone-400 mb-8">
+          <Link href="/" className="hover:text-blue-800 transition-colors">
             Home
           </Link>
           <span className="mx-2">/</span>
-          <Link href="/blog" className="hover:text-amber-400 transition-colors">
+          <Link href="/blog" className="hover:text-blue-800 transition-colors">
             Blog
           </Link>
           <span className="mx-2">/</span>
-          <span className="text-slate-400">
+          <span className="text-stone-500">
             Best Fountain Pens for Journaling
           </span>
         </nav>
 
         <article>
           <header className="mb-10">
-            <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-900/30 text-amber-400 mb-3 inline-block">
+            <span className="text-xs px-2.5 py-0.5 rounded bg-blue-50 text-blue-800 mb-3 inline-block">
               Buying Guide
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
               Best Fountain Pens for Journaling in 2026
             </h1>
-            <p className="text-lg text-slate-400">
+            <p className="text-lg text-stone-500">
               Fountain pens transform journaling from a chore into a ritual. The
               right pen turns blank pages into something you look forward to
               filling. We compared ink capacity, nib comfort, and value to find
@@ -181,29 +181,29 @@ export default function BestFountainPensForJournalingPage() {
           </header>
 
           {/* Key Takeaway */}
-          <div className="bg-amber-950/30 border border-amber-900/50 rounded-lg p-6 mb-10">
-            <h2 className="text-lg font-bold text-amber-400 mb-2">
+          <div className="bg-amber-950/30 border border-amber-900/50 rounded p-6 mb-10">
+            <h2 className="text-lg font-bold text-blue-800 mb-2">
               Quick Picks
             </h2>
-            <ul className="space-y-2 text-slate-300">
+            <ul className="space-y-2 text-stone-700">
               <li>
-                <strong className="text-white">Best Value:</strong> TWSBI Eco ($33) — enormous ink capacity, transparent body, comfortable for long sessions
+                <strong className="text-stone-900">Best Value:</strong> TWSBI Eco ($33) — enormous ink capacity, transparent body, comfortable for long sessions
               </li>
               <li>
-                <strong className="text-white">Best Overall:</strong> Pilot Custom 823 ($290) — vacuum filler, weeks of ink, gold nib that glides
+                <strong className="text-stone-900">Best Overall:</strong> Pilot Custom 823 ($290) — vacuum filler, weeks of ink, gold nib that glides
               </li>
               <li>
-                <strong className="text-white">Best for Beginners:</strong> Pilot Metropolitan ($20) — smooth steel nib, premium brass body, risk-free entry
+                <strong className="text-stone-900">Best for Beginners:</strong> Pilot Metropolitan ($20) — smooth steel nib, premium brass body, risk-free entry
               </li>
               <li>
-                <strong className="text-white">Best Premium:</strong> Lamy 2000 ($180) — timeless design, piston filler, hooded gold nib
+                <strong className="text-stone-900">Best Premium:</strong> Lamy 2000 ($180) — timeless design, piston filler, hooded gold nib
               </li>
             </ul>
           </div>
 
           {/* Recommendations */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-stone-900 mb-6">
               Top Pens for Journaling
             </h2>
             <div className="space-y-6">
@@ -217,31 +217,31 @@ export default function BestFountainPensForJournalingPage() {
                 return (
                   <div
                     key={pen.slug}
-                    className="bg-slate-900/50 border border-slate-800 rounded-lg p-6"
+                    className="bg-white border border-stone-200 rounded p-6"
                   >
                     <div className="flex items-start justify-between mb-3">
                       <div>
-                        <span className="text-xs text-slate-500 font-medium">
+                        <span className="text-xs text-stone-400 font-medium">
                           #{index + 1}
                         </span>
-                        <h3 className="text-xl font-bold text-white">
+                        <h3 className="text-xl font-bold text-stone-900">
                           <Link
                             href={`/brands/${pen.brandSlug}/${pen.slug}`}
-                            className="hover:text-amber-400 transition-colors"
+                            className="hover:text-blue-800 transition-colors"
                           >
                             {pen.name}
                           </Link>
                         </h3>
                         {brand && (
-                          <p className="text-sm text-slate-400">{brand.name}</p>
+                          <p className="text-sm text-stone-500">{brand.name}</p>
                         )}
                       </div>
-                      <span className="text-amber-400 font-bold text-lg">
+                      <span className="text-blue-800 font-bold text-lg">
                         From ${lowestPrice.toFixed(2)}
                       </span>
                     </div>
-                    <p className="text-slate-300 mb-3">{pen.why}</p>
-                    <p className="text-sm text-amber-500/80 italic">
+                    <p className="text-stone-700 mb-3">{pen.why}</p>
+                    <p className="text-sm text-blue-700/80 italic">
                       Best for: {pen.bestFor}
                     </p>
                     {model && (
@@ -252,7 +252,7 @@ export default function BestFountainPensForJournalingPage() {
                             href={price.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-full transition-colors"
+                            className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-700 px-3 py-1.5 rounded transition-colors"
                           >
                             {price.retailer} — ${price.price.toFixed(2)}
                           </a>
@@ -267,48 +267,48 @@ export default function BestFountainPensForJournalingPage() {
 
           {/* What to Look For */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-stone-900 mb-6">
               What to Look For in a Journaling Pen
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-slate-900/50 border border-slate-800 rounded-lg p-5">
-                <h3 className="font-bold text-amber-400 mb-2">
+              <div className="bg-white border border-stone-200 rounded p-5">
+                <h3 className="font-bold text-blue-800 mb-2">
                   Ink Capacity
                 </h3>
-                <p className="text-slate-300 text-sm">
+                <p className="text-stone-700 text-sm">
                   Journaling daily means going through ink fast. Piston-fillers
                   (TWSBI, Lamy 2000) and vacuum-fillers (Pilot Custom 823) hold
                   1-2ml per fill. Cartridge pens hold 0.5-0.7ml. More ink means
                   fewer interruptions mid-thought.
                 </p>
               </div>
-              <div className="bg-slate-900/50 border border-slate-800 rounded-lg p-5">
-                <h3 className="font-bold text-amber-400 mb-2">
+              <div className="bg-white border border-stone-200 rounded p-5">
+                <h3 className="font-bold text-blue-800 mb-2">
                   Nib Comfort
                 </h3>
-                <p className="text-slate-300 text-sm">
+                <p className="text-stone-700 text-sm">
                   Fine nibs (0.3-0.5mm) are ideal for smaller handwriting and
                   thinner paper. Medium nibs (0.5-0.7mm) provide a smoother,
                   more enjoyable writing experience. Gold nibs flex slightly and
                   feel softer on paper.
                 </p>
               </div>
-              <div className="bg-slate-900/50 border border-slate-800 rounded-lg p-5">
-                <h3 className="font-bold text-amber-400 mb-2">
+              <div className="bg-white border border-stone-200 rounded p-5">
+                <h3 className="font-bold text-blue-800 mb-2">
                   Paper Pairing
                 </h3>
-                <p className="text-slate-300 text-sm">
+                <p className="text-stone-700 text-sm">
                   Cheap paper (Moleskine, Field Notes) causes feathering and
                   bleed-through with fountain pens. Premium paper like Rhodia
                   No. 16 or Clairefontaine Triomphe eliminates these issues
                   entirely. The pen and paper matter equally.
                 </p>
               </div>
-              <div className="bg-slate-900/50 border border-slate-800 rounded-lg p-5">
-                <h3 className="font-bold text-amber-400 mb-2">
+              <div className="bg-white border border-stone-200 rounded p-5">
+                <h3 className="font-bold text-blue-800 mb-2">
                   Weight and Balance
                 </h3>
-                <p className="text-slate-300 text-sm">
+                <p className="text-stone-700 text-sm">
                   A journaling session can last 30-60 minutes. Heavy pens
                   (brass bodies) cause hand fatigue. Lightweight pens (Lamy
                   2000, TWSBI Eco) are better for extended writing. Post the cap
@@ -320,15 +320,15 @@ export default function BestFountainPensForJournalingPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-stone-900 mb-6">
               Frequently Asked Questions
             </h2>
             <div className="space-y-4">
-              <details className="bg-slate-900/50 border border-slate-800 rounded-lg">
-                <summary className="p-4 font-medium text-slate-200 cursor-pointer hover:text-amber-400 transition-colors">
+              <details className="bg-white border border-stone-200 rounded">
+                <summary className="p-4 font-medium text-stone-800 cursor-pointer hover:text-blue-800 transition-colors">
                   What is the best fountain pen for journaling?
                 </summary>
-                <div className="px-4 pb-4 text-slate-300 text-sm">
+                <div className="px-4 pb-4 text-stone-700 text-sm">
                   The <strong>TWSBI Eco</strong> is the best overall fountain pen
                   for journaling due to its massive ink capacity, comfortable
                   grip, and affordable $33 price. For premium journaling, the{" "}
@@ -336,11 +336,11 @@ export default function BestFountainPensForJournalingPage() {
                   and a luxurious 14k gold nib.
                 </div>
               </details>
-              <details className="bg-slate-900/50 border border-slate-800 rounded-lg">
-                <summary className="p-4 font-medium text-slate-200 cursor-pointer hover:text-amber-400 transition-colors">
+              <details className="bg-white border border-stone-200 rounded">
+                <summary className="p-4 font-medium text-stone-800 cursor-pointer hover:text-blue-800 transition-colors">
                   What nib size is best for journaling?
                 </summary>
-                <div className="px-4 pb-4 text-slate-300 text-sm">
+                <div className="px-4 pb-4 text-stone-700 text-sm">
                   A <strong>Fine or Medium</strong> nib is ideal for most
                   journalers. Fine nibs work well on thinner paper (like Moleskine
                   or Leuchtturm1917) without bleeding through, while Medium nibs
@@ -348,27 +348,27 @@ export default function BestFountainPensForJournalingPage() {
                   paper like Rhodia or Clairefontaine.
                 </div>
               </details>
-              <details className="bg-slate-900/50 border border-slate-800 rounded-lg">
-                <summary className="p-4 font-medium text-slate-200 cursor-pointer hover:text-amber-400 transition-colors">
+              <details className="bg-white border border-stone-200 rounded">
+                <summary className="p-4 font-medium text-stone-800 cursor-pointer hover:text-blue-800 transition-colors">
                   How long does a fountain pen ink cartridge last for journaling?
                 </summary>
-                <div className="px-4 pb-4 text-slate-300 text-sm">
+                <div className="px-4 pb-4 text-stone-700 text-sm">
                   A standard cartridge lasts about 1-2 weeks of daily journaling
                   (1-2 pages per day). Piston-filling pens like the TWSBI Eco or
                   Lamy 2000 hold 3-5x more ink and can last 4-8 weeks between
                   refills, making them ideal for dedicated journalers.
                 </div>
               </details>
-              <details className="bg-slate-900/50 border border-slate-800 rounded-lg">
-                <summary className="p-4 font-medium text-slate-200 cursor-pointer hover:text-amber-400 transition-colors">
+              <details className="bg-white border border-stone-200 rounded">
+                <summary className="p-4 font-medium text-stone-800 cursor-pointer hover:text-blue-800 transition-colors">
                   Can I use any ink for journaling?
                 </summary>
-                <div className="px-4 pb-4 text-slate-300 text-sm">
+                <div className="px-4 pb-4 text-stone-700 text-sm">
                   Use fountain pen ink only. India ink and calligraphy ink will
                   clog your pen permanently. For journaling, waterproof inks like{" "}
                   <Link
                     href="/blog/best-fountain-pen-inks"
-                    className="text-amber-400 hover:underline"
+                    className="text-blue-800 hover:underline"
                   >
                     Noodler&apos;s Heart of Darkness
                   </Link>{" "}
@@ -381,52 +381,52 @@ export default function BestFountainPensForJournalingPage() {
           </section>
 
           {/* Related Guides */}
-          <section className="border-t border-slate-800 pt-8">
-            <h2 className="text-lg font-bold text-slate-300 mb-4">
+          <section className="border-t border-stone-200 pt-8">
+            <h2 className="text-lg font-bold text-stone-700 mb-4">
               Related Guides
             </h2>
             <div className="grid sm:grid-cols-2 gap-3">
               <Link
                 href="/blog/best-fountain-pens-for-beginners"
-                className="block bg-slate-900/50 border border-slate-800 rounded-lg p-4 hover:border-amber-900/50 transition-colors"
+                className="block bg-white border border-stone-200 rounded p-4 hover:border-amber-900/50 transition-colors"
               >
-                <span className="text-sm font-medium text-white">
+                <span className="text-sm font-medium text-stone-900">
                   Best Fountain Pens for Beginners
                 </span>
-                <span className="block text-xs text-slate-400 mt-1">
+                <span className="block text-xs text-stone-500 mt-1">
                   Start your fountain pen journey right
                 </span>
               </Link>
               <Link
                 href="/blog/fountain-pen-maintenance-guide"
-                className="block bg-slate-900/50 border border-slate-800 rounded-lg p-4 hover:border-amber-900/50 transition-colors"
+                className="block bg-white border border-stone-200 rounded p-4 hover:border-amber-900/50 transition-colors"
               >
-                <span className="text-sm font-medium text-white">
+                <span className="text-sm font-medium text-stone-900">
                   Fountain Pen Maintenance Guide
                 </span>
-                <span className="block text-xs text-slate-400 mt-1">
+                <span className="block text-xs text-stone-500 mt-1">
                   Keep your journaling pen writing smoothly
                 </span>
               </Link>
               <Link
                 href="/blog/fountain-pen-nib-sizes-explained"
-                className="block bg-slate-900/50 border border-slate-800 rounded-lg p-4 hover:border-amber-900/50 transition-colors"
+                className="block bg-white border border-stone-200 rounded p-4 hover:border-amber-900/50 transition-colors"
               >
-                <span className="text-sm font-medium text-white">
+                <span className="text-sm font-medium text-stone-900">
                   Nib Sizes Explained
                 </span>
-                <span className="block text-xs text-slate-400 mt-1">
+                <span className="block text-xs text-stone-500 mt-1">
                   Find the right nib for your writing style
                 </span>
               </Link>
               <Link
                 href="/blog/best-fountain-pen-inks"
-                className="block bg-slate-900/50 border border-slate-800 rounded-lg p-4 hover:border-amber-900/50 transition-colors"
+                className="block bg-white border border-stone-200 rounded p-4 hover:border-amber-900/50 transition-colors"
               >
-                <span className="text-sm font-medium text-white">
+                <span className="text-sm font-medium text-stone-900">
                   Best Fountain Pen Inks
                 </span>
-                <span className="block text-xs text-slate-400 mt-1">
+                <span className="block text-xs text-stone-500 mt-1">
                   The best inks for everyday writing
                 </span>
               </Link>
