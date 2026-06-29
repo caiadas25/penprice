@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-ink-comparison-guide",
+    title: "Fountain Pen Ink Comparison Guide — Best Inks by Color, Brand, & Use Case",
+    excerpt: "Compare fountain pen inks from Pilot Iroshizuku, Diamine, Noodler's, Waterman, Pelikan, and more. Best inks by color, drying time, and water resistance.",
+    date: "2026-06-29",
+    category: "Ink Guide",
+  },
+  {
     slug: "best-fountain-pens-for-note-taking",
     title: "Best Fountain Pens for Note-Taking in 2026",
     excerpt: "Fast-drying nibs, comfortable grips, and ink capacity compared. The best fountain pens for note-taking from Pilot, Lamy, TWSBI, Sailor, and Platinum with prices.",
