@@ -207,6 +207,14 @@ const posts: BlogPost[] = [
     date: "2026-06-26",
     category: "Buying Guide",
   },
+  {
+    slug: "best-fountain-pens-under-30",
+    title: "Best Fountain Pens Under $30 in 2026",
+    excerpt:
+      "Compare prices on the best budget fountain pens under $30. Moonman M2, Lamy Safari, Jinhao 82, Kaweco Sport, Pilot Metropolitan, and more across Amazon, eBay, JetPens, and Goulet Pens.",
+    date: "2026-06-29",
+    category: "Budget Guide",
+  },
 ];
 
 export default function BlogIndexPage() {

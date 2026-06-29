@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PenPrice — Fountain Pen Price Comparison & Aggregator",
   description:
-    "Compare fountain pen prices across Amazon, eBay, JetPens, Goulet Pens, and more. Find the best price on Lamy, Pilot, Pelikan, Montblanc, Sailor, TWSBI, and 120+ models across 46 brands. Built for fountain pen enthusiasts.",
+    "Compare fountain pen prices across Amazon, eBay, JetPens, Goulet Pens, and more. Find the best price on Lamy, Pilot, Pelikan, Montblanc, Sailor, TWSBI, and 126+ models across 49 brands. Built for fountain pen enthusiasts.",
   openGraph: {
     title: "PenPrice — Find the Best Price on Fountain Pens",
     description:

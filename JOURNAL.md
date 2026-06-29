@@ -1,3 +1,33 @@
+## Sprint A (Round 10) — June 29, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added Moonman/Majohn (China) brand: M2 piston filler ($18.99), A1 retractable ($29.99), C1 brass pocket pen ($14.99)
+- Added Hero (China) brand: 616 aerometric filler ($2.50)
+- Added Wing Sung (China) brand: 6359 piston filler ($8.00)
+- Created  — high-intent keyword target (gap between under-20 and under-50 posts)
+  - 10 pen recommendations across $4-$30 price range
+  - FAQ with 4 questions and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to under-20, under-50, under-100, beginners, and comparison guides
+- Added visual entries for Hero, Wing Sung, Moonman/Majohn, Dollar, and Franklin-Christoph models
+- Updated blog index, sitemap, and layout metadata
+- Total: 49 brands, 126+ models, 26 blog posts
+
+### Keywords targeted
+- "best fountain pen under 30" (new blog post — high-intent keyword)
+- "Moonman M2 fountain pen price" (new model page)
+- "Moonman A1 vs Pilot Vanishing Point" (blog content)
+- "best budget fountain pen" (blog content)
+- "cheap fountain pen comparison" (blog content)
+- "Moonman M2 review" (blog content)
+- "hero 616 fountain pen" (new model page)
+
+### Current stats
+- **Brands:** 49 (was 46)
+- **Models:** 126+ (was 120+)
+- **Blog posts:** 26 (was 25)
+
+---
+
 # PenPrice — Fountain Pen Price Aggregator
 
 A price comparison site for fountain pen enthusiasts. Compare prices across Amazon, eBay, JetPens, Goulet Pens, and specialty retailers. Organized by brand -> model.

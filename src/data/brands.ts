@@ -2531,6 +2531,150 @@ export const brands: Brand[] = [
       },
     ],
   },
+  // === Budget Brands ===
+  {
+    id: "hero",
+    name: "Hero",
+    slug: "hero",
+    country: "China",
+    description:
+      "One of China's oldest and most recognized pen brands. Known for affordable fountain pens inspired by classic Western designs. The Hero 616 is one of the most widely used fountain pens in the world.",
+    website: "https://www.hero.com.cn",
+    models: [
+      {
+        id: "hero-616",
+        name: "616",
+        slug: "616",
+        description:
+          "A Parker 51-inspired aerometric filler that's been in production for decades. The hooded nib prevents drying and the aerometric filler is reliable. At $2, it's nearly free.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Aerometric",
+        material: "Brass / Plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 2.50, currency: "USD", url: "https://www.amazon.com/s?k=hero+616+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 1.99, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=hero+616+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 3,
+        yearIntroduced: 1960,
+      },
+    ],
+  },
+  {
+    id: "wing-sung",
+    name: "Wing Sung",
+    slug: "wing-sung",
+    country: "China",
+    description:
+      "Chinese pen manufacturer known for affordable fountain pens with surprisingly good build quality. Their piston-fillers are particularly popular in the budget pen community.",
+    website: "https://www.wingsung.com",
+    models: [
+      {
+        id: "wing-sung-6359",
+        name: "6359",
+        slug: "6359",
+        description:
+          "A Lamy 2000-inspired piston filler at a fraction of the cost. The hooded nib writes smoothly and the piston mechanism is surprisingly good.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 5.00, currency: "USD", url: "https://www.amazon.com/s?k=wing+sung+6359+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 4.50, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=wing+sung+6359", inStock: true, condition: "new" },
+        ],
+        msrp: 6,
+        yearIntroduced: 2018,
+      },
+    ],
+  },
+  {
+    id: "dollar",
+    name: "Dollar",
+    slug: "dollar",
+    country: "Pakistan",
+    description:
+      "Pakistani pen manufacturer producing affordable fountain pens since the 1950s. Known for reliable piston-filling mechanisms at extremely low prices.",
+    website: "https://www.dollarpens.com",
+    models: [
+      {
+        id: "dollar-717i",
+        name: "717i",
+        slug: "717i",
+        description:
+          "A piston-filling fountain pen with a surprisingly smooth mechanism for the price. The Fine nib writes well on most papers.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Piston",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 2.50, currency: "USD", url: "https://www.amazon.com/s?k=dollar+717i+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 2.00, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=dollar+717i+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 3,
+        yearIntroduced: 2005,
+      },
+    ],
+  },
+  {
+    id: "majohn",
+    name: "Moonman / Majohn",
+    slug: "majohn",
+    country: "China",
+    description:
+      "Moonman (rebranded as Majohn) is one of the most popular Chinese fountain pen brands. Known for high-quality build at ultra-budget prices, with innovative designs and reliable piston-fill mechanisms.",
+    website: "https://www.majohn.com",
+    models: [
+      {
+        id: "majohn-m2",
+        name: "M2",
+        slug: "m2",
+        description:
+          "A transparent demonstrator piston filler with a smooth steel nib. Huge ink capacity and a satisfying filling mechanism. Often compared to the TWSBI Eco at a fraction of the price.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 18.99, currency: "USD", url: "https://www.amazon.com/s?k=majohn+m2+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 16.50, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=majohn+m2+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "AliExpress", price: 14.00, currency: "USD", url: "https://www.aliexpress.com/wholesale?SearchText=majohn+m2+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 25,
+        yearIntroduced: 2018,
+      },
+      {
+        id: "majohn-a1",
+        name: "A1",
+        slug: "a1",
+        description:
+          "A retractable nib fountain pen inspired by the Pilot Vanishing Point. Click mechanism deploys the nib. Surprisingly smooth for the price, available in many finishes.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Aluminum",
+        knownPrices: [
+          { retailer: "Amazon", price: 29.99, currency: "USD", url: "https://www.amazon.com/s?k=majohn+a1+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 25.00, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=majohn+a1+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "AliExpress", price: 22.00, currency: "USD", url: "https://www.aliexpress.com/wholesale?SearchText=majohn+a1+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 35,
+        yearIntroduced: 2022,
+      },
+      {
+        id: "majohn-c1",
+        name: "C1",
+        slug: "c1",
+        description:
+          "A solid brass pocket pen with a smooth #5 nib. Compact and heavy for its size, with a screw cap. Great everyday carry pen for the price.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass",
+        knownPrices: [
+          { retailer: "Amazon", price: 14.99, currency: "USD", url: "https://www.amazon.com/s?k=majohn+c1+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 12.50, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=majohn+c1+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "AliExpress", price: 11.00, currency: "USD", url: "https://www.aliexpress.com/wholesale?SearchText=majohn+c1+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 20,
+        yearIntroduced: 2020,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
