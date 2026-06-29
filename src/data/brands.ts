@@ -135,6 +135,24 @@ export const brands: Brand[] = [
         msrpUrl: "https://www.lamy.com/en/lamy-dialog/",
         yearIntroduced: 2010,
       },
+      {
+        id: "lamy-aion",
+        name: "Aion",
+        slug: "aion",
+        description:
+          "A modern, minimalist fountain pen with a sleek aluminum body and a distinctive spring-loaded clip. The Aion bridges the gap between the Safari and the 2000 with a refined design and smooth steel nib.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter (Z28)",
+        material: "Anodized aluminum",
+        knownPrices: [
+          { retailer: "Amazon", price: 67.00, currency: "USD", url: "https://www.amazon.com/s?k=Lamy+Aion+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 70.00, currency: "USD", url: "https://www.jetpens.com/Lamy-Aion-Fountain-Pen/ct/15289", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 72.00, currency: "USD", url: "https://www.gouletpens.com/collections/lamy-aion", inStock: true, condition: "new" },
+        ],
+        msrp: 72,
+        msrpUrl: "https://www.lamy.com/en/lamy-aion/",
+        yearIntroduced: 2017,
+      },
     ],
   },
   {
@@ -270,6 +288,23 @@ export const brands: Brand[] = [
         ],
         msrp: 30,
         yearIntroduced: 2004,
+      },
+      {
+        id: "pilot-e95s",
+        name: "E95S",
+        slug: "e95s",
+        description:
+          "A compact, pocket-sized fountain pen with a 14k gold inlaid nib. Designed for everyday carry, the E95S features a sleek, minimalist design and a smooth, springy nib that punches above its weight class.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter (CON-40)",
+        material: "Brass with lacquer finish",
+        knownPrices: [
+          { retailer: "Amazon", price: 72.00, currency: "USD", url: "https://www.amazon.com/s?k=Pilot+E95S+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 75.00, currency: "USD", url: "https://www.jetpens.com/Pilot-E95S-Fountain-Pen/ct/12613", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 75.00, currency: "USD", url: "https://www.gouletpens.com/collections/pilot-e95s", inStock: true, condition: "new" },
+        ],
+        msrp: 75,
+        yearIntroduced: 1972,
       },
     ],
   },

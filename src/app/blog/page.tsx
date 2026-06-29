@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pen-paper",
+    title: "Best Fountain Pen Paper in 2026 — No Feathering, No Bleed",
+    excerpt: "Top paper picks for fountain pen writing compared by weight, smoothness, and ink handling. Rhodia, Clairefontaine, Tomoe River, Leuchtturm1917, Midori, and more.",
+    date: "2026-06-29",
+    category: "Paper Guide",
+  },
+  {
     slug: "fountain-pen-ink-comparison-guide",
     title: "Fountain Pen Ink Comparison Guide — Best Inks by Color, Brand, & Use Case",
     excerpt: "Compare fountain pen inks from Pilot Iroshizuku, Diamine, Noodler's, Waterman, Pelikan, and more. Best inks by color, drying time, and water resistance.",
