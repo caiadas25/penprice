@@ -215,6 +215,14 @@ const posts: BlogPost[] = [
     date: "2026-06-29",
     category: "Budget Guide",
   },
+  {
+    slug: "best-fountain-pens-for-drawing",
+    title: "Best Fountain Pens for Drawing and Sketching in 2026",
+    excerpt:
+      "The definitive guide to fountain pens for artists. Line art, cross-hatching, shading, and calligraphy with fountain pens. Nib recommendations and waterproof ink guide.",
+    date: "2026-06-29",
+    category: "Artist Guide",
+  },
 ];
 
 export default function BlogIndexPage() {
