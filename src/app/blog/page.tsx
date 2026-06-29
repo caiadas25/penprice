@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-note-taking",
+    title: "Best Fountain Pens for Note-Taking in 2026",
+    excerpt: "Fast-drying nibs, comfortable grips, and ink capacity compared. The best fountain pens for note-taking from Pilot, Lamy, TWSBI, Sailor, and Platinum with prices.",
+    date: "2026-06-29",
+    category: "Buying Guide",
+  },
+  {
     slug: "best-fountain-pens-for-calligraphy",
     title: "Best Fountain Pens for Calligraphy in 2026",
     excerpt: "Flex nibs, stub nibs, and italic nibs compared. The best fountain pens for calligraphy from Pilot, Noodler's, Lamy, TWSBI, and Kaweco with price comparisons.",

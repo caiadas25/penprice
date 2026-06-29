@@ -450,6 +450,24 @@ export const brands: Brand[] = [
         msrpUrl: "https://www.sailorpen.com/king-of-pens/",
         yearIntroduced: 2000,
       },
+      {
+        id: "sailor-pro-color",
+        name: "Pro Color",
+        slug: "pro-color",
+        description:
+          "Sailor's entry-level steel nib pen. The Pro Color delivers Sailor's signature feedback at a student-friendly price. The Fine nib writes a thin, fast-drying line ideal for note-taking. Durable body available in fun colors.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 25.00, currency: "USD", url: "https://www.amazon.com/s?k=sailor+Pro+Color+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 28.00, currency: "USD", url: "https://www.jetpens.com/Sailor-Pro-Color-Fountain-Pen/ct/1295", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 28.00, currency: "USD", url: "https://www.gouletpens.com/collections/sailor-pro-color", inStock: true, condition: "new" },
+        ],
+        msrp: 30,
+        msrpUrl: "https://www.sailorpen.com/pro-color/",
+        yearIntroduced: 2010,
+      },
     ],
   },
   {
