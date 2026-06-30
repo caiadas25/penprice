@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "fountain-pen-price-comparison-guide",
+    title: "Fountain Pen Price Comparison Guide — Best Deals Across Retailers 2026",
+    excerpt: "Compare fountain pen prices across Amazon, JetPens, Goulet Pens, eBay, and specialty retailers. Find the best deals on 130+ models from Pilot, Lamy, Sailor, Pelikan, and Montblanc.",
+    date: "2026-06-30",
+    category: "Price Guide",
+  },
+  {
     slug: "best-fountain-pen-ink-colors",
     title: "Best Fountain Pen Ink Colors in 2026 — Color Guide & Price Comparison",
     excerpt: "Compare the best fountain pen ink colors by brand, shade, and price. Pilot Iroshizuku, Diamine, Noodler's, Waterman, Pelikan, and Sailor inks organized by color with water resistance ratings.",
