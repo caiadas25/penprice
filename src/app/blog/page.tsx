@@ -22,6 +22,20 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-italian-fountain-pens",
+    title: "Best Italian Fountain Pens in 2026 — Price Comparison Guide",
+    excerpt: "Compare prices on the best Italian fountain pens from Aurora, Visconti, Leonardo, Montegrappa, Delta, and Pineider. From the $89 Leonardo Furore to the $599 Visconti Homo Sapiens.",
+    date: "2026-06-30",
+    category: "Brand Guide",
+  },
+  {
+    slug: "fountain-pen-converters-explained",
+    title: "Fountain Pen Converters Explained — Complete Guide",
+    excerpt: "What is a fountain pen converter? How do they work, which ones fit your pen, and which brand makes the best converter? Pilot CON-40, Lamy Z28, and international standard compared.",
+    date: "2026-06-30",
+    category: "Technical Guide",
+  },
+  {
     slug: "best-fountain-pen-paper",
     title: "Best Fountain Pen Paper in 2026 — No Feathering, No Bleed",
     excerpt: "Top paper picks for fountain pen writing compared by weight, smoothness, and ink handling. Rhodia, Clairefontaine, Tomoe River, Leuchtturm1917, Midori, and more.",
