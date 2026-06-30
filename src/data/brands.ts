@@ -323,6 +323,40 @@ export const brands: Brand[] = [
         msrp: 45,
         yearIntroduced: 2007,
       },
+      {
+        id: "pilot-custom-743",
+        name: "Custom 743",
+        slug: "custom-743",
+        description:
+          "A large, cigar-shaped fountain pen with the #15 14k gold nib — the same size nib as the Custom 823 but with a cartridge/converter filling system. Popular among writers who want Pilot's flagship nib quality without the vacuum filler complexity.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "PO (Posting)", "FA (Falcon)", "WA (Waverly)", "C (Coarse)"],
+        fillingSystem: "Cartridge / Converter (CON-70)",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 199.99, currency: "USD", url: "https://www.amazon.com/s?k=Pilot+Custom+743+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 276.00, currency: "USD", url: "https://www.jetpens.com/search?q=Pilot+Custom+743", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 276.00, currency: "USD", url: "https://www.gouletpens.com/search?q=pilot+custom+743", inStock: true, condition: "new" },
+        ],
+        msrp: 276,
+        yearIntroduced: 2000,
+      },
+      {
+        id: "pilot-capless-decimo",
+        name: "Capless Decimo",
+        slug: "capless-decimo",
+        description:
+          "A slimmer, lighter version of the Pilot Vanishing Point (Capless). The Decimo is ideal for those who find the standard Capless too thick. Same retractable click mechanism and 18k gold nib, but in a more pocket-friendly profile.",
+        nibOptions: ["Extra Fine", "Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter (CON-40)",
+        material: "Brass with lacquer finish",
+        knownPrices: [
+          { retailer: "Amazon", price: 139.99, currency: "USD", url: "https://www.amazon.com/s?k=Pilot+Capless+Decimo+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 164.00, currency: "USD", url: "https://www.jetpens.com/search?q=Pilot+Capless+Decimo", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 164.00, currency: "USD", url: "https://www.gouletpens.com/search?q=pilot+capless+decimo", inStock: true, condition: "new" },
+        ],
+        msrp: 184,
+        yearIntroduced: 2009,
+      },
     ],
   },
   {

@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "montblanc-149-price-comparison",
+    title: "Montblanc 149 Price Comparison 2026 — Best Deals Across Retailers",
+    excerpt: "Compare Montblanc Meisterstuck 149 prices across Amazon, eBay, Goulet Pens, Goldspot, and Appelboom. Find the best deal on the world's most iconic luxury fountain pen.",
+    date: "2026-06-30",
+    category: "Price Guide",
+  },
+  {
     slug: "fountain-pen-price-comparison-guide",
     title: "Fountain Pen Price Comparison Guide — Best Deals Across Retailers 2026",
     excerpt: "Compare fountain pen prices across Amazon, JetPens, Goulet Pens, eBay, and specialty retailers. Find the best deals on 130+ models from Pilot, Lamy, Sailor, Pelikan, and Montblanc.",

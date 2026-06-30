@@ -1,47 +1,47 @@
-## Sprint A (Round 19) — June 30, 2026 (Growth Sprint — Full Sprint)
+## Sprint A (Round 20) — June 30, 2026 (Growth Sprint — Full Sprint)
 ### What was done
-- **PenPrice:** Fixed duplicate Conway Stewart brand entry (was listed twice in brands.ts)
-- **PenPrice:** Added Pilot Custom Heritage brand (Japan) with 2 models:
-  - Custom Heritage 912 — 14k gold nib, piston filler, specialty nib options (PO, FA, WA), MSRP $216
-  - Justus 95 — adjustable nib softness/firmness, 14k gold, cartridge/converter, MSRP $275
-- **PenPrice:** Added Sailor Specialty brand (Japan) with 1 model:
-  - Realo — 21k gold nib, piston filler (only non-cartridge Sailor flagship), MSRP $320
-- **PenPrice:** New blog post: "Fountain Pen Price Comparison Guide — Best Deals Across Retailers 2026"
-  - Targets high-intent keyword: "fountain pen price comparison"
-  - Price comparison table for 12 popular pens across 5 retailers
-  - Retailer guide (Amazon, JetPens, Goulet, eBay, Goldspot)
-  - Price-saving tips section
+- **PenPrice:** Added new blog post: "Montblanc 149 Price Comparison 2026 — Best Deals Across Retailers"
+  - Targets high-intent keyword: "Montblanc 149 price"
+  - Price comparison table for 5 retailers (Amazon, Goldspot, Appelboom, eBay new/sold)
+  - Full specs section, nib size guide, pros/cons
+  - Alternatives section linking to Pilot Custom 823, Sailor Pro Gear, Pelikan M800
   - FAQ with FAQPage JSON-LD schema
   - Article JSON-LD schema
-  - Internal links to 6 related blog posts
-- Updated blog index and sitemap with new blog post
-- Current stats: 51 brands, 137+ models, 37 blog posts
-- **QuickKit:** New blog post: "CSS Selectors Cheat Sheet — Complete Reference"
-  - Targets high-volume keyword: "css selectors cheat sheet"
-  - Covers: basic selectors, combinators, attribute selectors, pseudo-classes, pseudo-elements, form pseudo-classes
-  - Specificity table with weights
-  - TechArticle JSON-LD schema
-  - Internal links to Flexbox, Grid, Flexbox vs Grid, Color Converter
+  - Internal links to 4 related posts
   - Updated blog index and sitemap
-  - Current stats: 31 tools, 36 blog posts
-- **ErrorDB:** Added 3 high-volume error entries:
-  - node-enoent: ENOENT no such file or directory (with path.resolve, try/catch solutions)
-  - java-nullpointerexception: NullPointerException (with Optional, null checks)
-  - python-nonetype-object: AttributeError: NoneType object has no attribute (with Optional type hints)
-  - All with causes, solutions, code examples, and cross-links
-  - Current stats: 187 errors (was 184)
-- **DevQuiz:** Added React Quiz #2 (Hooks, Context & Performance)
-  - 5 questions: useEffect lifecycle, useCallback purpose, missing deps, useContext vs useReducer, React.memo
-  - Medium difficulty
-  - Targets "react quiz online" keyword
-  - Current stats: 41 quizzes, 217+ questions
+- **PenPrice:** Added 2 new Pilot models:
+  - Pilot Custom 743 — #15 14k gold nib, cartridge/converter, MSRP $276
+  - Pilot Capless Decimo — slim retractable capless, 18k gold nib, MSRP $184
+- **PenPrice:** Fixed outdated stats in FAQ page (was "11 brands, 39+ models", now "50+ brands, 140+ models")
+- **QuickKit:** Added new blog post: "How to Convert JSON to XML — Complete Guide"
+  - Targets high-volume keyword: "json to xml"
+  - Code examples in JavaScript, Python, and Node.js (fast-xml-parser)
+  - JSON vs XML comparison table
+  - 4 conversion tips
+  - TechArticle JSON-LD schema
+  - Internal links to JSON, CSV, XML formatter tools
+  - Updated blog index and sitemap
+- **ErrorDB:** Added 2 high-volume error entries:
+  - python-modulenotfounderror: ModuleNotFoundError: No module named 'xyz' (with pip, environment, file naming solutions)
+  - js-typeerror-x-is-not-a-function: TypeError: x is not a function (with import/export, async, class solutions)
+  - Current stats: 189 errors (was 187)
+- **DevQuiz:** Added Kubernetes Quiz #2 (Advanced K8s)
+  - 5 questions: ClusterIP, DaemonSet, Role vs ClusterRole, Deployment replicas, Ingress
+  - Hard difficulty
+  - Current stats: 42 quizzes, 222+ questions
 
 ### Keywords targeted
-- "fountain pen price comparison" (new blog post — high-intent keyword)
-- "css selectors cheat sheet" (new blog post — very high volume)
-- "ENOTENT error node.js" (new error entry)
-- "java NullPointerException" (new error entry)
-- "Python AttributeError NoneType" (new error entry)
-- "react quiz online" (new quiz)
-- "Pilot Custom Heritage 912 price" (new model page)
-- "Sailor Realo price" (new model page)
+- "Montblanc 149 price" (new blog post — high-intent keyword)
+- "Montblanc Meisterstuck 149 price comparison" (blog content)
+- "Pilot Custom 743 price" (new model page)
+- "Pilot Capless Decimo price" (new model page)
+- "json to xml" (new QuickKit blog post — high volume)
+- "python ModuleNotFoundError" (new error page — very high volume)
+- "TypeError x is not a function" (new error page — very high volume)
+- "kubernetes quiz" (new quiz — high volume)
+
+### Current stats
+- **PenPrice:** 51 brands, 141+ models, 37 blog posts (was 36)
+- **QuickKit:** 31 tools, 37 blog posts (was 36)
+- **ErrorDB:** 189 errors, 25+ languages
+- **DevQuiz:** 42 quizzes, 222+ questions, 17 categories

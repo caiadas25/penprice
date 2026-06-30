@@ -109,7 +109,7 @@ export default function FAQPage() {
           </Link>
           <Link href="/" className="p-4 rounded border border-stone-200 hover:border-blue-300 transition-all text-sm bg-white">
             <span className="text-stone-900 font-semibold">Compare All Prices →</span>
-            <span className="block text-stone-400 mt-1">11 brands, 39+ models tracked</span>
+            <span className="block text-stone-400 mt-1">50+ brands, 140+ models tracked</span>
           </Link>
         </div>
       </section>
