@@ -292,6 +292,14 @@ const posts: BlogPost[] = [
     date: "2026-06-30",
     category: "Technical Guide",
   },
+  {
+    slug: "best-fountain-pens-for-signing-documents",
+    title: "Best Fountain Pens for Signing Documents in 2026 — Professional Picks",
+    excerpt:
+      "The best fountain pens for signing legal documents, contracts, and official paperwork. Waterproof ink recommendations, professional nibs, and price comparisons.",
+    date: "2026-06-30",
+    category: "Professional Guide",
+  },
 ];
 
 export default function BlogIndexPage() {
