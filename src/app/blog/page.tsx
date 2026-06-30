@@ -157,6 +157,14 @@ const posts: BlogPost[] = [
     category: "Budget Guide",
   },
   {
+    slug: "best-fountain-pens-under-10",
+    title: "Best Fountain Pens Under $10 in 2026 — Budget Picks That Actually Write Well",
+    excerpt:
+      "Incredible fountain pens for under $10. The Platinum Preppy, Jinhao 599, and more — tested and compared with live price links from Amazon, eBay, and JetPens.",
+    date: "2026-06-30",
+    category: "Budget Guide",
+  },
+  {
     slug: "fountain-pen-maintenance-guide",
     title: "Fountain Pen Maintenance Guide",
     excerpt:
@@ -267,6 +275,22 @@ const posts: BlogPost[] = [
       "Compare prices on the best gold nib fountain pens under $200. Pilot Custom 74, Sailor 1911, Platinum 3776 Century, Aurora Ipsilon, and more — with live price links from Amazon, JetPens, and Goulet Pens.",
     date: "2026-06-30",
     category: "Buying Guide",
+  },
+  {
+    slug: "best-waterproof-fountain-pen-ink",
+    title: "Best Waterproof Fountain Pen Inks in 2026 — Permanent & Document-Grade",
+    excerpt:
+      "The best waterproof and permanent fountain pen inks compared. Noodler's, Sailor, Platinum, De Atramentis, and more. Price comparisons and buying guide for archival ink.",
+    date: "2026-06-30",
+    category: "Ink Guide",
+  },
+  {
+    slug: "fountain-pen-nib-grind-types",
+    title: "Fountain Pen Nib Grind Types Explained — Cursive, Architect, Stub & More",
+    excerpt:
+      "Every fountain pen nib grind type explained: stub, cursive italic, architect, needlepoint, fude, flex, and more. What each writes like and which is right for you.",
+    date: "2026-06-30",
+    category: "Technical Guide",
   },
 ];
 
