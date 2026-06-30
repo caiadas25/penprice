@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "lamy-2000-vs-pilot-custom-823",
+    title: "Lamy 2000 vs Pilot Custom 823 — Endgame Fountain Pen Showdown 2026",
+    excerpt: "Lamy 2000 vs Pilot Custom 823: two of the most recommended endgame fountain pens compared. Piston vs vacuum filler, Bauhaus vs Japanese craftsmanship, and live prices.",
+    date: "2026-06-30",
+    category: "Comparison",
+  },
+  {
     slug: "sailor-pro-gear-vs-pilot-custom-74",
     title: "Sailor Pro Gear vs Pilot Custom 74 — Gold Nib Showdown 2026",
     excerpt: "Sailor Pro Gear vs Pilot Custom 74: two legendary Japanese gold nib pens compared. Nib feel, price, filling system, build quality, and which one you should buy.",

@@ -3105,6 +3105,49 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "namiki",
+    name: "Namiki",
+    slug: "namiki",
+    country: "Japan",
+    description:
+      "Namiki is Pilot's ultra-premium line, named after the company's founder Ryosuke Namiki. Known for exquisite Maki-e lacquer art pens, these are handcrafted writing instruments that double as wearable art. Each pen is decorated by skilled artisans using traditional Japanese lacquer techniques.",
+    website: "https://www.pilot-namiki.com",
+    models: [
+      {
+        id: "namiki-emperor",
+        name: "Emperor",
+        slug: "emperor",
+        description:
+          "Namiki's flagship. A large, handcrafted Maki-e lacquer pen with an 18k gold nib. Available in dozens of Maki-e designs, each hand-painted by master artisans. The ultimate luxury fountain pen.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Bamboo with Urushi lacquer",
+        knownPrices: [
+          { retailer: "Goldspot Pens", price: 2400.00, currency: "USD", url: "https://www.goldspot.com/namiki-emperor/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 2500.00, currency: "USD", url: "https://www.gouletpens.com/collections/namiki-emperor", inStock: true, condition: "new" },
+        ],
+        msrp: 2500,
+        yearIntroduced: 2000,
+      },
+      {
+        id: "namiki-yukari",
+        name: "Yukari",
+        slug: "yukari",
+        description:
+          "A medium-sized Maki-e pen with a 14k gold nib. More accessible than the Emperor but still handcrafted with genuine Urushi lacquer. Available in numerous designs from cherry blossoms to dragons.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Bamboo with Urushi lacquer",
+        knownPrices: [
+          { retailer: "Goldspot Pens", price: 595.00, currency: "USD", url: "https://www.goldspot.com/namiki-yukari/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 620.00, currency: "USD", url: "https://www.gouletpens.com/collections/namiki-yukari", inStock: true, condition: "new" },
+        ],
+        msrp: 620,
+        yearIntroduced: 1995,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {
