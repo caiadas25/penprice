@@ -1,3 +1,42 @@
+## Sprint A (Round 16) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive + QuickKit Quick Wins)
+### What was done
+- **PenPrice:** Added blog post: "Best Waterproof Fountain Pen Inks in 2026 — Permanent & Document-Grade"
+  - 10 waterproof ink comparisons (Noodler's Baystate Blue, Sailor Sei-boku, Platinum Carbon Black, De Atramentis Document, Noodler's Heart of Darkness, Noodler's Liberty's Elysium, Rohrer & Klingner Dokumentus, Noodler's X-Feather, Sailor Kiwa-guro, Platinum Pigment Blue)
+  - Quick comparison table (ink, type, water resistance, price, best for)
+  - Waterproof ink types section (pigment-based vs bulletproof/NCell)
+  - What to Consider section (pen compatibility, cleaning, drying time)
+  - FAQ with 3 questions
+  - Internal links to ink comparison, best inks, maintenance, drawing guides
+- **PenPrice:** Added blog post: "Fountain Pen Nib Grind Types Explained — Cursive, Architect, Stub & More"
+  - 8 nib grind types (Standard Round, Stub, Cursive Italic, Architect, Needlepoint, Fude, Flex/Wet Noodle, Oblique)
+  - Detailed cards with writing style, best for, difficulty, examples
+  - Which Grind Should You Choose section (4 decision cards)
+  - Internal links to nib sizes, calligraphy, beginners, drawing guides
+- **PenPrice:** Fixed blog index (missing "best-fountain-pens-under-10" entry)
+- **PenPrice:** Added sitemap entries for 2 new posts + under-10
+- **QuickKit:** Added blog post: "CSS Flexbox vs Grid — When to Use Which"
+  - 6 side-by-side examples (centering, nav bar, dashboard, sidebar+content, tags/badges, card layout)
+  - Winner indicators for each example (flex/grid/both)
+  - Decision flowchart (4 decision cards)
+  - Key properties tables for both Flexbox and Grid
+  - Power Combo section (Grid + Flexbox together)
+  - Internal links to Flexbox cheat sheet, Grid cheat sheet, HTML, TypeScript guides
+
+### Keywords targeted
+- "best waterproof fountain pen ink" (new blog post — high-intent keyword)
+- "permanent fountain pen ink" (blog content)
+- "fountain pen nib grind types" (new blog post — unique keyword)
+- "cursive italic nib" (blog content)
+- "architect nib grind" (blog content)
+- "css flexbox vs grid" (new blog post — extremely high volume)
+- "when to use flexbox vs grid" (blog content)
+
+### Current stats
+- **PenPrice:** 49 brands, 134+ models, 35 blog posts (was 33)
+- **QuickKit:** 31 tools, 34 blog posts (was 33)
+
+---
+
 ## Sprint B (Round 15) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive + ErrorDB Quick Wins)
 ### What was done
 - Added blog post: "Best Italian Fountain Pens in 2026 — Price Comparison Guide"
