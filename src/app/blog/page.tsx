@@ -246,6 +246,14 @@ const posts: BlogPost[] = [
     date: "2026-06-30",
     category: "Gift Guide",
   },
+  {
+    slug: "best-gold-nib-fountain-pens-under-200",
+    title: "Best Gold Nib Fountain Pens Under $200 in 2026 — Affordable Luxury",
+    excerpt:
+      "Compare prices on the best gold nib fountain pens under $200. Pilot Custom 74, Sailor 1911, Platinum 3776 Century, Aurora Ipsilon, and more — with live price links from Amazon, JetPens, and Goulet Pens.",
+    date: "2026-06-30",
+    category: "Buying Guide",
+  },
 ];
 
 export default function BlogIndexPage() {

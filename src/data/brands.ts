@@ -1632,6 +1632,38 @@ export const brands: Brand[] = [
         msrp: 10,
         yearIntroduced: 2023,
       },
+      {
+        id: "jinhao-992",
+        name: "992",
+        slug: "992",
+        description:
+          "A transparent demonstrator fountain pen with a smooth steel nib. Available in many colors, it shows the ink sloshing inside. Often compared to the TWSBI Eco at a fraction of the price.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic",
+        knownPrices: [
+          { retailer: "Amazon", price: 3.49, currency: "USD", url: "https://www.amazon.com/s?k=Jinhao+992+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 2.99, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=Jinhao+992+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 4,
+        yearIntroduced: 2018,
+      },
+      {
+        id: "jinhao-599",
+        name: "599",
+        slug: "599",
+        description:
+          "A Lamy Safari-inspired pen with a triangular grip and smooth steel nib. Available in many colors. A popular choice for those who like the Safari design but want to try it at a budget price.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "ABS plastic",
+        knownPrices: [
+          { retailer: "Amazon", price: 4.49, currency: "USD", url: "https://www.amazon.com/s?k=Jinhao+599+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "eBay", price: 3.50, currency: "USD", url: "https://www.ebay.com/sch/i.html?_nkw=Jinhao+599+fountain+pen", inStock: true, condition: "new" },
+        ],
+        msrp: 5,
+        yearIntroduced: 2015,
+      },
     ],
   },
   {
