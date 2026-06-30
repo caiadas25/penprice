@@ -1,3 +1,39 @@
+## Sprint B (Round 17) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive + ErrorDB Quick Wins)
+### What was done
+- **PenPrice:** Added blog post: "Best Fountain Pen Ink Colors in 2026 — Color Guide & Price Comparison"
+  - 16 ink colors across 7 brands (Pilot Iroshizuku, Diamine, Noodler's, Waterman, Pelikan, Sailor, Platinum)
+  - Quick comparison table (ink, brand, color, water resistance, price)
+  - Detailed cards organized by color category (Blue, Black, Red, Green, Orange, Specialty)
+  - "How to Choose Fountain Pen Ink" section (dye vs pigment, water resistance, shading/sheen, pen compatibility)
+  - Ink Brands Compared section (6 brands with price ranges)
+  - FAQ with 4 questions and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to ink comparison, best inks, waterproof ink, maintenance, nib sizes, beginners guides
+- **PenPrice:** Added 4 new models:
+  - Pilot Prera (Japan) — compact pocket pen, $36-42
+  - Platinum Procyon (Japan) — durable aluminum body, $52-58
+  - TWSBI Classic (Taiwan) — traditional piston-filler, $45-50
+  - Kaweco AL Sport (Germany) — aluminum pocket pen, $70-78
+- Updated blog index, sitemap, and layout metadata
+
+### Keywords targeted
+- "best fountain pen ink colors" (new blog post — high-volume keyword)
+- "fountain pen ink comparison" (blog content)
+- "Pilot Iroshizuku colors" (blog content)
+- "Noodler's Baystate Blue" (blog content)
+- "waterproof fountain pen ink" (blog content)
+- "Pilot Prera fountain pen" (new model page)
+- "Platinum Procyon fountain pen" (new model page)
+- "TWSBI Classic fountain pen" (new model page)
+- "Kaweco AL Sport fountain pen" (new model page)
+
+### Current stats
+- **Brands:** 49 (unchanged)
+- **Models:** 138 (was 134+)
+- **Blog posts:** 36 (was 35)
+
+---
+
 ## Sprint A (Round 16) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive + QuickKit Quick Wins)
 ### What was done
 - **PenPrice:** Added blog post: "Best Waterproof Fountain Pen Inks in 2026 — Permanent & Document-Grade"

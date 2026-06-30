@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pen-ink-colors",
+    title: "Best Fountain Pen Ink Colors in 2026 — Color Guide & Price Comparison",
+    excerpt: "Compare the best fountain pen ink colors by brand, shade, and price. Pilot Iroshizuku, Diamine, Noodler's, Waterman, Pelikan, and Sailor inks organized by color with water resistance ratings.",
+    date: "2026-06-30",
+    category: "Ink Guide",
+  },
+  {
     slug: "best-italian-fountain-pens",
     title: "Best Italian Fountain Pens in 2026 — Price Comparison Guide",
     excerpt: "Compare prices on the best Italian fountain pens from Aurora, Visconti, Leonardo, Montegrappa, Delta, and Pineider. From the $89 Leonardo Furore to the $599 Visconti Homo Sapiens.",
