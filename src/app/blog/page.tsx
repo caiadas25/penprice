@@ -328,6 +328,14 @@ const posts: BlogPost[] = [
     date: "2026-06-30",
     category: "Professional Guide",
   },
+  {
+    slug: "kaweco-sport-vs-lamy-safari",
+    title: "Kaweco Sport vs Lamy Safari — Best Portable Fountain Pen 2026",
+    excerpt:
+      "Kaweco Sport vs Lamy Safari: pocket-size vs full-size, Art Deco vs Bauhaus, steel nibs compared. Live prices from Amazon, JetPens, and Goulet Pens.",
+    date: "2026-06-30",
+    category: "Comparison",
+  },
 ];
 
 export default function BlogIndexPage() {
