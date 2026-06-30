@@ -1,3 +1,31 @@
+## Sprint A (Round 18) — June 30, 2026 (Daily Strategic Review — Brand Expansion)
+### What was done
+- **PenPrice:** Added Conway Stewart brand (United Kingdom) with 3 models:
+  - Churchill — flagship, 18k gold nib, piston filler, ebonite body, MSRP $550
+  - Winston — medium, 14k gold nib, cartridge/converter, MSRP $395
+  - Duke — compact, steel nib, cartridge/converter, MSRP $275
+- **PenPrice:** Added Pelikan M600 (expanding existing brand):
+  - Mid-size gold nib Souverän between M400 and M800
+  - 14k gold nib, piston filler, acrylic resin, MSRP $460
+- Verified retailer URLs (Amazon, Goulet, JetPens, Goldspot, Conway Stewart direct)
+- Build passes, commit pushed
+
+### Keywords targeted
+- "Conway Stewart Churchill fountain pen" (new model page)
+- "Conway Stewart Winston fountain pen" (new model page)
+- "Conway Stewart Duke fountain pen" (new model page)
+- "Conway Stewart fountain pen price" (brand page)
+- "British fountain pen" (brand page)
+- "Pelikan M600 price" (new model page)
+- "Pelikan Souverän M600" (brand page content)
+
+### Current stats
+- **Brands:** 50 (was 49)
+- **Models:** 141 (was 138)
+- **Blog posts:** 36 (unchanged)
+
+---
+
 ## Sprint B (Round 17) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive + ErrorDB Quick Wins)
 ### What was done
 - **PenPrice:** Added blog post: "Best Fountain Pen Ink Colors in 2026 — Color Guide & Price Comparison"
