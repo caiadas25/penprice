@@ -3061,6 +3061,50 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "st-dupont",
+    name: "S.T. Dupont",
+    slug: "st-dupont",
+    country: "France",
+    description:
+      "S.T. Dupont is a French luxury manufacturer founded in 1872. Originally known for leather goods and lighters, they began making fountain pens in the 1990s. Their pens are known for exquisite lacquerwork, balanced weight, and distinctive Art Deco-inspired design.",
+    website: "https://www.st-dupont.com",
+    models: [
+      {
+        id: "st-dupont-line-d-long",
+        name: "Line D Long",
+        slug: "line-d-long",
+        description:
+          "The flagship S.T. Dupont fountain pen. Features a Palladium-coated brass body with a distinctive Chinese lacquer finish. The 14k gold nib is smooth and well-balanced. The cap posts securely with a satisfying click.",
+        nibOptions: ["Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass with Chinese lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 495.00, currency: "USD", url: "https://www.amazon.com/s?k=S.T.+Dupont+Line+D+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 495.00, currency: "USD", url: "https://www.goldspot.com/st-dupont/line-d/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 510.00, currency: "USD", url: "https://www.gouletpens.com/collections/st-dupont", inStock: true, condition: "new" },
+        ],
+        msrp: 510,
+        yearIntroduced: 1997,
+      },
+      {
+        id: "st-dupont-elaboration-gold",
+        name: "Elaboration Gold Line",
+        slug: "elaboration-gold",
+        description:
+          "A more accessible S.T. Dupont pen with gold-plated trim and a lacquer finish. Slightly lighter than the Line D but retains the distinctive Dupont design language. Popular as a luxury gift pen.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Brass with lacquer",
+        knownPrices: [
+          { retailer: "Amazon", price: 345.00, currency: "USD", url: "https://www.amazon.com/s?k=S.T.+Dupont+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 350.00, currency: "USD", url: "https://www.goldspot.com/st-dupont/", inStock: true, condition: "new" },
+        ],
+        msrp: 360,
+        yearIntroduced: 2005,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

@@ -336,6 +336,14 @@ const posts: BlogPost[] = [
     date: "2026-06-30",
     category: "Comparison",
   },
+  {
+    slug: "pelikan-m800-vs-montblanc-149",
+    title: "Pelikan M800 vs Montblanc 149 — Luxury Fountain Pen Showdown 2026",
+    excerpt:
+      "Pelikan M800 vs Montblanc 149: two iconic German luxury fountain pens compared. 14k vs 18k gold nibs, piston filling, build quality, writing experience, and live prices.",
+    date: "2026-06-30",
+    category: "Comparison",
+  },
 ];
 
 export default function BlogIndexPage() {
