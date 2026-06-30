@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "sailor-pro-gear-vs-pilot-custom-74",
+    title: "Sailor Pro Gear vs Pilot Custom 74 — Gold Nib Showdown 2026",
+    excerpt: "Sailor Pro Gear vs Pilot Custom 74: two legendary Japanese gold nib pens compared. Nib feel, price, filling system, build quality, and which one you should buy.",
+    date: "2026-06-30",
+    category: "Comparison",
+  },
+  {
     slug: "montblanc-149-price-comparison",
     title: "Montblanc 149 Price Comparison 2026 — Best Deals Across Retailers",
     excerpt: "Compare Montblanc Meisterstuck 149 prices across Amazon, eBay, Goulet Pens, Goldspot, and Appelboom. Find the best deal on the world's most iconic luxury fountain pen.",

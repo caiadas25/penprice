@@ -1105,6 +1105,22 @@ export const brands: Brand[] = [
         msrpUrl: "https://www.viscontipens.com/rembrandt/",
         yearIntroduced: 2012,
       },
+      {
+        id: "visconti-divina",
+        name: "Divina Elegance",
+        slug: "divina-elegance",
+        description:
+          "A slender, elegant pen with Visconti's signature clip design and 18k gold nib. Available in sterling silver, rose gold, and palladium finishes. The Divina features Visconti's double-reservoir power filler for extended writing sessions.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Double Reservoir Power Filler",
+        material: "Sterling silver / 18k gold nib",
+        knownPrices: [
+          { retailer: "Amazon", price: 449.00, currency: "USD", url: "https://www.amazon.com/s?k=Visconti+Divina+Elegance+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 495.00, currency: "USD", url: "https://www.goldspot.com/visconti/divina-elegance/", inStock: true, condition: "new" },
+        ],
+        msrp: 495,
+        yearIntroduced: 2012,
+      },
     ],
   },
   {
@@ -2999,6 +3015,49 @@ export const brands: Brand[] = [
         ],
         msrp: 320,
         yearIntroduced: 2013,
+      },
+    ],
+  },
+  {
+    id: "nakaya",
+    name: "Nakaya",
+    slug: "nakaya",
+    country: "Japan",
+    description:
+      "Nakaya is a Japanese artisan fountain pen maker known for hand-turned ebonite bodies and exquisite nibs. Founded by former Pilot employees, Nakaya pens are considered some of the finest writing instruments in the world. Each pen is handmade and available in dozens of urushi lacquer finishes.",
+    website: "https://www.nakaya.org",
+    models: [
+      {
+        id: "nakaya-portable",
+        name: "Portable Writer",
+        slug: "portable-writer",
+        description:
+          "Nakaya's most popular model. A cigar-shaped ebonite pen with a 14k gold nib, available in dozens of urushi lacquer finishes. Each pen is hand-turned and hand-painted by Japanese artisans. The nib is tuned for a smooth, slightly wet writing experience.",
+        nibOptions: ["Ultra Extra Fine", "Extra Fine", "Fine", "Medium", "Broad", "Soft Fine", "Cylinder", "Waverly"],
+        fillingSystem: "Cartridge / Converter (proprietary Pilot)",
+        material: "Ebonite with urushi lacquer",
+        knownPrices: [
+          { retailer: "Nakaya.org", price: 395.00, currency: "USD", url: "https://www.nakaya.org", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 420.00, currency: "USD", url: "https://www.jetpens.com/search?q=Nakaya+Portable+Writer", inStock: true, condition: "new" },
+        ],
+        msrp: 395,
+        yearIntroduced: 1999,
+      },
+      {
+        id: "nakaya-decapod",
+        name: "Decapod Writer",
+        slug: "decapod-writer",
+        description:
+          "A shorter, thicker version of the Portable Writer with a distinctive faceted body. The octagonal cap and barrel give it a unique look. Same excellent Nakaya nib and urushi lacquer options.",
+        nibOptions: ["Ultra Extra Fine", "Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter (proprietary Pilot)",
+        material: "Ebonite with urushi lacquer",
+        knownPrices: [
+          { retailer: "Nakaya.org", price: 495.00, currency: "USD", url: "https://www.nakaya.org", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 520.00, currency: "USD", url: "https://www.jetpens.com/search?q=Nakaya+Decapod", inStock: true, condition: "new" },
+        ],
+        msrp: 495,
+        yearIntroduced: 2005,
       },
     ],
   },
