@@ -1,3 +1,28 @@
+## Sprint A (Round 22) -- June 30, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Kaweco Sport vs Lamy Safari -- Best Portable Fountain Pen 2026"
+  - Targets high-intent comparison keyword: "kaweco sport vs lamy safari"
+  - Quick comparison table (11 specs), portability deep dive, nib comparison
+  - Design philosophy (Art Deco vs Bauhaus), price comparison, filling system details
+  - 3 FAQ items with FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (Lamy Safari vs Pilot Metro, Best Travel Pens, Kaweco brand, Lamy brand)
+  - Updated blog index and sitemap
+  - Total: 53 brands, 146+ models, 42 blog posts (was 41)
+
+### Keywords targeted
+- "kaweco sport vs lamy safari" (new blog post -- high intent)
+- "best portable fountain pen" (blog content)
+- "kaweco sport review" (blog content)
+- "pocket fountain pen comparison" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 3 Q&As (pocket carry, cartridge compatibility, student recommendation)
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts and 2 brand pages
+
+---
+
 ## Sprint A (Round 21) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive + QuickKit Quick Wins)
 ### What was done
 - **PenPrice (Deep-Dive):**
