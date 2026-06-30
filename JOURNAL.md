@@ -1,3 +1,39 @@
+## Sprint A (Round 13) — June 30, 2026 (Growth Sprint — PenPrice Deep-Dive)
+### What was done
+- Added blog post: "Best Fountain Pens for Travel in 2026 — Portable & Reliable"
+  - 8 portable pen recommendations (Kaweco Sport, Pilot E95S, Kaweco Liliput, TWSBI Eco, Lamy Aion, Platinum Preppy, Lamy Safari, Kaweco Dia 2)
+  - Quick comparison table (pen, category, price, cap type, material)
+  - Detailed recommendations with links to model pages
+  - Travel tips section (air pressure, ink carrying, paper, pocket vs full size)
+  - FAQ with 3 questions and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to beginners, under-50, journaling, and maintenance guides
+- Added blog post: "Best Fountain Pens for Gifts in 2026 — Top Picks at Every Budget"
+  - 8 gift recommendations from $19 to $169 (Pilot Metropolitan, Kaweco Sport, Lamy Safari, TWSBI Eco, Lamy AL-Star, Kaweco Dia 2, Pilot E95S, Pelikan M200)
+  - Gift wrapping tips section (ink, notebook, pen case, converter)
+  - FAQ with 3 questions and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to beginners, under-50, under-100, under-200 guides
+- Updated blog index, sitemap, and layout metadata
+- Total: 49 brands, 132+ models, 32 blog posts
+
+### Keywords targeted
+- "best fountain pen for travel" (new blog post — high-intent keyword)
+- "best pen for traveling" (blog content)
+- "compact fountain pen for travel" (blog content)
+- "airline safe fountain pen" (blog content)
+- "best fountain pen for gifts" (new blog post — high-intent keyword)
+- "fountain pen gift guide" (blog content)
+- "gift for pen lover" (blog content)
+- "best pen gift under $50" (blog content)
+
+### Current stats
+- **Brands:** 49 (unchanged)
+- **Models:** 132+ (unchanged)
+- **Blog posts:** 32 (was 30)
+
+---
+
 ## Sprint A (Round 12) — June 29, 2026 (Growth Sprint — PenPrice Deep-Dive)
 ### What was done
 - Added blog post: "Best Fountain Pen Paper in 2026 — No Feathering, No Bleed"

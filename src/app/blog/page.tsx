@@ -230,6 +230,22 @@ const posts: BlogPost[] = [
     date: "2026-06-29",
     category: "Artist Guide",
   },
+  {
+    slug: "best-fountain-pens-for-travel",
+    title: "Best Fountain Pens for Travel in 2026 — Portable & Reliable",
+    excerpt:
+      "Top portable fountain pens for travel. Compact, leak-proof, and airline-friendly fountain pens from Kaweco, Pilot, Lamy, TWSBI, and more. Price comparisons included.",
+    date: "2026-06-30",
+    category: "Travel Guide",
+  },
+  {
+    slug: "best-fountain-pens-for-gifts",
+    title: "Best Fountain Pens for Gifts in 2026 — Top Picks at Every Budget",
+    excerpt:
+      "The best fountain pens to give as gifts. From $6 to $300, find the perfect fountain pen for birthdays, holidays, graduations, and special occasions. Price comparisons included.",
+    date: "2026-06-30",
+    category: "Gift Guide",
+  },
 ];
 
 export default function BlogIndexPage() {
