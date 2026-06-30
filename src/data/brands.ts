@@ -371,6 +371,23 @@ export const brands: Brand[] = [
         yearIntroduced: 1985,
       },
       {
+        id: "pelikan-m600",
+        name: "M600",
+        slug: "m600",
+        description:
+          "The mid-size gold nib Souverän, sitting between the compact M400 and the large M800. Features a 14k gold nib with the classic Pelikan striped barrel. A popular choice for those who want a gold nib pen that's substantial but not oversized.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Double Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin / 14k gold nib",
+        knownPrices: [
+          { retailer: "Amazon", price: 379.99, currency: "USD", url: "https://www.amazon.com/s?k=Pelikan+M600+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 420.00, currency: "USD", url: "https://www.jetpens.com/search?q=pelikan+m600", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 420.00, currency: "USD", url: "https://www.gouletpens.com/search?q=pelikan+m600", inStock: true, condition: "new" },
+        ],
+        msrp: 460,
+        yearIntroduced: 2015,
+      },
+      {
         id: "pelikan-m800",
         name: "M800",
         slug: "m800",
@@ -2876,6 +2893,65 @@ export const brands: Brand[] = [
         ],
         msrp: 20,
         yearIntroduced: 2020,
+      },
+    ],
+  },
+  {
+    id: "conway-stewart",
+    name: "Conway Stewart",
+    slug: "conway-stewart",
+    country: "United Kingdom",
+    description:
+      "Founded in 1911 in London, Conway Stewart is one of Britain's oldest pen makers, relaunched in 2004. Known for classic British designs, ebonite bodies, and handcrafted gold nibs. Their pens are favored by collectors and enthusiasts who appreciate traditional craftsmanship.",
+    website: "https://conwaystewart.com",
+    models: [
+      {
+        id: "cs-churchill",
+        name: "Churchill",
+        slug: "churchill",
+        description:
+          "Conway Stewart's flagship pen, named after Winston Churchill who was a known user of the brand. A large, cigar-shaped pen with an 18k gold nib and piston filling system. Available in stunning ebonite and acrylic finishes. A true British classic.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub"],
+        fillingSystem: "Piston",
+        material: "Ebonite / 18k gold nib",
+        knownPrices: [
+          { retailer: "Amazon", price: 499.00, currency: "USD", url: "https://www.amazon.com/s?k=Conway+Stewart+Churchill+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Conway Stewart", price: 550.00, currency: "USD", url: "https://conwaystewart.com/shop", inStock: true, condition: "new" },
+        ],
+        msrp: 550,
+        yearIntroduced: 2006,
+      },
+      {
+        id: "cs-winston",
+        name: "Winston",
+        slug: "winston",
+        description:
+          "A medium-sized pen with a 14k gold nib and cartridge/converter filling. The Winston offers Conway Stewart's classic styling in a more portable size. Available in a range of beautiful acrylic and ebonite finishes.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin / 14k gold nib",
+        knownPrices: [
+          { retailer: "Amazon", price: 349.00, currency: "USD", url: "https://www.amazon.com/s?k=Conway+Stewart+Winston+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Conway Stewart", price: 395.00, currency: "USD", url: "https://conwaystewart.com/shop", inStock: true, condition: "new" },
+        ],
+        msrp: 395,
+        yearIntroduced: 2005,
+      },
+      {
+        id: "cs-duke",
+        name: "Duke",
+        slug: "duke",
+        description:
+          "A compact, pocket-friendly pen with a stainless steel nib and cartridge/converter filling. The Duke is Conway Stewart's most accessible model, offering British craftsmanship at a more approachable price point. Available in classic and colorful acrylic finishes.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin / Steel nib",
+        knownPrices: [
+          { retailer: "Amazon", price: 249.00, currency: "USD", url: "https://www.amazon.com/s?k=Conway+Stewart+Duke+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Conway Stewart", price: 275.00, currency: "USD", url: "https://conwaystewart.com/shop", inStock: true, condition: "new" },
+        ],
+        msrp: 275,
+        yearIntroduced: 2007,
       },
     ],
   },
