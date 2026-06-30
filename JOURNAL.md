@@ -1,3 +1,29 @@
+## Sprint A (Round 23) -- June 30, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Pelikan M800 vs Montblanc 149 -- Luxury Fountain Pen Showdown 2026"
+  - Targets high-intent comparison keyword: "pelikan m800 vs montblanc 149"
+  - Quick comparison table (12 specs), nib quality, filling system, build quality, writing experience
+  - Price comparison across 6 retailers (Amazon, Goulet, Goldspot, JetPens, Appelboom, eBay)
+  - Alternatives section linking to Pelikan M1000, Pilot Custom 823, Sailor Pro Gear
+  - 3 FAQ items with FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 6 related posts
+  - Updated blog index and sitemap
+- Added S.T. Dupont brand (France): Line D Long, Elaboration Gold Line
+  - 2 models with prices from Amazon, Goldspot, Goulet
+- Total: 54 brands, 148+ models, 43 blog posts (was 42)
+
+### Keywords targeted
+- "pelikan m800 vs montblanc 149" (new blog post -- high intent)
+- "S.T. Dupont fountain pen price" (new brand page)
+- "luxury fountain pen comparison" (blog content)
+- "piston filling fountain pen" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 3 Q&As (daily writing, premium worth, nib swapping)
+- Added Article JSON-LD schema
+
+---
 ## Sprint A (Round 22) -- June 30, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Kaweco Sport vs Lamy Safari -- Best Portable Fountain Pen 2026"
