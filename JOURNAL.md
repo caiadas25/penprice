@@ -1,3 +1,33 @@
+## Sprint A (Round 31) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "How to Clean a Fountain Pen — Step-by-Step Guide"
+  - Targets high-volume keyword: "how to clean a fountain pen" (massive maintenance query)
+  - 8 sections: Why Clean, What You Need, Routine Cleaning, Deep Cleaning, Cleaning Tips by Filling System, Troubleshooting, FAQ
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (maintenance guide, filling systems, converters, nib sizes)
+  - Updated blog index and sitemap
+- Added new blog post: "Pilot Custom 74 Review 2026 — Best Gold Nib Under $200?"
+  - Targets high-volume keyword: "pilot custom 74 review" (popular gold nib pen)
+  - Full review with 14k gold nib details, CON-70 converter, price comparison across 4 retailers
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (Pilot brand, Custom 823 vs Sailor, gold nibs under $200, Sailor vs Pilot)
+  - Updated blog index and sitemap
+- Total: 53 brands, ~152 models, 55 blog posts (was 53)
+
+### Keywords targeted
+- "how to clean a fountain pen" (new blog post -- very high volume)
+- "fountain pen cleaning" (blog content)
+- "pilot custom 74 review" (new blog post -- high volume)
+- "pilot custom 74 price" (blog content)
+- "best gold nib fountain pen under 200" (blog content)
+
+### SEO fixes
+- Added Article JSON-LD schema to both new posts
+- Updated sitemap with 2 new blog posts
+- Internal links from/to 4 related posts each
+
+---
+
 ## Sprint D (Round 30) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Kaweco Sport Review 2026 — The Original Pocket Fountain Pen"

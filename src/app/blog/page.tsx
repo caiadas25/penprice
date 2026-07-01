@@ -22,6 +22,20 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "how-to-clean-a-fountain-pen",
+    title: "How to Clean a Fountain Pen — Step-by-Step Guide",
+    excerpt: "Learn how to clean a fountain pen at home. Step-by-step guide for routine flushing, deep cleaning, and fixing ink flow problems. Works for all brands.",
+    date: "2026-07-01",
+    category: "Guide",
+  },
+  {
+    slug: "pilot-custom-74-review",
+    title: "Pilot Custom 74 Review 2026 — Best Gold Nib Under $200?",
+    excerpt: "In-depth Pilot Custom 74 review: 14k gold nib, CON-70 converter, build quality, and live price comparison across Amazon, JetPens, Goulet, and Amazon Japan.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "kaweco-sport-review",
     title: "Kaweco Sport Review 2026 — The Original Pocket Fountain Pen",
     excerpt: "Kaweco Sport review with price comparison. Since 1930, the iconic octagonal pocket pen. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
