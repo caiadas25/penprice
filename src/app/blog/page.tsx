@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "pilot-metropolitan-review",
+    title: "Pilot Metropolitan Review 2026 — Best Beginner Fountain Pen?",
+    excerpt: "Pilot Metropolitan review with price comparison. The $18 fountain pen that started millions of writers. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "sailor-pro-gear-slim-review",
     title: "Sailor Pro Gear Slim Review 2026 — The Perfect Entry to Sailor Gold Nibs?",
     excerpt: "Sailor Pro Gear Slim review with price comparison. 14K gold nib, 21 colorways, under $200. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
