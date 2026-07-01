@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "twsbi-eco-review",
+    title: "TWSBI Eco Review 2026 — Best Piston-Filler Under $40?",
+    excerpt: "TWSBI Eco review with price comparison. 1.7ml ink capacity, piston filler, demonstrator body. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "pilot-metropolitan-review",
     title: "Pilot Metropolitan Review 2026 — Best Beginner Fountain Pen?",
     excerpt: "Pilot Metropolitan review with price comparison. The $18 fountain pen that started millions of writers. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",

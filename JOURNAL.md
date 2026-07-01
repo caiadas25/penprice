@@ -1,3 +1,29 @@
+## Sprint B (Round 30) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Pilot Metropolitan Review 2026 — Best Beginner Fountain Pen?"
+  - Targets high-volume keyword: "pilot metropolitan review" (massive keyword, most recommended beginner pen)
+  - Full review with steel nib deep dive, brass body construction, filling system options
+  - Price comparison across 4 retailers (Amazon $17-20, JetPens $18, Goulet $18, Goldspot $18)
+  - FAQ section with 3 items and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (vs Lamy Safari, vs TWSBI Eco, beginners guide, under $20)
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 52 blog posts (was 51)
+
+### Keywords targeted
+- "pilot metropolitan review" (new blog post -- very high volume, most recommended beginner pen)
+- "pilot metropolitan price" (blog content)
+- "pilot metropolitan vs lamy safari" (blog content)
+- "best beginner fountain pen 2026" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 3 Q&As
+- Added Article JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
 ## Sprint A (Round 30) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Sailor Pro Gear Slim Review 2026 — The Perfect Entry to Sailor Gold Nibs?"
