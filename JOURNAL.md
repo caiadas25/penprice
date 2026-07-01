@@ -373,3 +373,28 @@
 - FAQ schema targets featured snippets
 
 ---
+## Sprint A (Round 33) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Best Fountain Pens for Sketching in 2026 — Artist's Price Guide"
+  - Targets high-volume keyword: "fountain pen for sketching" (Google autocomplete)
+  - 10 pens with detailed sketching reviews (Pilot Falcon, Platinum 3776, Lamy Safari, etc.)
+  - What to Look For section (Nib Flexibility, Ink Compatibility, Fine Nibs, Portability)
+  - Ink Recommendations section (Platinum Carbon Black, Noodler's Bulletproof)
+  - Article JSON-LD + FAQPage JSON-LD schema (3 Q&As)
+  - Internal links to 4 related posts (Drawing, Waterproof Ink, Calligraphy, Nib Sizes)
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 57 blog posts (was 56)
+
+### Keywords targeted
+- "fountain pen for sketching" (new blog post — high-volume Google autocomplete)
+- "best fountain pen for sketching" (blog content)
+- "fountain pen ink for sketching" (blog content)
+- "waterproof fountain pen ink" (blog content)
+
+### SEO fixes
+- Added Article JSON-LD + FAQPage JSON-LD schema with 3 Q&As
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
