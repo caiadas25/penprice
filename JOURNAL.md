@@ -1,3 +1,28 @@
+## Sprint C (Round 26) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Pilot Kakuno Review 2026 — Best Fountain Pen Under $15?"
+  - Targets high-volume keyword: "pilot kakuno review" and "pilot kakuno vs metropolitan"
+  - Full review with specs, nib deep dive, pros/cons, price comparison across 3 retailers
+  - FAQ section with 4 items and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (beginners guide, Lamy vs Pilot, nib sizes, under $20)
+  - Updated blog index and sitemap
+- Total: 55 brands, 150+ models, 46 blog posts (was 45)
+
+### Keywords targeted
+- "pilot kakuno review" (new blog post -- very high volume)
+- "pilot kakuno vs pilot metropolitan" (blog content)
+- "best fountain pen under 15" (blog content)
+- "pilot kakuno nib" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 4 Q&As
+- Added Article JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
 ## Sprint B (Round 25) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "TWSBI Eco vs Kaweco Sport — Budget Fountain Pen Battle 2026"

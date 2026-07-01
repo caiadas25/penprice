@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "pilot-kakuno-review",
+    title: "Pilot Kakuno Review 2026 — Best Fountain Pen Under $15?",
+    excerpt: "In-depth Pilot Kakuno review: nib quality, ink capacity, writing experience, and price comparison. Is the smiley-face pen the best beginner fountain pen?",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "twsbi-eco-vs-kaweco-sport",
     title: "TWSBI Eco vs Kaweco Sport — Budget Fountain Pen Battle 2026",
     excerpt: "TWSBI Eco vs Kaweco Sport: piston filler vs pocket pen, ink capacity, nib quality, portability, and live prices under $40.",

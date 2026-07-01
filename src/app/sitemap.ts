@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const blogEntries = [
+    { url: `${baseUrl}/blog/pilot-kakuno-review`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/blog/twsbi-eco-vs-kaweco-sport`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/blog/sailor-pro-gear-vs-pilot-custom-74`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/blog/montblanc-149-price-comparison`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
