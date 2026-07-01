@@ -1,3 +1,31 @@
+## Sprint A (Round 28) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Pilot Custom 823 Review 2026 — The Best Vacuum-Fill Fountain Pen?"
+  - Targets high-volume keyword: "pilot custom 823 review" and "pilot 823 vacuum filler"
+  - Full review with vacuum filling deep dive, nib analysis, pros/cons, price comparison across 6 retailers
+  - FAQ section with 5 items and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (823 vs Pro Gear, Lamy 2000 vs 823, filling systems, gold nibs under $200)
+  - Updated blog index and sitemap
+- Added Montegrappa brand (Italy): Fortuna ($135), Nero Unica ($210), Elmo ($95)
+  - 3 models with prices from Amazon, Goldspot, Goulet
+- Total: 56 brands, 153+ models, 48 blog posts (was 47)
+
+### Keywords targeted
+- "pilot custom 823 review" (new blog post -- very high volume)
+- "pilot 823 vacuum filler" (blog content)
+- "montegrappa fountain pen price" (new brand page)
+- "best vacuum fill fountain pen" (blog content)
+- "pilot custom 823 vs sailor pro gear" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 5 Q&As
+- Added Article JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts and brand pages
+
+---
+
 ## Sprint C (Round 26) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Pilot Kakuno Review 2026 — Best Fountain Pen Under $15?"

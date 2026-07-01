@@ -3148,6 +3148,68 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "montegrappa",
+    name: "Montegrappa",
+    slug: "montegrappa",
+    country: "Italy",
+    description:
+      "Founded in 1912 in Bassano del Grappa, Montegrappa is Italy's oldest fountain pen maker. Known for luxury writing instruments with hand-crafted details, precious metals, and distinctive Italian craftsmanship.",
+    website: "https://www.montegrappa.com",
+    models: [
+      {
+        id: "montegrappa-fortuna",
+        name: "Fortuna",
+        slug: "fortuna",
+        description:
+          "Montegrappa's entry-level luxury pen. Available in multiple finishes with a smooth stainless steel nib. The Fortuna delivers Italian design and quality at an accessible price point.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin / Metal trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 125.00, currency: "USD", url: "https://www.amazon.com/s?k=Montegrappa+Fortuna+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 135.00, currency: "USD", url: "https://www.goldspot.com/montegrappa/fortuna/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 130.00, currency: "USD", url: "https://www.gouletpens.com/collections/montegrappa-fortuna", inStock: true, condition: "new" },
+        ],
+        msrp: 135,
+        msrpUrl: "https://www.montegrappa.com/fortuna",
+        yearIntroduced: 2015,
+      },
+      {
+        id: "montegrappa-nero-unica",
+        name: "Nero Unica",
+        slug: "nero-unica",
+        description:
+          "A sleek, all-black writing instrument with a minimalist aesthetic. The Nero Unica features a matte black finish with subtle Montegrappa branding, delivering understated Italian luxury.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Matte black metal",
+        knownPrices: [
+          { retailer: "Amazon", price: 195.00, currency: "USD", url: "https://www.amazon.com/s?k=Montegrappa+Nero+Unica+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 210.00, currency: "USD", url: "https://www.goldspot.com/montegrappa/nero-unica/", inStock: true, condition: "new" },
+        ],
+        msrp: 210,
+        yearIntroduced: 2018,
+      },
+      {
+        id: "montegrappa-elmo",
+        name: "Elmo",
+        slug: "elmo",
+        description:
+          "Named after Montegrappa's founder, the Elmo combines vintage Italian styling with modern materials. Available in vibrant colors with a comfortable ergonomic grip and smooth steel nib.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Resin / Chrome trim",
+        knownPrices: [
+          { retailer: "Amazon", price: 89.00, currency: "USD", url: "https://www.amazon.com/s?k=Montegrappa+Elmo+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 95.00, currency: "USD", url: "https://www.goldspot.com/montegrappa/elmo/", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 92.00, currency: "USD", url: "https://www.gouletpens.com/collections/montegrappa-elmo", inStock: true, condition: "new" },
+        ],
+        msrp: 95,
+        yearIntroduced: 2020,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

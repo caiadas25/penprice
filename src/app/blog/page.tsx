@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "pilot-custom-823-review",
+    title: "Pilot Custom 823 Review 2026 — The Best Vacuum-Fill Fountain Pen?",
+    excerpt: "In-depth Pilot Custom 823 review: vacuum filling system, 14k gold nib, ink capacity, writing experience, and price comparison across 6 retailers.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "best-fountain-pens-for-writers",
     title: "Best Fountain Pens for Writers in 2026 — Long Writing Sessions",
     excerpt: "The 10 best fountain pens for writers. Ergonomic grips, large ink capacity, and smooth nibs for long writing sessions. Prices compared across Amazon, Goulet, and JetPens.",
