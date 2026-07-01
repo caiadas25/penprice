@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-chinese-fountain-pens",
+    title: "Best Chinese Fountain Pens in 2026 — Budget Pens Worth Buying",
+    excerpt: "Compare prices on the best Chinese fountain pens from Jinhao, Hongdian, Majohn, and Hero. Quality fountain pens from $3 to $50 with live price comparison.",
+    date: "2026-07-01",
+    category: "Buying Guide",
+  },
+  {
     slug: "visconti-homo-sapiens-review",
     title: "Visconti Homo Sapiens Review 2026 — Volcanic Lava Luxury",
     excerpt: "In-depth Visconti Homo Sapiens review: volcanic lava body, 18k gold nib, Power Filler system, and live price comparison across retailers.",

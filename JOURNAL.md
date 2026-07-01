@@ -1,3 +1,29 @@
+## Sprint A (Round 32) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Best Chinese Fountain Pens in 2026 — Budget Pens Worth Buying"
+  - Targets high-volume keyword: "best chinese fountain pen" (growing search trend)
+  - 10 pens from 5 brands (Jinhao, Hongdian, Majohn, Hero, Wing Sung)
+  - Price range: $2.99 to $19.99
+  - Quick comparison table, detailed reviews, buying tips, FAQ section
+  - Article JSON-LD + FAQPage JSON-LD schema
+  - Internal links to 4 related posts (Under $10, Beginners, Filling Systems, Maintenance)
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 56 blog posts (was 55)
+
+### Keywords targeted
+- "best chinese fountain pen" (new blog post -- growing search trend)
+- "jinhao fountain pen" (blog content)
+- "hongdian black forest" (blog content)
+- "cheap fountain pen" (blog content)
+- "budget fountain pen under 20" (blog content)
+
+### SEO fixes
+- Added Article JSON-LD + FAQPage JSON-LD schema with 3 Q&As
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
 ## Sprint A (Round 31) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "How to Clean a Fountain Pen — Step-by-Step Guide"

@@ -78,6 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/kaweco-sport-vs-lamy-safari`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/blog/lamy-2000-vs-pilot-custom-823`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/blog/pelikan-m800-vs-montblanc-149`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${baseUrl}/blog/best-chinese-fountain-pens`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 
   const faqEntry = {
