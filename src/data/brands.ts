@@ -3184,6 +3184,95 @@ export const brands: Brand[] = [
       },
     ],
   },
+  {
+    id: "esterbrook",
+    name: "Esterbrook",
+    slug: "esterbrook",
+    country: "United States",
+    description:
+      "Originally founded in 1858 in Camden, New Jersey, Esterbrook is one of America's oldest pen manufacturers. Relaunched in 2018 with a modern lineup, they combine vintage American pen-making heritage with contemporary materials and designs. Known for their colorful acrylics, JoWo nibs, and excellent value at every price point.",
+    website: "https://www.esterbrookpens.com",
+    models: [
+      {
+        id: "esterbrook-estie",
+        name: "Estie",
+        slug: "estie",
+        description:
+          "Esterbrook's flagship fountain pen featuring a smooth JoWo #6 steel nib and a distinctive oversized cap. Available in dozens of colorful acrylic resin patterns, each one unique. The Estie is a comfortable full-size pen with a satisfying weight and a smooth, reliable writing experience.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad", "Stub 1.1"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 148.00, currency: "USD", url: "https://www.amazon.com/s?k=Esterbrook+Estie+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 175.00, currency: "USD", url: "https://www.gouletpens.com/search?q=esterbrook+estie", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 165.00, currency: "USD", url: "https://www.goldspot.com/esterbrook/estie/", inStock: true, condition: "new" },
+        ],
+        msrp: 175,
+        yearIntroduced: 2019,
+      },
+      {
+        id: "esterbrook-kc",
+        name: "KC",
+        slug: "kc",
+        description:
+          "Esterbrook's pocket pen, inspired by the vintage Esterbrook JR. The KC is a compact, screw-cap pen that posts to full size. Perfect for everyday carry, it features a JoWo #5 steel nib and comes in fun, colorful acrylic patterns. An excellent gateway into the Esterbrook ecosystem.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 68.00, currency: "USD", url: "https://www.amazon.com/s?k=Esterbrook+KC+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 75.00, currency: "USD", url: "https://www.gouletpens.com/search?q=esterbrook+kc", inStock: true, condition: "new" },
+          { retailer: "Goldspot Pens", price: 72.00, currency: "USD", url: "https://www.goldspot.com/esterbrook/kc/", inStock: true, condition: "new" },
+        ],
+        msrp: 75,
+        yearIntroduced: 2021,
+      },
+    ],
+  },
+  {
+    id: "nahvalur",
+    name: "Nahvalur",
+    slug: "nahvalur",
+    country: "China",
+    description:
+      "Formerly known as Narwhal, Nahvalur is a Chinese fountain pen brand that has gained a strong following for their piston-filling demonstrator pens at remarkably affordable prices. Their Original and Key West lines offer piston mechanisms that rival pens costing three times as much.",
+    website: "https://www.nahvalur.com",
+    models: [
+      {
+        id: "nahvalur-original",
+        name: "Original",
+        slug: "original",
+        description:
+          "Nahvalur's signature piston-filling demonstrator fountain pen. The Original features a smooth steel nib, a large ink window, and a piston mechanism that holds ~1.5ml of ink. Available in stunning translucent colorways that show off the ink inside. Remarkable value for a piston filler.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin (demonstrator)",
+        knownPrices: [
+          { retailer: "Amazon", price: 42.00, currency: "USD", url: "https://www.amazon.com/s?k=Nahvalur+Original+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 49.00, currency: "USD", url: "https://www.gouletpens.com/search?q=nahvalur+original", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 45.00, currency: "USD", url: "https://www.jetpens.com/search?q=Nahvalur+Original", inStock: true, condition: "new" },
+        ],
+        msrp: 49,
+        yearIntroduced: 2021,
+      },
+      {
+        id: "nahvalur-key-west",
+        name: "Key West",
+        slug: "key-west",
+        description:
+          "Nahvalur's pocket-sized fountain pen inspired by the colors of Key West, Florida. The Key West features a stainless steel nib, a piston filling system, and compact proportions that make it ideal for everyday carry. A unique offering in the pocket pen category.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Piston",
+        material: "Acrylic resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 38.00, currency: "USD", url: "https://www.amazon.com/s?k=Nahvalur+Key+West+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 42.00, currency: "USD", url: "https://www.gouletpens.com/search?q=nahvalur+key+west", inStock: true, condition: "new" },
+        ],
+        msrp: 42,
+        yearIntroduced: 2023,
+      },
+    ],
+  },
 ];
 
 export function getBrandBySlug(slug: string): Brand | undefined {

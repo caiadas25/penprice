@@ -21,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const blogEntries = [
+    { url: `${baseUrl}/blog/pilot-vanishing-point-review`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${baseUrl}/blog/pelikan-m800-review`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/blog/best-fountain-pens-for-shimmer-inks`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
   { url: `${baseUrl}/blog/best-fountain-pens-for-manga-drawing`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
   { url: `${baseUrl}/blog/platinum-3776-century-review`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },

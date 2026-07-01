@@ -22,6 +22,20 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "pilot-vanishing-point-review",
+    title: "Pilot Vanishing Point Review 2026 — The Retractable Fountain Pen",
+    excerpt: "In-depth Pilot Vanishing Point review: retractable 18k gold nib, click mechanism, and live price comparison across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
+    slug: "pelikan-m800-review",
+    title: "Pelikan M800 Review 2026 — German Luxury Piston Filler",
+    excerpt: "In-depth Pelikan M800 review: 18k gold nib, piston filling system, and live price comparison across Amazon, Goulet Pens, Goldspot Pens, and Appelboom.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "best-fountain-pens-for-shimmer-inks",
     title: "Best Fountain Pens for Shimmer Inks in 2026 — Sparkle & Shine",
     excerpt: "Find the best fountain pens for shimmer and glitter inks. We compare TWSBI Eco, Kaweco Sport, and more with live prices.",
