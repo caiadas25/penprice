@@ -1,3 +1,38 @@
+## Sprint A (Round 29) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Platinum 3776 Century Review 2026 — Best Gold Nib Under $200?"
+  - Targets high-volume keyword: "platinum 3776 review" and "platinum 3776 century"
+  - Full review with 14k gold nib deep dive, Slip & Seal technology, price comparison across 3 retailers
+  - FAQ section with 4 items and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (gold nibs under $200, Japanese pens, beginner guide, Platinum brand)
+  - Updated blog index and sitemap
+- Added new blog post: "Lamy Safari Review 2026 — The World's Most Popular Fountain Pen?"
+  - Targets high-volume keyword: "lamy safari review" and "lamy safari fountain pen"
+  - Full review with design, triangular grip, swappable nibs, ink system, price comparison across 4 retailers
+  - Includes Safari vs Pilot Metropolitan comparison table
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (Kaweco vs Safari, beginner guide, Rotring vs Safari, all Lamy pens)
+  - Updated blog index and sitemap
+- Updated layout metadata: 56 brands (was 49)
+- Total: 56 brands, 153+ models, 50 blog posts (was 48)
+
+### Keywords targeted
+- "platinum 3776 review" (new blog post -- very high volume)
+- "platinum 3776 century review" (blog content)
+- "lamy safari review" (new blog post -- very high volume)
+- "lamy safari fountain pen" (blog content)
+- "lamy safari vs pilot metropolitan" (blog content)
+- "best gold nib under 200" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 4 Q&As (Platinum 3776)
+- Added Article JSON-LD schema (both posts)
+- Updated sitemap with 2 new blog posts
+- Internal links from/to 4 related posts and brand pages
+
+---
+
 ## Sprint A (Round 28) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Pilot Custom 823 Review 2026 — The Best Vacuum-Fill Fountain Pen?"

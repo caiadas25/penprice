@@ -22,6 +22,20 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "platinum-3776-century-review",
+    title: "Platinum 3776 Century Review 2026 — Best Gold Nib Under $200?",
+    excerpt: "In-depth Platinum 3776 Century review: 14k gold nib, Slip & Seal cap, writing experience, and live price comparison across Amazon, JetPens, and Goulet Pens.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
+    slug: "lamy-safari-review",
+    title: "Lamy Safari Review 2026 — The World's Most Popular Fountain Pen?",
+    excerpt: "In-depth Lamy Safari review: design, triangular grip, swappable nibs, ink system, and price comparison across 4 retailers.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "pilot-custom-823-review",
     title: "Pilot Custom 823 Review 2026 — The Best Vacuum-Fill Fountain Pen?",
     excerpt: "In-depth Pilot Custom 823 review: vacuum filling system, 14k gold nib, ink capacity, writing experience, and price comparison across 6 retailers.",
