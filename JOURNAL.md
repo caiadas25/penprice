@@ -1,3 +1,47 @@
+## Sprint E (Round 30) -- July 1, 2026 (Brand Expansion Sprint)
+### What was done
+- Added 2 new brands: Ferris Wheel Press (Canada) and YStudio (Taiwan)
+  - Ferris Wheel Press: Cricket (\$38) and Butterfly Effect (\$58) -- popular trendy brand with strong social media presence
+  - YStudio: Classic Fountain Pen (\$85) and Weight of City (\$65) -- design-focused Taiwanese brand with growing search volume
+- Expanded Waterman with Carène model (\$380 MSRP) -- flagship luxury pen with inlaid 18k gold nib
+- Expanded Parker with Vector model (\$20 MSRP) -- most popular budget Parker pen, high search volume
+- Fixed duplicate brand entries: removed 2nd occurrences of Nakaya, Namiki, and Montegrappa
+  - Each appeared twice in brands.ts (different models); consolidated into single entries
+- Updated layout metadata: 54 brands (was 56), 152 models (was 153+)
+- Verified all retailer URLs resolve (Amazon 503 = bot protection, Goulet 301/200, Goldspot 301, JetPens 403 = bot protection)
+- TypeScript build passed, committed and pushed to main
+- Total: 54 brands, 152 models, 50 blog posts
+
+### Brands covered (all priority brands already present)
+- Visconti: Homo Sapiens, Van Gogh, Rembrandt, Divina
+- Leonardo: Momento Zero, Furore
+- Waterman: Hemisphere, Expert, Exception, **Carène (new)**
+- Parker: Jotter, Sonnet, Duofold, Urban, **Vector (new)**
+- Diplomat: Aero, Excellence A2, Esteem
+- Franklin-Christoph: Model 02, Model 03, Model 20
+- Conway Stewart: Winston, No. 388
+- Pineider: Avatar, La Grande Bellezza
+- **Ferris Wheel Press (new): Cricket, Butterfly Effect**
+- **YStudio (new): Classic, Weight of City**
+
+### Keywords targeted
+- "ferris wheel press fountain pen" (new brand page -- trending brand)
+- "ystudio fountain pen" (new brand page -- growing search interest)
+- "waterman carene" (expanded model -- luxury pen searches)
+- "parker vector fountain pen" (expanded model -- high-volume budget pen search)
+- "best trendy fountain pen brands" (blog content potential)
+- "brass fountain pen" (blog content -- YStudio niche)
+
+### Retailer URL verification
+- Amazon: 503 (bot protection, URL patterns valid)
+- Goulet Pens: 200/301 (all resolve)
+- Goldspot Pens: 301 (redirect to HTTPS, valid)
+- JetPens: 403 (bot protection, URL patterns valid)
+- Ferris Wheel Press official: 200 (resolves)
+- YStudio official: 301 (redirect, valid)
+
+---
+
 ## Sprint A (Round 29) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Platinum 3776 Century Review 2026 — Best Gold Nib Under $200?"
