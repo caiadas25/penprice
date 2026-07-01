@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "sailor-pro-gear-slim-review",
+    title: "Sailor Pro Gear Slim Review 2026 — The Perfect Entry to Sailor Gold Nibs?",
+    excerpt: "Sailor Pro Gear Slim review with price comparison. 14K gold nib, 21 colorways, under $200. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "platinum-3776-century-review",
     title: "Platinum 3776 Century Review 2026 — Best Gold Nib Under $200?",
     excerpt: "In-depth Platinum 3776 Century review: 14k gold nib, Slip & Seal cap, writing experience, and live price comparison across Amazon, JetPens, and Goulet Pens.",
