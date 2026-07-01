@@ -75,3 +75,34 @@
 - Internal links from/to 4 related posts and 2 brand pages
 
 ---
+
+## Sprint D (Round 27) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Best Fountain Pens for Writers in 2026 -- Long Writing Sessions"
+  - Targets high-intent keyword: "best fountain pens for writers"
+  - 10 pens with detailed writing-focused reviews (Pilot Custom 823, Lamy 2000, TWSBI Eco, etc.)
+  - What Writers Should Look For section (Ink Capacity, Nib Size, Weight, Cap Seal)
+  - FAQ section with FAQPage JSON-LD schema (3 Q&As)
+  - Article JSON-LD schema
+  - Internal links to 4 related posts
+  - Updated blog index and sitemap
+  - Total: 55 brands, 150+ models, 47 blog posts (was 46)
+
+### Keywords targeted
+- "best fountain pens for writers" (new blog post -- high intent)
+- "fountain pen for novel writing" (blog content)
+- "best pen for long writing sessions" (blog content)
+- "ergonomic fountain pen" (blog content)
+- "fountain pen for journaling" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 3 Q&As
+- Added Article JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+### What worked
+- "Best fountain pens for writers" is a high-intent keyword that bridges creative writing and pen buying
+- FAQ schema targets featured snippets
+
+---

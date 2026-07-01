@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-writers",
+    title: "Best Fountain Pens for Writers in 2026 — Long Writing Sessions",
+    excerpt: "The 10 best fountain pens for writers. Ergonomic grips, large ink capacity, and smooth nibs for long writing sessions. Prices compared across Amazon, Goulet, and JetPens.",
+    date: "2026-07-01",
+    category: "Buying Guide",
+  },
+  {
     slug: "pilot-kakuno-review",
     title: "Pilot Kakuno Review 2026 — Best Fountain Pen Under $15?",
     excerpt: "In-depth Pilot Kakuno review: nib quality, ink capacity, writing experience, and price comparison. Is the smiley-face pen the best beginner fountain pen?",
