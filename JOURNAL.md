@@ -397,4 +397,27 @@
 - Internal links from/to 4 related posts
 
 ---
+## Sprint B (Round 33) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Best Fountain Pens for Manga Drawing in 2026 — Speed Lines & Details"
+  - Targets keyword: "fountain pen for drawing manga" (growing search trend)
+  - 8 pens with manga-specific reviews (fude nibs, flex nibs, ultra-fine nibs)
+  - Manga Techniques section (Speed Lines, Hatching, Panel Borders, Effect Lines)
+  - Article JSON-LD + FAQPage JSON-LD schema
+  - Internal links to 4 related posts
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 58 blog posts (was 57)
+
+### Keywords targeted
+- "fountain pen for drawing manga" (new blog post)
+- "fude fountain pen for sketching" (blog content)
+- "best fude nib fountain pen" (blog content)
+- "manga inking pen" (blog content)
+
+### SEO fixes
+- Added Article + FAQPage JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
 
