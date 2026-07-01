@@ -1,3 +1,29 @@
+## Sprint D (Round 30) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Kaweco Sport Review 2026 — The Original Pocket Fountain Pen"
+  - Targets high-volume keyword: "kaweco sport review" (massive keyword, iconic pocket pen since 1930)
+  - Full review with octagonal cap design, 3 material options (plastic/AL/brass), international cartridges
+  - Price comparison across 4 retailers (Amazon $22-108, JetPens $25-115, Goulet $25-115, Goldspot $24-112)
+  - FAQ section with 3 items and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (vs Lamy Safari, vs TWSBI Eco, travel pens, under $30)
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 54 blog posts (was 53)
+
+### Keywords targeted
+- "kaweco sport review" (new blog post -- very high volume, iconic pocket pen)
+- "kaweco sport price" (blog content)
+- "kaweco sport vs lamy safari" (blog content)
+- "best pocket fountain pen" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 3 Q&As
+- Added Article JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
 ## Sprint C (Round 30) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "TWSBI Eco Review 2026 — Best Piston-Filler Under $40?"
