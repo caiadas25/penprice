@@ -1,3 +1,29 @@
+## Sprint C (Round 30) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "TWSBI Eco Review 2026 — Best Piston-Filler Under $40?"
+  - Targets high-volume keyword: "twsbi eco review" (massive keyword, most popular piston filler)
+  - Full review with 1.7ml ink capacity deep dive, piston mechanism, demonstrator body
+  - Price comparison across 4 retailers (Amazon $28-35, JetPens $32, Goulet $32, Goldspot $31)
+  - FAQ section with 3 items and FAQPage JSON-LD schema
+  - Article JSON-LD schema
+  - Internal links to 4 related posts (vs Kaweco Sport, vs Metropolitan, filling systems, under $40)
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 53 blog posts (was 52)
+
+### Keywords targeted
+- "twsbi eco review" (new blog post -- very high volume, most popular piston filler)
+- "twsbi eco price" (blog content)
+- "twsbi eco ink capacity" (blog content)
+- "best piston filler fountain pen" (blog content)
+
+### SEO fixes
+- Added FAQPage JSON-LD schema with 3 Q&As
+- Added Article JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
 ## Sprint B (Round 30) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Pilot Metropolitan Review 2026 — Best Beginner Fountain Pen?"
