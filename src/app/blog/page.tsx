@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "visconti-homo-sapiens-review",
+    title: "Visconti Homo Sapiens Review 2026 — Volcanic Lava Luxury",
+    excerpt: "In-depth Visconti Homo Sapiens review: volcanic lava body, 18k gold nib, Power Filler system, and live price comparison across retailers.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "how-to-clean-a-fountain-pen",
     title: "How to Clean a Fountain Pen — Step-by-Step Guide",
     excerpt: "Learn how to clean a fountain pen at home. Step-by-step guide for routine flushing, deep cleaning, and fixing ink flow problems. Works for all brands.",
