@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-sketching",
+    title: "Best Fountain Pens for Sketching in 2026 — Artist's Price Guide",
+    excerpt: "Find the best fountain pens for sketching and drawing. We compare Pilot Falcon, Lamy Safari, Platinum 3776, and more with live prices from Amazon, JetPens, and Goulet Pens.",
+    date: "2026-07-01",
+    category: "Buying Guide",
+  },
+  {
     slug: "best-chinese-fountain-pens",
     title: "Best Chinese Fountain Pens in 2026 — Budget Pens Worth Buying",
     excerpt: "Compare prices on the best Chinese fountain pens from Jinhao, Hongdian, Majohn, and Hero. Quality fountain pens from $3 to $50 with live price comparison.",
