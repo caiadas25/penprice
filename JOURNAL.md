@@ -420,4 +420,28 @@
 - Internal links from/to 4 related posts
 
 ---
+## Sprint C (Round 33) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Best Fountain Pens for Shimmer Inks in 2026 — Sparkle & Shine"
+  - Targets keyword: "best fountain pen for shimmer inks" (high-volume niche)
+  - 7 pens with shimmer-specific reviews
+  - Tips for Using Shimmer Inks section (Shake, Clean, Wide Nibs, Converters)
+  - Recommended Shimmer Inks section (Diamine, J. Herbin, Robert Oster)
+  - Article JSON-LD + FAQPage JSON-LD schema
+  - Internal links to 4 related posts
+  - Updated blog index and sitemap
+- Total: 54 brands, 152 models, 59 blog posts (was 58)
+
+### Keywords targeted
+- "best fountain pen for shimmer inks" (new blog post — high-volume niche)
+- "fountain pen shimmer ink" (blog content)
+- "diamine shimmer ink" (blog content)
+- "glitter fountain pen ink" (blog content)
+
+### SEO fixes
+- Added Article + FAQPage JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
 
