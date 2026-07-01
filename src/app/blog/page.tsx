@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "kaweco-sport-review",
+    title: "Kaweco Sport Review 2026 — The Original Pocket Fountain Pen",
+    excerpt: "Kaweco Sport review with price comparison. Since 1930, the iconic octagonal pocket pen. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "twsbi-eco-review",
     title: "TWSBI Eco Review 2026 — Best Piston-Filler Under $40?",
     excerpt: "TWSBI Eco review with price comparison. 1.7ml ink capacity, piston filler, demonstrator body. Compare prices across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
