@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "best-fountain-pens-for-shimmer-inks",
+    title: "Best Fountain Pens for Shimmer Inks in 2026 — Sparkle & Shine",
+    excerpt: "Find the best fountain pens for shimmer and glitter inks. We compare TWSBI Eco, Kaweco Sport, and more with live prices.",
+    date: "2026-07-01",
+    category: "Buying Guide",
+  },
+  {
     slug: "best-fountain-pens-for-manga-drawing",
     title: "Best Fountain Pens for Manga Drawing in 2026 — Speed Lines & Details",
     excerpt: "Find the best fountain pens for manga and comic art. We compare fude nibs, flex nibs, and ultra-fine nibs with live prices.",
