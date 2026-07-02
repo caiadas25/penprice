@@ -357,6 +357,23 @@ export const brands: Brand[] = [
         msrp: 184,
         yearIntroduced: 2009,
       },
+      {
+        id: "pilot-lightive",
+        name: "Lightive",
+        slug: "lightive",
+        description:
+          "Pilot's modern budget fountain pen with a snap cap and a smooth steel nib. The Lightive features a lightweight resin body and Pilot's standard cartridge/converter system. An upgrade path from the Kakuno with a more mature design.",
+        nibOptions: ["Fine", "Medium"],
+        fillingSystem: "Cartridge / Converter (CON-40)",
+        material: "Resin",
+        knownPrices: [
+          { retailer: "Amazon", price: 18.99, currency: "USD", url: "https://www.amazon.com/s?k=Pilot+Lightive+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 22.00, currency: "USD", url: "https://www.jetpens.com/Pilot-Lightive-Fountain-Pen/ct/17607", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 22.00, currency: "USD", url: "https://www.gouletpens.com/search?q=pilot+lightive", inStock: true, condition: "new" },
+        ],
+        msrp: 25,
+        yearIntroduced: 2020,
+      },
     ],
   },
   {
@@ -704,6 +721,23 @@ export const brands: Brand[] = [
         msrp: 55,
         msrpUrl: "https://www.twsbi.com/classic/",
         yearIntroduced: 2013,
+      },
+      {
+        id: "twsbi-swipe",
+        name: "Swipe",
+        slug: "swipe",
+        description:
+          "TWSBI's snap-cap fountain pen designed for everyday use. Features a steel nib, a snap cap with a clip, and a cartridge/converter filling system. More affordable than the ECO with a conventional pen design.",
+        nibOptions: ["Extra Fine", "Fine", "Medium", "Broad"],
+        fillingSystem: "Cartridge / Converter",
+        material: "Polycarbonate",
+        knownPrices: [
+          { retailer: "Amazon", price: 27.99, currency: "USD", url: "https://www.amazon.com/s?k=TWSBI+Swipe+fountain+pen", inStock: true, condition: "new" },
+          { retailer: "JetPens", price: 31.00, currency: "USD", url: "https://www.jetpens.com/TWSBI-Swipe-Fountain-Pen/ct/18092", inStock: true, condition: "new" },
+          { retailer: "Goulet Pens", price: 30.00, currency: "USD", url: "https://www.gouletpens.com/collections/twsbi-swipe", inStock: true, condition: "new" },
+        ],
+        msrp: 32,
+        yearIntroduced: 2022,
       },
     ],
   },

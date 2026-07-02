@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "pilot-kakuno-vs-lamy-safari",
+    title: "Pilot Kakuno vs Lamy Safari — Best Beginner Fountain Pen 2026",
+    excerpt: "Pilot Kakuno vs Lamy Safari compared: nib quality, grip design, ink systems, pricing, and which beginner fountain pen you should buy first.",
+    date: "2026-07-02",
+    category: "Comparison",
+  },
+  {
     slug: "lamy-2000-review",
     title: "Lamy 2000 Review 2026 — The Iconic Piston Filler",
     excerpt: "In-depth Lamy 2000 review: 14k gold nib, piston filling, Makrolon body, writing experience, and price comparison across 6 retailers. Is the Lamy 2000 still worth it?",
