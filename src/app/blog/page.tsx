@@ -22,6 +22,13 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: "lamy-2000-review",
+    title: "Lamy 2000 Review 2026 — The Iconic Piston Filler",
+    excerpt: "In-depth Lamy 2000 review: 14k gold nib, piston filling, Makrolon body, writing experience, and price comparison across 6 retailers. Is the Lamy 2000 still worth it?",
+    date: "2026-07-01",
+    category: "Review",
+  },
+  {
     slug: "pilot-vanishing-point-review",
     title: "Pilot Vanishing Point Review 2026 — The Retractable Fountain Pen",
     excerpt: "In-depth Pilot Vanishing Point review: retractable 18k gold nib, click mechanism, and live price comparison across Amazon, JetPens, Goulet Pens, and Goldspot Pens.",
