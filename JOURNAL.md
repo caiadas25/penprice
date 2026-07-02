@@ -1,3 +1,27 @@
+## Sprint A (Round 35) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Lamy 2000 Review 2026 — The Iconic Piston Filler"
+  - Targets high-volume keyword: "lamy 2000 review" (one of the most searched fountain pen reviews)
+  - Full review: Bauhaus design, 14k gold nib, piston filling, Makrolon body
+  - 6 retailers with price comparison (Amazon, Goulet, JetPens, Goldspot, Appelboom, eBay)
+  - 6 FAQ items with Article + FAQPage JSON-LD schema
+  - Internal links to 4 related posts (vs Pilot Custom 823, Safari Review, Filling Systems, Japanese Pens)
+  - Updated blog index and sitemap
+- Total: 56 brands, 156+ models, 63 blog posts (was 61)
+
+### Keywords targeted
+- "lamy 2000 review" (new blog post — very high volume, iconic pen)
+- "lamy 2000 price" (blog content)
+- "lamy 2000 vs pilot custom 823" (blog content, links to existing comparison)
+- "best piston filler fountain pen" (blog content)
+
+### SEO fixes
+- Added Article + FAQPage JSON-LD schema (6 Q&As)
+- Updated sitemap with new blog post
+- Internal links from/to 4 related posts
+
+---
+
 ## Sprint A (Round 34) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Pilot Vanishing Point Review 2026 — The Retractable Fountain Pen"
